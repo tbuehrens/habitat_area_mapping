@@ -254,7 +254,7 @@ WI_SH_map<-ggplot() +
   ggtitle("Winter Steelhead")
 
 print(WI_SH_map)
-
+ggsave(WI_SH_map,filename="WI_SH_map.png")
 #########################################################################################
 #STEP 5: Repeat for other runs and species
 #SUMMER STEELHEAD
@@ -331,6 +331,7 @@ SU_SH_map<-ggplot() +
   ggtitle("Summer Steelhead")
 
 print(SU_SH_map)
+ggsave(SU_SH_map,filename="SU_SH_map.png")
 
 #########################################################################################
 #SPRING CHINOOK
@@ -408,6 +409,7 @@ SP_CK_map<-ggplot() +
 
 
 print(SP_CK_map)
+ggsave(SP_CK_map,filename="SP_CK_map.png")
 
 #########################################################################################
 #FALL CHINOOK
@@ -460,7 +462,7 @@ sf_swifd_pops <- sf_swifd %>%
   st_intersection(FallChinook)%>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
-  
+         & LLID_STRM_NAME!="Columbia River"
   )%>%
   group_by(NWFSC_POP_ID)%>%
   summarise()%>%
@@ -484,6 +486,7 @@ FA_CK_map<-ggplot() +
   ggtitle("Fall Chinook")
 
 print(FA_CK_map)
+ggsave(FA_CK_map,filename="FA_CK_map.png")
 
 #########################################################################################
 #LATE FALL CHINOOK
@@ -610,7 +613,8 @@ sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
   st_intersection(FallCoho)%>%
   filter(!is.na(NWFSC_POP_ID) 
-         & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
+         & DISTTYPE_DESC == "Modeled"
+         & LLID_STRM_NAME!="Columbia River"
   )%>%
   group_by(NWFSC_POP_ID)%>%
   summarise()%>%
@@ -634,6 +638,7 @@ FA_CO_map<-ggplot() +
   ggtitle("Fall Coho")
 
 print(FA_CO_map)
+ggsave(FA_CO_map,filename="FA_CO_map.png")
 
 #########################################################################################
 #FALL CHUM
@@ -686,6 +691,7 @@ sf_swifd_pops <- sf_swifd %>%
   st_intersection(FallChum)%>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
+         & LLID_STRM_NAME!="Columbia River"
   )%>%
   group_by(NWFSC_POP_ID)%>%
   summarise()%>%
@@ -709,6 +715,7 @@ FA_CH_map<-ggplot() +
   ggtitle("Fall Chum")
 
 print(FA_CH_map)
+ggsave(FA_CH_map,filename="FA_CH_map.png")
 
 #########################################################################################
 #SUMMER CHUM
@@ -761,6 +768,7 @@ sf_swifd_pops <- sf_swifd %>%
   st_intersection(SummerChum)%>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
+         & LLID_STRM_NAME!="Columbia River"
   )%>%
   group_by(NWFSC_POP_ID)%>%
   summarise()%>%
@@ -784,11 +792,11 @@ SU_CH_map<-ggplot() +
   ggtitle("Summer Chum")
 
 print(SU_CH_map)
-
+ggsave(SU_CH_map,filename="SU_CH_map.png")
 #######################################################################################
 #Combine lengths into a single output file and export. 
 hab_lengths <- rbind(winter_steelhead_lengths,summer_steelhead_lengths,fall_coho_lengths,
       spring_chinook_lengths,fall_chinook_lengths,fall_chum_lengths,summer_chum_lengths)
 hab_lengths$geometry <- NULL
 print(hab_lengths)
-write.csv(hab_lengths,"hab_lengths.csv")
+write.csv(hab_lengths,"hab_lengths.csv",row.names = F)
