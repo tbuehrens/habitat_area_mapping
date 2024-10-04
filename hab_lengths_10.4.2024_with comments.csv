@@ -14,7 +14,7 @@ NWFSC_POP_ID,length_km,ESAPOPNAME,Species,Comment
 17,79.11177743,"Salmon, Chinook (Lower Columbia River ESU) Mill, Abernathy, and Germany Creeks - fall","Salmon, Chinook ",
 8,103.099622,"Salmon, Chinook (Lower Columbia River ESU) Grays and Chinook Rivers - fall","Salmon, Chinook ",
 28,115.2511499,"Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - spring","Salmon, Chinook ",
-14,115.9375023,"Salmon, Chinook (Lower Columbia River ESU) Lewis River - fall","Salmon, Chinook ",
+14,115.9375023,"Salmon, Chinook (Lower Columbia River ESU) Lewis River - fall","Salmon, Chinook ",Need to split into tule/bright
 26,147.6137788,"Salmon, Chinook (Lower Columbia River ESU) Toutle River - spring","Salmon, Chinook ",How much is spring v. fall; also extirpated
 25,157.6208894,"Salmon, Chinook (Lower Columbia River ESU) Toutle River - fall","Salmon, Chinook ",
 27,196.6576139,"Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - fall","Salmon, Chinook ",Shouldn't include Upper Cowlitz/Cispus currently
