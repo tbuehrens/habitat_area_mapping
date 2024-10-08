@@ -9,7 +9,7 @@
 #Load packages 
 pacman::p_load(shiny, tidyverse, devtools, ggplot2, leaflet,sf,rnaturalearth,httr,jsonlite, 
                dplyr, RODBC, curl,odbc,DBI,tidyverse,janitor,fuzzyjoin,ggplot2,
-               lubridate,kableExtra,sf,rnaturalearth,ggmap,httr,here,units)
+               lubridate,kableExtra,sf,rnaturalearth,ggmap,httr,here,units,nhdplusTools)
 
 ########################################################################################
 #Part 1: Pull habitat area polygons for each NOAA designated population in the LCR from
@@ -478,6 +478,7 @@ fall_chinook_lengths <- sf_swifd_pops%>%
 
 print(fall_chinook_lengths)
 
+
 FA_CK_map<-ggplot() +
   geom_sf(data=state_map,color="red")+
   geom_sf(data = FallChinook,color="green")+
@@ -485,7 +486,7 @@ FA_CK_map<-ggplot() +
   coord_sf(xlim = c(-124.2, -121), ylim = c(45.4, 46.9), expand = FALSE)+
   ggtitle("Fall Chinook")
 
-print(FA_CK_map)
+  print(FA_CK_map)
 ggsave(FA_CK_map,filename="FA_CK_map.png")
 
 #########################################################################################
@@ -800,3 +801,26 @@ hab_lengths <- rbind(winter_steelhead_lengths,summer_steelhead_lengths,fall_coho
 hab_lengths$geometry <- NULL
 print(hab_lengths)
 write.csv(hab_lengths,"hab_lengths.csv",row.names = F)
+
+
+read_csv("hab_lengths_10.4.2024_with comments.csv")%>%
+  group_by(Species)%>%
+  summarize(length=quantile(length_km,c(0,0.1,0.25,0.5,0.75,0.9,1)),quants=c(0,0.1,0.25,0.5,0.75,0.9,1))%>%
+  pivot_wider(names_from = quants,values_from = length)
+
+#=========================================================
+#get NF Lewis polygon including habitat above merwin
+
+
+NF_Lewis_polygon <- nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
+  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204")%>%
+              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m")),
+            nhdplusTools::get_huc(type="huc10",id="1708000203")%>%
+              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m")),
+            nhdplusTools::get_huc(type="huc10",id="1708000202")%>%
+              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m")),
+            nhdplusTools::get_huc(type="huc10",id="1708000201")%>%
+              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m"))
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m"))%>%
+  summarise()

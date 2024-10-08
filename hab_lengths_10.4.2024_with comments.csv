@@ -10,7 +10,7 @@ NWFSC_POP_ID,length_km,ESAPOPNAME,Species,Comment
 19,63.97760112,"Salmon, Chinook (Lower Columbia River ESU) Salmon Creek - fall","Salmon, Chinook ",
 3,73.73684868,"Salmon, Chinook (Lower Columbia River ESU) Cispus River - spring","Salmon, Chinook ",
 12,78.65097779,"Salmon, Chinook (Lower Columbia River ESU) Kalama River - spring","Salmon, Chinook ",
-18,78.80039696,"Salmon, Chinook (Lower Columbia River ESU) North Fork Lewis River - spring","Salmon, Chinook ",Missing above Swift Dam
+18,78.80039696,"Salmon, Chinook (Lower Columbia River ESU) North Fork Lewis River - spring","Salmon, Chinook ",Missing above Swift Dam; shouldn't include cedar creek
 17,79.11177743,"Salmon, Chinook (Lower Columbia River ESU) Mill, Abernathy, and Germany Creeks - fall","Salmon, Chinook ",
 8,103.099622,"Salmon, Chinook (Lower Columbia River ESU) Grays and Chinook Rivers - fall","Salmon, Chinook ",
 28,115.2511499,"Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - spring","Salmon, Chinook ",
