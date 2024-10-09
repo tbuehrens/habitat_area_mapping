@@ -11,6 +11,60 @@ pacman::p_load(shiny, tidyverse, devtools, ggplot2, leaflet,sf,rnaturalearth,htt
                dplyr, RODBC, curl,odbc,DBI,tidyverse,janitor,fuzzyjoin,ggplot2,
                lubridate,kableExtra,sf,rnaturalearth,ggmap,httr,here,units,nhdplusTools)
 
+
+########
+#Part 0: create polygons for NF Lewis that include upper watershed to modify NOAA boundaries which haven't been updated after passage of adults above merwin resumed
+NF_Lewis_Coho<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
+  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204"),
+            nhdplusTools::get_huc(type="huc10",id="1708000203"),
+            nhdplusTools::get_huc(type="huc10",id="1708000202"),
+            nhdplusTools::get_huc(type="huc10",id="1708000201")
+  )%>%
+  summarise()%>%
+  dplyr::rename(SHAPE=geometry)%>%
+  bind_cols(
+    tibble(NWFSC_POP_ID=141,
+           DPS="Salmon, coho (Lower Columbia River ESU)",
+           SPECIES = "CO"
+    )
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
+
+NF_Lewis_WinterSteelhead<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
+  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204"),
+            nhdplusTools::get_huc(type="huc10",id="1708000203"),
+            nhdplusTools::get_huc(type="huc10",id="1708000202"),
+            nhdplusTools::get_huc(type="huc10",id="1708000201")
+  )%>%
+  summarise()%>%
+  dplyr::rename(SHAPE=geometry)%>%
+  bind_cols(
+    tibble(NWFSC_POP_ID=237,
+           DPS="Steelhead (Lower Columbia River DPS)",
+           SPECIES ="ST",
+           RUN_TIMING ="wi"
+    )
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
+
+NF_Lewis_SpringChinook<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
+  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204"),
+            nhdplusTools::get_huc(type="huc10",id="1708000203"),
+            nhdplusTools::get_huc(type="huc10",id="1708000202"),
+            nhdplusTools::get_huc(type="huc10",id="1708000201")
+  )%>%
+  summarise()%>%
+  dplyr::rename(SHAPE=geometry)%>%
+  bind_cols(
+    tibble(NWFSC_POP_ID=18,
+           DPS="Salmon, Chinook (Lower Columbia River ESU)",
+           SPECIES = "CK",
+           RUN_TIMING = "sp"
+    )
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
+
+
 ########################################################################################
 #Part 1: Pull habitat area polygons for each NOAA designated population in the LCR from
 #NOAA website: 
@@ -39,6 +93,7 @@ noaa_polygons<-st_read(fgdb, layer = "fish")%>%
 
 #Create separate polygons for each species in the LCR
 FallCoho <- noaa_polygons%>%
+  bind_rows(NF_Lewis_Coho)%>%
   filter(
     DPS %in% c(
       "Salmon, coho (Lower Columbia River ESU)",
@@ -50,6 +105,7 @@ FallCoho <- noaa_polygons%>%
   summarise()
 
 WinterSteelhead <- noaa_polygons%>%
+  bind_rows(NF_Lewis_WinterSteelhead)%>%
   filter(
     DPS %in% c(
       "Steelhead (Lower Columbia River DPS)",
@@ -88,6 +144,7 @@ SummerSteelhead <- noaa_polygons%>%
   summarise()
 
 SpringChinook <- noaa_polygons%>%
+  bind_rows(NF_Lewis_SpringChinook)%>%
   filter(
     DPS %in% c(
       "Salmon, Chinook (Lower Columbia River ESU)",
@@ -383,8 +440,8 @@ sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
   st_intersection(SpringChinook)%>%
   filter(!is.na(NWFSC_POP_ID) 
-         & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
-         & LLID_STRM_NAME!="Columbia River"
+         & !DISTTYPE_DESC %in% c("Gradient Accessible","Modeled")
+         & !LLID_STRM_NAME %in% c("Columbia River", "Cedar Creek")
   )%>%
   group_by(NWFSC_POP_ID)%>%
   summarise()%>%
@@ -463,6 +520,7 @@ sf_swifd_pops <- sf_swifd %>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
          & LLID_STRM_NAME!="Columbia River"
+         & !(LLID_STRM_NAME %in% c("Cowlitz River","Cispus River","Yellowjacket Creek","North Fork Cispus River","Skate Creek","Silver Creek","Ohanapecosh River","Clear Fork Cowlitz River","Muddy Fork Cowlitz River") & NWFSC_POP_ID ==27)
   )%>%
   group_by(NWFSC_POP_ID)%>%
   summarise()%>%
@@ -803,24 +861,13 @@ print(hab_lengths)
 write.csv(hab_lengths,"hab_lengths.csv",row.names = F)
 
 
-read_csv("hab_lengths_10.4.2024_with comments.csv")%>%
-  group_by(Species)%>%
-  summarize(length=quantile(length_km,c(0,0.1,0.25,0.5,0.75,0.9,1)),quants=c(0,0.1,0.25,0.5,0.75,0.9,1))%>%
-  pivot_wider(names_from = quants,values_from = length)
+# read_csv("hab_lengths_10.4.2024_with comments.csv")%>%
+#   group_by(Species)%>%
+#   summarize(length=quantile(length_km,c(0,0.1,0.25,0.5,0.75,0.9,1)),quants=c(0,0.1,0.25,0.5,0.75,0.9,1))%>%
+#   pivot_wider(names_from = quants,values_from = length)
 
 #=========================================================
-#get NF Lewis polygon including habitat above merwin
 
+#for nf lewis late fall chinook use early fall length
+# for white salmon steelhead use white salmon coho length
 
-NF_Lewis_polygon <- nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
-  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204")%>%
-              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m")),
-            nhdplusTools::get_huc(type="huc10",id="1708000203")%>%
-              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m")),
-            nhdplusTools::get_huc(type="huc10",id="1708000202")%>%
-              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m")),
-            nhdplusTools::get_huc(type="huc10",id="1708000201")%>%
-              st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m"))
-  )%>%
-  st_set_crs(st_crs("+proj=longlat +datum=WGS84 +units=m"))%>%
-  summarise()
