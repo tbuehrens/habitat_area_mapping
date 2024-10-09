@@ -137,7 +137,7 @@ SummerSteelhead <- noaa_polygons%>%
     DPS %in% c(
       "Steelhead (Lower Columbia River DPS)",
       "Steelhead (Lower Columbia River DPS) - Outside legal area"
-    )
+    ) 
   ) %>%
   filter(SPECIES == "ST" & RUN_TIMING == "su") %>%
   group_by(NWFSC_POP_ID)%>%
@@ -867,7 +867,27 @@ write.csv(hab_lengths,"hab_lengths.csv",row.names = F)
 #   pivot_wider(names_from = quants,values_from = length)
 
 #=========================================================
+# Manual Substitutions and Edits
+hab_lengths<-read_csv("hab_lengths.csv")
 
-#for nf lewis late fall chinook use early fall length
-# for white salmon steelhead use white salmon coho length
+hab_lengths_edit<-hab_lengths%>%
+  mutate(length_km=ifelse(ESAPOPNAME=="Steelhead (Lower Columbia River DPS) Kalama River - winter",
+                          hab_lengths%>%
+                            filter(ESAPOPNAME=="Steelhead (Lower Columbia River DPS) Kalama River - summer")%>%
+                            dplyr::select(length_km)%>%
+                            pull(),
+                          length_km)
+         )%>% #use summer steelhead frame to account for winters above KFH
+  bind_rows(
+    tibble(
+      NWFSC_POP_ID = 13,
+      ESAPOPNAME = "Salmon, Chinook (Lower Columbia River ESU) Lewis River - late fall",
+      length_km = hab_lengths%>%
+        filter(ESAPOPNAME=="Salmon, Chinook (Lower Columbia River ESU) Lewis River - fall")%>%
+        dplyr::select(length_km)%>%
+        pull()
+    )
+  )%>%
+  arrange(ESAPOPNAME)%>%
+  write.csv("hab_lengths_edited.csv",row.names = F)
 
