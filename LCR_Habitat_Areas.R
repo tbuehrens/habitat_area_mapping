@@ -65,6 +65,69 @@ NF_Lewis_SpringChinook<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
   st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
 
 
+NF_Lewis_FallChinook<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
+  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000205"),
+            nhdplusTools::get_huc(type="huc10",id="1708000204"),
+            nhdplusTools::get_huc(type="huc10",id="1708000203"),
+            nhdplusTools::get_huc(type="huc10",id="1708000202"),
+            nhdplusTools::get_huc(type="huc10",id="1708000201")
+  )%>%
+  summarise()%>%
+  dplyr::rename(SHAPE=geometry)%>%
+  bind_cols(
+    tibble(NWFSC_POP_ID=14,
+           DPS="Salmon, Chinook (Lower Columbia River ESU)",
+           SPECIES = "CK",
+           RUN_TIMING = "fa"
+    )
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
+
+NF_Lewis_LateFallChinook<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
+  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000205"),
+            nhdplusTools::get_huc(type="huc10",id="1708000204"),
+            nhdplusTools::get_huc(type="huc10",id="1708000203"),
+            nhdplusTools::get_huc(type="huc10",id="1708000202"),
+            nhdplusTools::get_huc(type="huc10",id="1708000201")
+  )%>%
+  summarise()%>%
+  dplyr::rename(SHAPE=geometry)%>%
+  bind_cols(
+    tibble(NWFSC_POP_ID=13,
+           DPS="Salmon, Chinook (Lower Columbia River ESU)",
+           SPECIES = "CK",
+           RUN_TIMING = "fa"
+    )
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
+
+
+
+White_Salmon_FallChinook<-nhdplusTools::get_huc(type="huc10",id="1707010508")%>%
+  summarise()%>%
+  dplyr::rename(SHAPE=geometry)%>%
+  bind_cols(
+    tibble(NWFSC_POP_ID=31,
+           DPS="Salmon, Chinook (Lower Columbia River ESU)",
+           SPECIES = "CK",
+           RUN_TIMING = "fa"
+    )
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
+
+White_Salmon_SpringChinook<-nhdplusTools::get_huc(type="huc10",id="1707010508")%>%
+  summarise()%>%
+  dplyr::rename(SHAPE=geometry)%>%
+  bind_cols(
+    tibble(NWFSC_POP_ID=32,
+           DPS="Salmon, Chinook (Lower Columbia River ESU)",
+           SPECIES = "CK",
+           RUN_TIMING = "sp"
+    )
+  )%>%
+  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
+
+
 ########################################################################################
 #Part 1: Pull habitat area polygons for each NOAA designated population in the LCR from
 #NOAA website: 
@@ -145,6 +208,7 @@ SummerSteelhead <- noaa_polygons%>%
 
 SpringChinook <- noaa_polygons%>%
   bind_rows(NF_Lewis_SpringChinook)%>%
+  bind_rows(White_Salmon_SpringChinook)%>%
   filter(
     DPS %in% c(
       "Salmon, Chinook (Lower Columbia River ESU)",
@@ -156,6 +220,8 @@ SpringChinook <- noaa_polygons%>%
   summarise()
 
 FallChinook <- noaa_polygons%>%
+  bind_rows(NF_Lewis_FallChinook)%>%
+  bind_rows(White_Salmon_FallChinook)%>%
   filter(
     DPS %in% c(
       "Salmon, Chinook (Lower Columbia River ESU)",
@@ -167,6 +233,7 @@ FallChinook <- noaa_polygons%>%
   summarise()
 
 LateFallChinook <- noaa_polygons%>%
+  bind_rows(NF_Lewis_LateFallChinook)%>%
   filter(
     DPS %in% c(
       "Salmon, Chinook (Lower Columbia River ESU)",
@@ -249,16 +316,21 @@ sf_swifd <- st_transform(sf_swifd, st_crs(WinterSteelhead))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
-  st_intersection(WinterSteelhead)%>%
+  st_intersection(WinterSteelhead%>%
+                    group_by(NWFSC_POP_ID)%>%
+                    mutate(area=st_area(SHAPE))%>%
+                    summarise(area=sum(area))
+  )%>%
   filter(!is.na(NWFSC_POP_ID) 
          & DISTTYPE_DESC == "Modeled"
          & LLID_STRM_NAME!="Columbia River"
+         & !(LLID_STRM_NAME=="Cowlitz River" & NWFSC_POP_ID == 234)
   )%>%
-  group_by(NWFSC_POP_ID)%>%
+  group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
   mutate(length = st_length(geometry))%>%
-  mutate(length_km = set_units(length, km))%>%
-  dplyr::select(-length)
+  mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+  dplyr::select(-length,-area)
 
 print(sf_swifd_pops)
 
@@ -361,16 +433,20 @@ sf_swifd <- st_transform(sf_swifd, st_crs(SummerSteelhead))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
-  st_intersection(SummerSteelhead)%>%
+  st_intersection(SummerSteelhead%>%
+                    group_by(NWFSC_POP_ID)%>%
+                    mutate(area=st_area(SHAPE))%>%
+                    summarise(area=sum(area))
+                  )%>%
   filter(!is.na(NWFSC_POP_ID) 
          & DISTTYPE_DESC == "Modeled"
          & LLID_STRM_NAME!="Columbia River"
            )%>%
-  group_by(NWFSC_POP_ID)%>%
+  group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
   mutate(length = st_length(geometry))%>%
-  mutate(length_km = set_units(length, km))%>%
-  dplyr::select(-length)
+  mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+  dplyr::select(-length,-area)
 
 summer_steelhead_lengths <- sf_swifd_pops%>%
   left_join(populations%>%
@@ -438,16 +514,20 @@ sf_swifd <- st_transform(sf_swifd, st_crs(SpringChinook))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
-  st_intersection(SpringChinook)%>%
+  st_intersection(SpringChinook%>%
+                    group_by(NWFSC_POP_ID)%>%
+                    mutate(area=st_area(SHAPE))%>%
+                    summarise(area=sum(area))
+  )%>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible","Modeled")
          & !LLID_STRM_NAME %in% c("Columbia River", "Cedar Creek")
   )%>%
-  group_by(NWFSC_POP_ID)%>%
+  group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
   mutate(length = st_length(geometry))%>%
-  mutate(length_km = set_units(length, km))%>%
-  dplyr::select(-length)
+  mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+  dplyr::select(-length,-area)
 
 spring_chinook_lengths <- sf_swifd_pops%>%
   left_join(populations%>%
@@ -516,17 +596,21 @@ sf_swifd <- st_transform(sf_swifd, st_crs(FallChinook))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
-  st_intersection(FallChinook)%>%
+  st_intersection(FallChinook%>%
+                    group_by(NWFSC_POP_ID)%>%
+                    mutate(area=st_area(SHAPE))%>%
+                    summarise(area=sum(area))
+  )%>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
          & LLID_STRM_NAME!="Columbia River"
          & !(LLID_STRM_NAME %in% c("Cowlitz River","Cispus River","Yellowjacket Creek","North Fork Cispus River","Skate Creek","Silver Creek","Ohanapecosh River","Clear Fork Cowlitz River","Muddy Fork Cowlitz River") & NWFSC_POP_ID ==27)
   )%>%
-  group_by(NWFSC_POP_ID)%>%
+  group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
   mutate(length = st_length(geometry))%>%
-  mutate(length_km = set_units(length, km))%>%
-  dplyr::select(-length)
+  mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+  dplyr::select(-length,-area)
 
 fall_chinook_lengths <- sf_swifd_pops%>%
   left_join(populations%>%
@@ -604,9 +688,9 @@ ggsave(FA_CK_map,filename="FA_CK_map.png")
 #   )%>%
 #   group_by(NWFSC_POP_ID)%>%
 #   summarise()%>%
-#   mutate(length = st_length(geometry))%>%
-#   mutate(length_km = set_units(length, km))%>%
-#   dplyr::select(-length)
+#   mutate(length = st_length(geometry), area=st_area(geometry))%>%
+#   mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+#   dplyr::select(-length,-area)
 # 
 # lfall_chinook_lengths <- sf_swifd_pops%>%
 #   left_join(populations%>%
@@ -670,16 +754,21 @@ sf_swifd <- st_transform(sf_swifd, st_crs(FallCoho))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
-  st_intersection(FallCoho)%>%
+  st_intersection(FallCoho%>%
+                    group_by(NWFSC_POP_ID)%>%
+                    mutate(area=st_area(SHAPE))%>%
+                    summarise(area=sum(area))
+  )%>%
   filter(!is.na(NWFSC_POP_ID) 
          & DISTTYPE_DESC == "Modeled"
          & LLID_STRM_NAME!="Columbia River"
+         & !(LLID_STRM_NAME=="Cowlitz River" & NWFSC_POP_ID == 137)
   )%>%
-  group_by(NWFSC_POP_ID)%>%
+  group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
   mutate(length = st_length(geometry))%>%
-  mutate(length_km = set_units(length, km))%>%
-  dplyr::select(-length)
+  mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+  dplyr::select(-length,-area)
 
 fall_coho_lengths <- sf_swifd_pops%>%
   left_join(populations%>%
@@ -747,16 +836,20 @@ sf_swifd <- st_transform(sf_swifd, st_crs(FallChum))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
-  st_intersection(FallChum)%>%
+  st_intersection(FallChum%>%
+                    group_by(NWFSC_POP_ID)%>%
+                    mutate(area=st_area(SHAPE))%>%
+                    summarise(area=sum(area))
+  )%>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
          & LLID_STRM_NAME!="Columbia River"
   )%>%
-  group_by(NWFSC_POP_ID)%>%
+  group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
   mutate(length = st_length(geometry))%>%
-  mutate(length_km = set_units(length, km))%>%
-  dplyr::select(-length)
+  mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+  dplyr::select(-length,-area)
 
 fall_chum_lengths <- sf_swifd_pops%>%
   left_join(populations%>%
@@ -824,16 +917,20 @@ sf_swifd <- st_transform(sf_swifd, st_crs(SummerChum))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
-  st_intersection(SummerChum)%>%
+  st_intersection(SummerChum%>%
+                    group_by(NWFSC_POP_ID)%>%
+                    mutate(area=st_area(SHAPE))%>%
+                    summarise(area=sum(area))
+  )%>%
   filter(!is.na(NWFSC_POP_ID) 
          & !DISTTYPE_DESC %in% c("Gradient Accessible", "Potential","Historic - Documented","Artificial - Potential","Transported - Potential","Modeled")
          & LLID_STRM_NAME!="Columbia River"
   )%>%
-  group_by(NWFSC_POP_ID)%>%
+  group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
   mutate(length = st_length(geometry))%>%
-  mutate(length_km = set_units(length, km))%>%
-  dplyr::select(-length)
+  mutate(length_km = set_units(length, km),area_sq_km = set_units(area, km^2))%>%
+  dplyr::select(-length,-area)
 
 summer_chum_lengths <- sf_swifd_pops%>%
   left_join(populations%>%
@@ -876,8 +973,17 @@ hab_lengths_edit<-hab_lengths%>%
                             filter(ESAPOPNAME=="Steelhead (Lower Columbia River DPS) Kalama River - summer")%>%
                             dplyr::select(length_km)%>%
                             pull(),
-                          length_km)
-         )%>% #use summer steelhead frame to account for winters above KFH
+                          length_km), #use summer steelhead frame to account for winters above KFH
+         areas_sq_km=ifelse(ESAPOPNAME=="Salmon, Chinook (Lower Columbia River ESU) Lower Cowlitz River - fall",
+                            area_sq_km 
+                            +
+                            hab_lengths%>%
+                            filter(ESAPOPNAME=="Salmon, Chinook (Lower Columbia River ESU) Upper Cowlitz River - fall")%>%
+                            dplyr::select(area_sq_km)%>%
+                            pull() 
+                          ,area_sq_km #use watershed area + upstream watershed area
+                          )
+         )%>% 
   bind_rows(
     tibble(
       NWFSC_POP_ID = 13,
@@ -885,6 +991,10 @@ hab_lengths_edit<-hab_lengths%>%
       length_km = hab_lengths%>%
         filter(ESAPOPNAME=="Salmon, Chinook (Lower Columbia River ESU) Lewis River - fall")%>%
         dplyr::select(length_km)%>%
+        pull(),
+      area_sq_km = hab_lengths%>%
+        filter(ESAPOPNAME=="Salmon, Chinook (Lower Columbia River ESU) Lewis River - fall")%>%
+        dplyr::select(area_sq_km)%>%
         pull()
     )
   )%>%
