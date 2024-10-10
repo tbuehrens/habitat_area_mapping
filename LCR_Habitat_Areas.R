@@ -974,7 +974,7 @@ hab_lengths_edit<-hab_lengths%>%
                             dplyr::select(length_km)%>%
                             pull(),
                           length_km), #use summer steelhead frame to account for winters above KFH
-         areas_sq_km=ifelse(ESAPOPNAME=="Salmon, Chinook (Lower Columbia River ESU) Lower Cowlitz River - fall",
+         area_sq_km=ifelse(ESAPOPNAME=="Salmon, Chinook (Lower Columbia River ESU) Lower Cowlitz River - fall",
                             area_sq_km 
                             +
                             hab_lengths%>%
