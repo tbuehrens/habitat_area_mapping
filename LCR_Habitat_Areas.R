@@ -779,7 +779,7 @@ sf_swifd_pops <- sf_swifd %>%
          & DISTTYPE_DESC == "Modeled"
          & LLID_STRM_NAME!="Columbia River"
          & !(LLID_STRM_NAME=="Cowlitz River" & NWFSC_POP_ID == 137)
-         & !(LLID %in% c("1227158463282",	"1229186463107") & NWFSC_POP_ID == 238) #Toutle mainstem, NF Toutle mainstem--estimates dont include
+         & !(LLID %in% c("1227158463282",	"1229186463107") & NWFSC_POP_ID == 142) #Toutle mainstem, NF Toutle mainstem--estimates dont include
   )%>%
   group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
