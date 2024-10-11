@@ -11,6 +11,14 @@ pacman::p_load(shiny, tidyverse, devtools, ggplot2, leaflet,sf,rnaturalearth,htt
                dplyr, RODBC, curl,odbc,DBI,tidyverse,janitor,fuzzyjoin,ggplot2,
                lubridate,kableExtra,sf,rnaturalearth,ggmap,httr,here,units,nhdplusTools)
 
+#============================================================================
+#part -1 get Estuary polygon to remove intertidal areas from estimated habitat
+#https://www.sciencebase.gov/catalog/item/631405b7d34e36012efa2f91
+estuary_polygons<-st_read("spatial_data/Columbia_River_Estuary_Ecosystem_Classification.gdb",layer="CREEC_Hydrogeomorphic_Reach")%>%
+  #Set the coordinate system for the NOAA polygons
+  st_transform(estuary_polygons, crs = "+proj=longlat +datum=NAD83 +units=m")%>%
+  summarise()
+
 
 ########
 #Part 0: create polygons for NF Lewis that include upper watershed to modify NOAA boundaries which haven't been updated after passage of adults above merwin resumed
@@ -316,6 +324,7 @@ sf_swifd <- st_transform(sf_swifd, st_crs(WinterSteelhead))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
+  st_difference(estuary_polygons)%>%
   st_intersection(WinterSteelhead%>%
                     group_by(NWFSC_POP_ID)%>%
                     mutate(area=st_area(SHAPE))%>%
@@ -325,6 +334,8 @@ sf_swifd_pops <- sf_swifd %>%
          & DISTTYPE_DESC == "Modeled"
          & LLID_STRM_NAME!="Columbia River"
          & !(LLID_STRM_NAME=="Cowlitz River" & NWFSC_POP_ID == 234)
+         & !(LLID_STRM_NAME%in%c("Hemlock Creek", "Sucker Creek") & NWFSC_POP_ID == 238)
+         & !(LLID %in% c("1227158463282",	"1229186463107") & NWFSC_POP_ID == 238) #Toutle mainstem, NF Toutle mainstem--estimates dont include
   )%>%
   group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
@@ -376,10 +387,12 @@ state_map <- ne_states (country = 'United States of America', returnclass = 'sf'
 state_map <- st_transform(state_map, st_crs(WinterSteelhead))
 
 WI_SH_map<-ggplot() +
-  geom_sf(data=state_map,color="red")+
-  geom_sf(data = WinterSteelhead,color="green")+
+  geom_sf(data=state_map,color="red",fill=NA)+
+  geom_sf(data=estuary_polygons,color="black",fill=NA)+
+  geom_sf(data = WinterSteelhead,color="green",fill=NA)+
   geom_sf(data = winter_steelhead_lengths,color="blue")+
   coord_sf(xlim = c(-124.5, -121.25), ylim = c(45.5, 47), expand = FALSE)+
+  theme_bw()+
   ggtitle("Winter Steelhead")
 
 print(WI_SH_map)
@@ -433,6 +446,7 @@ sf_swifd <- st_transform(sf_swifd, st_crs(SummerSteelhead))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
+  st_difference(estuary_polygons)%>%
   st_intersection(SummerSteelhead%>%
                     group_by(NWFSC_POP_ID)%>%
                     mutate(area=st_area(SHAPE))%>%
@@ -457,8 +471,9 @@ summer_steelhead_lengths <- sf_swifd_pops%>%
 print(summer_steelhead_lengths)
 
 SU_SH_map<-ggplot() +
-  geom_sf(data=state_map,color="red")+
-  geom_sf(data = SummerSteelhead,color="green")+
+  geom_sf(data=state_map,color="red",fill=NA)+
+  geom_sf(data=estuary_polygons,color="black",fill=NA)+
+  geom_sf(data = SummerSteelhead,color="green",fill=NA)+
   geom_sf(data = summer_steelhead_lengths,color="blue")+
   coord_sf(xlim = c(-123, -121.4), ylim = c(45.5, 46.2), expand = FALSE)+
   ggtitle("Summer Steelhead")
@@ -754,6 +769,7 @@ sf_swifd <- st_transform(sf_swifd, st_crs(FallCoho))
 #Calculate total length of habitat within each NOAA polygon
 sf_swifd_pops <- sf_swifd %>%
   #st_join(sf_pops)%>%
+  st_difference(estuary_polygons)%>%
   st_intersection(FallCoho%>%
                     group_by(NWFSC_POP_ID)%>%
                     mutate(area=st_area(SHAPE))%>%
@@ -763,6 +779,7 @@ sf_swifd_pops <- sf_swifd %>%
          & DISTTYPE_DESC == "Modeled"
          & LLID_STRM_NAME!="Columbia River"
          & !(LLID_STRM_NAME=="Cowlitz River" & NWFSC_POP_ID == 137)
+         & !(LLID %in% c("1227158463282",	"1229186463107") & NWFSC_POP_ID == 238) #Toutle mainstem, NF Toutle mainstem--estimates dont include
   )%>%
   group_by(NWFSC_POP_ID,area)%>%
   summarise()%>%
@@ -779,8 +796,9 @@ fall_coho_lengths <- sf_swifd_pops%>%
 print(fall_coho_lengths)
 
 FA_CO_map<-ggplot() +
-  geom_sf(data=state_map,color="red")+
-  geom_sf(data = FallCoho,color="green")+
+  geom_sf(data=state_map,color="red",fill=NA)+
+  geom_sf(data =estuary_polygons,color="green",fill=NA)+
+  geom_sf(data = FallCoho,color="green",fill=NA)+
   geom_sf(data = fall_coho_lengths,color="blue")+
   coord_sf(xlim = c(-124.2, -121), ylim = c(45.4, 46.9), expand = FALSE)+
   ggtitle("Fall Coho")
