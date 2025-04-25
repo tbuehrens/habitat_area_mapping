@@ -1,278 +1,25 @@
-#Lower Columbia River Habitat Lengths
-
-#Script designed to generate total habitat in river kilometers for each NOAA 
-#designated salmon and steelhead population in the LCR. 
-
-#Toby Harbison & Thomas Buehrens 
-#8/7/24
-
 #Load packages 
 pacman::p_load(shiny, tidyverse, devtools, ggplot2, leaflet,sf,rnaturalearth,httr,jsonlite, 
                dplyr, RODBC, curl,odbc,DBI,tidyverse,janitor,fuzzyjoin,ggplot2,
                lubridate,kableExtra,sf,rnaturalearth,ggmap,httr,here,units,nhdplusTools)
 
-#============================================================================
-#part -1 get Estuary polygon to remove intertidal areas from estimated habitat
-#https://www.sciencebase.gov/catalog/item/631405b7d34e36012efa2f91
-estuary_polygons<-st_read("spatial_data/Columbia_River_Estuary_Ecosystem_Classification.gdb",layer="CREEC_Hydrogeomorphic_Reach")%>%
-  #Set the coordinate system for the NOAA polygons
-  st_transform(estuary_polygons, crs = "+proj=longlat +datum=NAD83 +units=m")%>%
-  summarise()
 
 
 ########
 #Part 0: create polygons for NF Lewis that include upper watershed to modify NOAA boundaries which haven't been updated after passage of adults above merwin resumed
-NF_Lewis_Coho<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
-  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204"),
-            nhdplusTools::get_huc(type="huc10",id="1708000203"),
-            nhdplusTools::get_huc(type="huc10",id="1708000202"),
-            nhdplusTools::get_huc(type="huc10",id="1708000201")
-  )%>%
+WillapaWatershed<-nhdplusTools::get_huc(type="huc08",id="17100106")%>%
+  #bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204"),
+  #           nhdplusTools::get_huc(type="huc10",id="1708000203"),
+  #           nhdplusTools::get_huc(type="huc10",id="1708000202"),
+  #           nhdplusTools::get_huc(type="huc10",id="1708000201")
+  # )%>%
   summarise()%>%
   dplyr::rename(SHAPE=geometry)%>%
-  bind_cols(
-    tibble(NWFSC_POP_ID=141,
-           DPS="Salmon, coho (Lower Columbia River ESU)",
-           SPECIES = "CO"
-    )
-  )%>%
-  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
-
-NF_Lewis_WinterSteelhead<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
-  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204"),
-            nhdplusTools::get_huc(type="huc10",id="1708000203"),
-            nhdplusTools::get_huc(type="huc10",id="1708000202"),
-            nhdplusTools::get_huc(type="huc10",id="1708000201")
-  )%>%
-  summarise()%>%
-  dplyr::rename(SHAPE=geometry)%>%
-  bind_cols(
-    tibble(NWFSC_POP_ID=237,
-           DPS="Steelhead (Lower Columbia River DPS)",
-           SPECIES ="ST",
-           RUN_TIMING ="wi"
-    )
-  )%>%
-  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
-
-NF_Lewis_SpringChinook<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
-  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000204"),
-            nhdplusTools::get_huc(type="huc10",id="1708000203"),
-            nhdplusTools::get_huc(type="huc10",id="1708000202"),
-            nhdplusTools::get_huc(type="huc10",id="1708000201")
-  )%>%
-  summarise()%>%
-  dplyr::rename(SHAPE=geometry)%>%
-  bind_cols(
-    tibble(NWFSC_POP_ID=18,
-           DPS="Salmon, Chinook (Lower Columbia River ESU)",
-           SPECIES = "CK",
-           RUN_TIMING = "sp"
-    )
-  )%>%
-  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
-
-
-NF_Lewis_FallChinook<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
-  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000205"),
-            nhdplusTools::get_huc(type="huc10",id="1708000204"),
-            nhdplusTools::get_huc(type="huc10",id="1708000203"),
-            nhdplusTools::get_huc(type="huc10",id="1708000202"),
-            nhdplusTools::get_huc(type="huc10",id="1708000201")
-  )%>%
-  summarise()%>%
-  dplyr::rename(SHAPE=geometry)%>%
-  bind_cols(
-    tibble(NWFSC_POP_ID=14,
-           DPS="Salmon, Chinook (Lower Columbia River ESU)",
-           SPECIES = "CK",
-           RUN_TIMING = "fa"
-    )
-  )%>%
-  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
-
-NF_Lewis_LateFallChinook<-nhdplusTools::get_huc(type="huc10",id="1708000206")%>%
-  bind_rows(nhdplusTools::get_huc(type="huc10",id="1708000205"),
-            nhdplusTools::get_huc(type="huc10",id="1708000204"),
-            nhdplusTools::get_huc(type="huc10",id="1708000203"),
-            nhdplusTools::get_huc(type="huc10",id="1708000202"),
-            nhdplusTools::get_huc(type="huc10",id="1708000201")
-  )%>%
-  summarise()%>%
-  dplyr::rename(SHAPE=geometry)%>%
-  bind_cols(
-    tibble(NWFSC_POP_ID=13,
-           DPS="Salmon, Chinook (Lower Columbia River ESU)",
-           SPECIES = "CK",
-           RUN_TIMING = "fa"
-    )
-  )%>%
   st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
 
 
 
-White_Salmon_FallChinook<-nhdplusTools::get_huc(type="huc10",id="1707010508")%>%
-  summarise()%>%
-  dplyr::rename(SHAPE=geometry)%>%
-  bind_cols(
-    tibble(NWFSC_POP_ID=31,
-           DPS="Salmon, Chinook (Lower Columbia River ESU)",
-           SPECIES = "CK",
-           RUN_TIMING = "fa"
-    )
-  )%>%
-  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
 
-White_Salmon_SpringChinook<-nhdplusTools::get_huc(type="huc10",id="1707010508")%>%
-  summarise()%>%
-  dplyr::rename(SHAPE=geometry)%>%
-  bind_cols(
-    tibble(NWFSC_POP_ID=32,
-           DPS="Salmon, Chinook (Lower Columbia River ESU)",
-           SPECIES = "CK",
-           RUN_TIMING = "sp"
-    )
-  )%>%
-  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
-
-
-########################################################################################
-#Part 1: Pull habitat area polygons for each NOAA designated population in the LCR from
-#NOAA website: 
-#Create a geodatabase placeholder for spatial data. 
-fgdb <- "spatial_data/WCR_Salmon_Steelhead_gdb_2015.gdb"
-if (file.exists(fgdb)) {
-  print("Geodatabase already downloaded!")
-} else {
-  dir_path <- here::here("spatial_data")
-  if (!dir.exists(dir_path)) {
-    # If not, create the directory
-    dir.create(dir_path, recursive = TRUE)
-  }
-  print("Attempting to download Geodatabase...may take a few mins!")
-  url<-"https://www.webapps.nwfsc.noaa.gov/portal/sharing/rest/content/items/097239ff29b44a8b87acc048f0363229/data"
-  response <- GET(url, timeout(600))
-  content <- content(response, as = "raw")
-  writeBin(content, "spatial_data/WCR_Salmon_Steelhead_gdb_2015.zip")
-  #download.file(, destfile = "data/WCR_Salmon_Steelhead_gdb_2015.zip", mode = "wb",timeout = 300)
-  unzip("spatial_data/WCR_Salmon_Steelhead_gdb_2015.zip", exdir = "spatial_data")
-}
-
-noaa_polygons<-st_read(fgdb, layer = "fish")%>%
-  #Set the coordinate system for the NOAA polygons
-  st_set_crs(st_crs("+proj=longlat +datum=NAD83 +units=m"))
-
-#Create separate polygons for each species in the LCR
-FallCoho <- noaa_polygons%>%
-  bind_rows(NF_Lewis_Coho)%>%
-  filter(
-    DPS %in% c(
-      "Salmon, coho (Lower Columbia River ESU)",
-      "Salmon, coho (Lower Columbia River ESU) - Outside legal area"
-    ),
-    SPECIES == "CO" & !is.na(NWFSC_POP_ID)
-  ) %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()
-
-WinterSteelhead <- noaa_polygons%>%
-  bind_rows(NF_Lewis_WinterSteelhead)%>%
-  filter(
-    DPS %in% c(
-      "Steelhead (Lower Columbia River DPS)",
-      "Steelhead (Lower Columbia River DPS) - Outside legal area"
-      #could add in Steelhead (Middle Columbia River DPS) and su wi for klickitat and white salmon
-    )
-  ) %>%
-  filter(SPECIES == "ST" & RUN_TIMING == "wi") %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()%>%
-  bind_rows(noaa_polygons%>%
-              filter(
-                DPS %in% c(
-                  "Salmon, coho (Lower Columbia River ESU)",
-                  "Salmon, coho (Lower Columbia River ESU) - Outside legal area"
-                ),
-                SPECIES == "CO" & NWFSC_POP_ID%in%c(134,135,140)
-              ) %>%
-              group_by(NWFSC_POP_ID)%>%
-              mutate(NWFSC_POP_ID=ifelse(NWFSC_POP_ID==135,9991,NWFSC_POP_ID),#Grays
-                     NWFSC_POP_ID=ifelse(NWFSC_POP_ID==134,9992,NWFSC_POP_ID),#elochoman
-                     NWFSC_POP_ID=ifelse(NWFSC_POP_ID==140,9993,NWFSC_POP_ID),#Mill -abernathy-germany
-              )%>%
-              summarise()
-  )
-
-SummerSteelhead <- noaa_polygons%>%
-  filter(
-    DPS %in% c(
-      "Steelhead (Lower Columbia River DPS)",
-      "Steelhead (Lower Columbia River DPS) - Outside legal area"
-    ) 
-  ) %>%
-  filter(SPECIES == "ST" & RUN_TIMING == "su") %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()
-
-SpringChinook <- noaa_polygons%>%
-  bind_rows(NF_Lewis_SpringChinook)%>%
-  bind_rows(White_Salmon_SpringChinook)%>%
-  filter(
-    DPS %in% c(
-      "Salmon, Chinook (Lower Columbia River ESU)",
-      "Salmon, Chinook (Lower Columbia River ESU) - Outside legal area"
-    )
-  ) %>%
-  filter(SPECIES == "CK" & RUN_TIMING %in% c("sp","ss")) %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()
-
-FallChinook <- noaa_polygons%>%
-  bind_rows(NF_Lewis_FallChinook)%>%
-  bind_rows(White_Salmon_FallChinook)%>%
-  filter(
-    DPS %in% c(
-      "Salmon, Chinook (Lower Columbia River ESU)",
-      "Salmon, Chinook (Lower Columbia River ESU) - Outside legal area"
-    )
-  ) %>%
-  filter(SPECIES == "CK" & RUN_TIMING == "fa") %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()
-
-LateFallChinook <- noaa_polygons%>%
-  bind_rows(NF_Lewis_LateFallChinook)%>%
-  filter(
-    DPS %in% c(
-      "Salmon, Chinook (Lower Columbia River ESU)",
-      "Salmon, Chinook (Lower Columbia River ESU) - Outside legal area"
-    )
-  ) %>%
-  filter(SPECIES == "CK" & RUN_TIMING == "lf") %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()
-
-FallChum <- noaa_polygons%>%
-  filter(
-    DPS %in% c(
-      "Salmon, chum (Columbia River ESU)",
-      "Salmon, chum (Columbia River ESU) - Outside legal area"
-    )
-  ) %>%
-  filter(SPECIES == "CM" & RUN_TIMING == "fa") %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()
-
-SummerChum <- noaa_polygons%>%
-  filter(
-    DPS %in% c(
-      "Salmon, chum (Columbia River ESU)",
-      "Salmon, chum (Columbia River ESU) - Outside legal area"
-    )
-  ) %>%
-  filter(SPECIES == "CM" & RUN_TIMING == "su") %>%
-  group_by(NWFSC_POP_ID)%>%
-  summarise()
 
 #######################################################################################
 #Part 2: Download JSON of SWIFD data and convert to SF object 
@@ -345,37 +92,6 @@ sf_swifd_pops <- sf_swifd %>%
 
 print(sf_swifd_pops)
 
-#######################################################################################
-#Step 3: Relate stream lengths to NOAA population names. 
-# NOAA POP LUT:  https://cax.streamnet.org/
-#populations<-read_csv("data/populations.csv")%>%
-url <- "https://cax.streamnet.org/download/ca-data-all%2011-27-2023%2010%2015.xls"
-temp_file <- tempfile(fileext = ".xls")
-download.file(url, temp_file, mode = "wb")
-populations<-readxl::read_excel(temp_file, sheet = "Populations")
-unlink(temp_file)
-
-populations<-populations%>%
-  dplyr::rename(run=RUN,species=SPECIES)%>%
-  mutate(species=gsub(" salmon","",species),
-         run=ifelse(run%in%c("Late","Both early & late","Early","Early (Type S)","Late (Type N)"),"Fall",run),
-         across(c(species,run),~tolower(.)),
-         ESAPOPNAME=ifelse(POPULATIONNAME=="Grays/Chinook winter Steelhead","Steelhead (Southwest Washington DPS) Grays and Chinook Rivers - winter",ESAPOPNAME),
-         NMFS_POPID=ifelse(POPULATIONNAME=="Grays/Chinook winter Steelhead",9991,NMFS_POPID),
-         ESAPOPNAME=ifelse(POPULATIONNAME=="Elochoman/Skamokawa winter Steelhead","Steelhead (Southwest Washington DPS) Elochoman River - winter",ESAPOPNAME),
-         NMFS_POPID=ifelse(POPULATIONNAME=="Elochoman/Skamokawa winter Steelhead",9992,NMFS_POPID),
-         ESAPOPNAME=ifelse(POPULATIONNAME=="Mill/Abernathy/Germany winter Steelhead","Steelhead (Southwest Washington DPS) Mill Creek - winter",ESAPOPNAME),
-         NMFS_POPID=ifelse(POPULATIONNAME=="Mill/Abernathy/Germany winter Steelhead",9993,NMFS_POPID)
-  )%>%
-  filter(!is.na(NMFS_POPID))
-
-winter_steelhead_lengths <- sf_swifd_pops%>%
-  left_join(populations%>%
-              dplyr::select(NWFSC_POP_ID=NMFS_POPID,ESAPOPNAME),
-            by=join_by(NWFSC_POP_ID)
-            )
-
-print(winter_steelhead_lengths)
 
 #########################################################################################
 #Step 4: Render maps by NOAA population
@@ -384,14 +100,13 @@ print(winter_steelhead_lengths)
 state_map <- ne_states (country = 'United States of America', returnclass = 'sf')%>% 
   filter (name %in% c('Washington','Oregon'))
 
-state_map <- st_transform(state_map, st_crs(WinterSteelhead))
+state_map <- st_transform(state_map, st_crs(WillapaWatershed))
 
-WI_SH_map<-ggplot() +
+Willapa_Watershed_map<-ggplot() +
   geom_sf(data=state_map,color="red",fill=NA)+
-  geom_sf(data=estuary_polygons,color="black",fill=NA)+
-  geom_sf(data = WinterSteelhead,color="green",fill=NA)+
-  geom_sf(data = winter_steelhead_lengths,color="blue")+
-  coord_sf(xlim = c(-124.5, -121.25), ylim = c(45.5, 47), expand = FALSE)+
+  geom_sf(data = WillapaWatershed,color="green",fill=NA)+
+  #geom_sf(data = winter_steelhead_lengths,color="blue")+
+  #coord_sf(xlim = c(-124.5, -121.25), ylim = c(45.5, 47), expand = FALSE)+
   theme_bw()+
   ggtitle("Winter Steelhead")
 
