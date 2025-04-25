@@ -481,56 +481,6 @@ SU_SH_map<-ggplot() +
 print(SU_SH_map)
 ggsave(SU_SH_map,filename="SU_SH_map.png")
 
-
-
-# Join the populations data as before
-# Define the bounding box
-bounding_box <- st_bbox(c(
-  xmin = -122.17,
-  ymin = 45.7413,
-  xmax = -122,
-  ymax = 45.8
-), crs = st_crs(sf_swifd_pops))
-
-# Crop the data to the bounding box
-summer_steelhead_lengths_cropped <- st_crop(summer_steelhead_lengths, bounding_box)%>%
-  group_by(NWFSC_POP_ID,area_sq_km)%>%
-  summarise()%>%
-  mutate(length = st_length(geometry), area=st_area(geometry))%>%
-  mutate(length_km = set_units(length, km), area_sq_km = set_units(area, km^2))%>%
-  dplyr::select(-length,-area)
-print(summer_steelhead_lengths_cropped)
-
-SU_SH_map<-ggplot() +
-  geom_sf(data=state_map,color="red",fill=NA)+
-  geom_sf(data=estuary_polygons,color="black",fill=NA)+
-  geom_sf(data = SummerSteelhead,color="green",fill=NA)+
-  geom_sf(data = summer_steelhead_lengths_cropped,color="blue")+
-  coord_sf(xlim = c(-122, -122.2), ylim = c(45.6413, 45.8), expand = FALSE)+
-  ggtitle("Summer Steelhead")
-
-print(SU_SH_map)
-ggsave(SU_SH_map,filename="SU_SH_map_upper_washougal.png")
-
-library(sf)
-
-state_map <- st_transform(state_map, crs = 4326)
-estuary_polygons <- st_transform(estuary_polygons, crs = 4326)
-SummerSteelhead <- st_transform(SummerSteelhead, crs = 4326)
-summer_steelhead_lengths_cropped <- st_transform(summer_steelhead_lengths_cropped, crs = 4326)
-
-
-library(leaflet)
-
-leaflet() %>%
-  addProviderTiles(providers$Esri.WorldImagery) %>%  # Free satellite imagery
-  addPolygons(data = state_map, color = "red") %>%
-  addPolygons(data = estuary_polygons, color = "black") %>%
-  addPolygons(data = SummerSteelhead, color = "green") %>%
-  addPolylines(data = summer_steelhead_lengths_cropped, color = "blue") %>%
-  fitBounds(lng1 = -122.2, lat1 = 45.6413, lng2 = -122, lat2 = 45.8)  # Set bounds
-
-
 #########################################################################################
 #SPRING CHINOOK
 url <- "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/MapServices/SWIFD/MapServer/0/query"
