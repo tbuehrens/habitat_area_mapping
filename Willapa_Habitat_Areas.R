@@ -4,7 +4,7 @@ pacman::p_load(shiny, tidyverse, devtools, ggplot2, leaflet,sf,rnaturalearth,htt
                lubridate,kableExtra,sf,rnaturalearth,ggmap,httr,here,units,nhdplusTools)
 
 
-get_swifd<-function(species){
+get_swifd<-function(species,usetype){
   url <- "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/MapServices/SWIFD/MapServer/0/query"
   total_records = 100000
   batch_size = 1000
@@ -12,8 +12,9 @@ get_swifd<-function(species){
   
   for (offset in seq(0, total_records, by = batch_size)) {
     query_params <- list(
-      where = paste0("SPECIES = '",species,"' 
-                     AND OBJECTID > ", offset, " AND OBJECTID <= ", offset + batch_size
+      where = paste0("SPECIES = '",species,"' AND (",
+                     paste0("USETYPE_DESC = '", usetype, "'", collapse = " OR "),
+                     ") AND OBJECTID > ", offset, " AND OBJECTID <= ", offset + batch_size
       ),
       outFields = "*",
       outSR = 4326,
@@ -69,38 +70,38 @@ WillapaWatershed<-nhdplusTools::get_huc(type="huc12",id="171001060401")%>%mutate
 
 
 
-sf_swifd_chum <- st_transform(get_swifd("CHUM SALMON"), st_crs(WillapaWatershed))%>%
-  #st_join(sf_pops)%>%
+sf_swifd_chum <- st_transform(get_swifd(species="CHUM SALMON", usetype = c("Presence","Spawning","Rearing")), st_crs(WillapaWatershed))%>%
   st_intersection(WillapaWatershed%>%
                     mutate(area=st_area(SHAPE))%>%
                     group_by(watershed)%>%
-                    summarise(area_km=set_units(sum(area), km^2))
+                    summarise(area_sq_km=set_units(sum(area), km^2))
   )%>%
-  group_by(watershed,area_km)%>%
+  group_by(watershed,area_sq_km,USETYPE_DESC)%>%
   summarise(
   )%>%
   mutate(length_km = set_units(st_length(geometry),km))
 
-sf_swifd_coho <- st_transform(get_swifd("COHO SALMON"), st_crs(WillapaWatershed))%>%
+
+sf_swifd_coho <- st_transform(get_swifd("COHO SALMON",usetype = c("Presence","Spawning","Rearing")), st_crs(WillapaWatershed))%>%
   #st_join(sf_pops)%>%
   st_intersection(WillapaWatershed%>%
                     mutate(area=st_area(SHAPE))%>%
                     group_by(watershed)%>%
-                    summarise(area_km=set_units(sum(area), km^2))
+                    summarise(area_sq_km=set_units(sum(area), km^2))
   )%>%
-  group_by(watershed,area_km)%>%
+  group_by(watershed,area_sq_km,USETYPE_DESC)%>%
   summarise(
   )%>%
   mutate(length_km = set_units(st_length(geometry),km))
 
-sf_swifd_chinook <- st_transform(get_swifd("CHINOOK SALMON"), st_crs(WillapaWatershed))%>%
+sf_swifd_chinook <- st_transform(get_swifd("CHINOOK SALMON",usetype = c("Presence","Spawning","Rearing")), st_crs(WillapaWatershed))%>%
   #st_join(sf_pops)%>%
   st_intersection(WillapaWatershed%>%
                     mutate(area=st_area(SHAPE))%>%
                     group_by(watershed)%>%
-                    summarise(area_km=set_units(sum(area), km^2))
+                    summarise(area_sq_km=set_units(sum(area), km^2))
   )%>%
-  group_by(watershed,area_km)%>%
+  group_by(watershed,area_sq_km,USETYPE_DESC)%>%
   summarise(
   )%>%
   mutate(length_km = set_units(st_length(geometry),km))
@@ -116,27 +117,25 @@ state_map <- ne_states (country = 'United States of America', returnclass = 'sf'
 state_map <- st_transform(state_map, st_crs(WillapaWatershed))
 
 Chum<-ggplot() +
-  geom_sf(data=state_map,color="red",fill=NA)+
-  geom_sf(data = WillapaWatershed,color="green",fill=NA)+
-  geom_sf(data = sf_swifd_chum,color="blue")+
+  geom_sf(data=state_map,color="grey",fill=NA)+
+  geom_sf(data = WillapaWatershed,color="black",fill=NA)+
+  geom_sf(data = sf_swifd_chum%>%sf::st_cast("MULTILINESTRING"), aes(color=USETYPE_DESC),size=1.5,fill=NA)+
   coord_sf(xlim = c(-124.5, -122.5), ylim = c(46, 47), expand = FALSE)+
   theme_bw()
 
 Coho<-ggplot() +
-  geom_sf(data=state_map,color="red",fill=NA)+
-  geom_sf(data = WillapaWatershed,color="green",fill=NA)+
-  geom_sf(data = sf_swifd_coho,color="blue")+
+  geom_sf(data=state_map,color="grey",fill=NA)+
+  geom_sf(data = WillapaWatershed,color="black",fill=NA)+
+  geom_sf(data = sf_swifd_coho%>%sf::st_cast("MULTILINESTRING"), aes(color=USETYPE_DESC),size=1.5,fill=NA)+
   coord_sf(xlim = c(-124.5, -122.5), ylim = c(46, 47), expand = FALSE)+
   theme_bw()
 
 Chinook<-ggplot() +
-  geom_sf(data=state_map,color="red",fill=NA)+
-  geom_sf(data = WillapaWatershed,color="green",fill=NA)+
-  geom_sf(data = sf_swifd_chinook,color="blue")+
+  geom_sf(data=state_map,color="grey",fill=NA)+
+  geom_sf(data = WillapaWatershed,color="black",fill=NA)+
+  geom_sf(data = sf_swifd_chinook%>%sf::st_cast("MULTILINESTRING"), aes(color=USETYPE_DESC),size=1.5,fill=NA)+
   coord_sf(xlim = c(-124.5, -122.5), ylim = c(46, 47), expand = FALSE)+
   theme_bw()
-
-
 
 
 
@@ -149,10 +148,19 @@ ggsave(Chinook,filename="Willapa_Chinook_map.png",dpi=300)
 
 #######################################################################################
 #Combine lengths into a single output file and export. 
-hab_lengths <- rbind(sf_swifd_coho%>%as.data.frame()%>%mutate(species="coho"),
-                     sf_swifd_chum%>%as.data.frame()%>%mutate(species="chum"),
-                     sf_swifd_chinook%>%as.data.frame()%>%mutate(species="chinook")
-                    )%>%
+hab_lengths <- rbind(sf_swifd_coho%>%
+                       as.data.frame()%>%
+                       pivot_wider(names_from = USETYPE_DESC,values_from = length_km, id_cols=c(watershed,area_sq_km) )%>%
+                       mutate(species="coho"),
+                     sf_swifd_chum%>%
+                       as.data.frame()%>%
+                       pivot_wider(names_from = USETYPE_DESC,values_from = length_km,id_cols=c(watershed,area_sq_km))%>%
+                       mutate(species="chum"),
+                     sf_swifd_chinook%>%
+                       as.data.frame()%>%
+                       pivot_wider(names_from = USETYPE_DESC,values_from = length_km,id_cols=c(watershed,area_sq_km))%>%
+                       mutate(species="chinook")
+)%>%
   mutate(geometry = NULL)
 
 write.csv(hab_lengths,"willapa_hab_lengths.csv",row.names = F)
