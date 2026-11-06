@@ -255,20 +255,7 @@ ggsave(
 
 hab_lengths <- sf_swifd_winter_steelhead %>%
   st_drop_geometry() %>%
-  select(watershed, area_sq_km, USETYPE_DESC, length_km) %>%
-  mutate(
-    USETYPE_DESC = factor(
-      USETYPE_DESC,
-      levels = c("Presence", "Spawning", "Rearing")
-    )
-  ) %>%
-  pivot_wider(
-    id_cols = c(watershed, area_sq_km),
-    names_from = USETYPE_DESC,
-    values_from = length_km,
-    names_glue = "{USETYPE_DESC}_km",
-    names_expand = TRUE
-  ) %>%
+  select(watershed, area_sq_km, length_km) %>%
   mutate(species = "Winter steelhead", .after = watershed)
 
 write.csv(
