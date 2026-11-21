@@ -1,0 +1,270 @@
+{
+  "currentVersion": 11.5,
+  "cimVersion": "3.5.0",
+  "id": 0,
+  "name": "SWIFD",
+  "type": "Feature Layer",
+  "description": "SWIFD is the Statewide Washington Integrated Fish Distribution, presented as a linear featureclass based on WA single stream identifiers (LLID). The Statewide Washington Integrated Fish Distribution (SWIFD) dataset is a single National Hydrography Dataset (NHD) event layer for the state of Washington. Within the Treaty Tribes and Washington State co-management area, the Northwest Indian Fisheries (NWIFC) and Washington State Department of Fish and Wildlife (WDFW) collaborated to create a single data schema and to combine fish distribution data. The NWIFC and WDFW combined data area is within the boundaries of Washington State Water Resource Inventory Areas (WRIA) 01 -- 23. This is the western Washington region including the western Washington Cascades, the Puget Sound, the Hood Canal, the Strait of Juan de Fuca, and the Olympic peninsula from the Nooksack River in the north (WRIA 01) to the Chehallis River (WRIA 22/23) in the South. The data schema remains the same for Washington state fish distribution data outside of the co-management area, but all fish distribution data outside of the co-management area is supplied by WDFW. The foundational fish distribution dataset is an event table that contains attributes for each species of fish, anadromous and resident, that have previously been mapped by either NWIFC or WDFW. This event layer maps to the ROUTED 1:24,000-scale version of NHD for Washington state, using NHD ReachCodes as the route identifier, and relative 0-100 linear measures within each reach/route. SWIFD events are in the USGS Hydrologic Event Management (HEM, http://nhd.usgs.gov/tools.html#hem) table format and HEM is used to update and maintain the event tables. Each individual fsh species/run contains information on verification of the upper extent of fish distribution, life history, and habitat use. In the final dataset all the individual fish species/run distributions are stacked onto the NHD reaches, so a given stream reach with 6 unique species/runs will have 6 features associated with it. Usually a definition query is applied to this featureclass to display a single species at a time. The event table structure of the dataset does allow groups of species/runs to be integrated via the use of event overlays. Users should also pay attention to the DISTTYPE_DESC field to ensure they are displaying the appropriate records for their purposes. In particular, there are confirmed absence records for certain species that should not be displayed as occupied stream habitat. SWIFD is developed by dissolving the foundational NHD ReachCode event table SWIFD_2HEM_evts by the LLID and the specific fish record attributes: LLID;LLID_STRM_NAME;SPECRCODE;SPECIESRUN;SPECCODE;SPECIES;RUN_TIME;RUNTIME_DESC;DIST_TYPE;DISTTYPE_DESC;USE_TYPE;USETYPE_DESC;LIFE_HIST;LIFEHIST_DESC;",
+  "geometryType": "esriGeometryPolyline",
+  "sourceSpatialReference": {
+    "wkid": 2927,
+    "latestWkid": 2927,
+    "xyTolerance": 0.0033,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -117498300,
+    "falseY": -98850300,
+    "xyUnits": 3048.0061,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": -100000,
+    "mUnits": 100000
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "xyUnits": 148923141.9284,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+  },
+  "copyrightText": "Chris Clark, Christina Gonzales, Bruce Jones, Ron McFarlance, and Tyson Waldo from NWIFC; Arleta Agun, Brody Cox, and Andrew Weiss from WDFW; Anita Stohr  from Washington State Department of Ecology; and Keith Dublanca from the Washington State Recreation and Conservation Office all had key roles in this project.",
+  "parentLayer": {},
+  "subLayers": [],
+  "minScale": 0,
+  "maxScale": 0,
+  "referenceScale": 0,
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSLS",
+        "style": "esriSLSSolid",
+        "color": [
+          169,
+          0,
+          230,
+          255
+        ],
+        "width": 1.6
+      },
+      "label": "Fish Distribution"
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": {}
+  },
+  "defaultVisibility": true,
+  "extent": {
+    "xmin": -13889650.2091,
+    "ymin": 5698442.5759,
+    "xmax": -12976615.2345,
+    "ymax": 6282681.5165,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 148923141.9284,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    }
+  },
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "displayField": "LLID_STRM_NAME",
+  "typeIdField": {},
+  "subtypeFieldName": {},
+  "subtypeField": {},
+  "defaultSubtypeCode": {},
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": {}
+    },
+    {
+      "name": "LLID",
+      "type": "esriFieldTypeString",
+      "alias": "LLID",
+      "length": 13,
+      "domain": {}
+    },
+    {
+      "name": "LLID_STRM_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "LLID_STRM_NAME",
+      "length": 125,
+      "domain": {}
+    },
+    {
+      "name": "SPECIESRUN",
+      "type": "esriFieldTypeString",
+      "alias": "SPECIESRUN",
+      "length": 50,
+      "domain": {}
+    },
+    {
+      "name": "SPECIES",
+      "type": "esriFieldTypeString",
+      "alias": "SPECIES",
+      "length": 25,
+      "domain": {}
+    },
+    {
+      "name": "RUNTIME_DESC",
+      "type": "esriFieldTypeString",
+      "alias": "RUNTIME_DESC",
+      "length": 25,
+      "domain": {}
+    },
+    {
+      "name": "DISTTYPE_DESC",
+      "type": "esriFieldTypeString",
+      "alias": "DISTTYPE_DESC",
+      "length": 25,
+      "domain": {}
+    },
+    {
+      "name": "USETYPE_DESC",
+      "type": "esriFieldTypeString",
+      "alias": "USETYPE_DESC",
+      "length": 25,
+      "domain": {}
+    },
+    {
+      "name": "LIFEHIST_DESC",
+      "type": "esriFieldTypeString",
+      "alias": "LIFEHIST_DESC",
+      "length": 25,
+      "domain": {}
+    },
+    {
+      "name": "Shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape",
+      "domain": {}
+    },
+    {
+      "name": "Shape.STLength()",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape.STLength()",
+      "domain": {}
+    },
+    {
+      "name": "Length_m",
+      "type": "esriFieldTypeDouble",
+      "alias": "Length_m",
+      "domain": {}
+    },
+    {
+      "name": "Length_mi",
+      "type": "esriFieldTypeDouble",
+      "alias": "Length_mi",
+      "domain": {}
+    }
+  ],
+  "geometryField": {
+    "name": "Shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape"
+  },
+  "indexes": [
+    {
+      "name": "S1562_idx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "subtypes": [],
+  "relationships": [],
+  "canModifyLayer": true,
+  "canScaleSymbols": false,
+  "hasLabels": false,
+  "capabilities": "Map,Query,Data",
+  "maxRecordCount": 2000,
+  "maxSelectionCount": 2000,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "hasM": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "isDataVersioned": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "useStandardizedQueries": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+  },
+  "supportsDatumTransformation": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": true
+  },
+  "dateFieldsTimeReference": {},
+  "preferredTimeReference": {},
+  "datesInUnknownTimezone": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeLengthFieldName": "Shape.STLength()",
+    "units": "esriFeet",
+    "mapUnits": {
+      "uwkid": 9003
+    }
+  },
+  "hasMetadata": true,
+  "isDataArchived": false,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsCoordinatesQuantization": true,
+  "supportsDynamicLegends": true
+}

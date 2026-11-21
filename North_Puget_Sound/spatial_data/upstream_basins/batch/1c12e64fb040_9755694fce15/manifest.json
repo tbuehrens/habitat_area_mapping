@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:49534",
+  "review_number": 499,
+  "SiteId": "895770",
+  "StreamName": "Skull Cr",
+  "graph_edge_id": 4238,
+  "longitude": -121.4049,
+  "latitude": 48.1155,
+  "request_sha256": "9755694fce15f567752ea6530884f0a5df29b2bd1f21c11669e115e81f9319a7",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1c12e64fb040_9755694fce15",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:02.001010+00:00",
+  "error": ""
+}

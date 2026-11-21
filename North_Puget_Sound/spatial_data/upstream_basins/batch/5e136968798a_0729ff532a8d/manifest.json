@@ -1,0 +1,23 @@
+{
+  "review_record_key": "5:41473",
+  "review_number": 8,
+  "SiteId": "896231",
+  "StreamName": "Youngs Cr",
+  "graph_edge_id": 4726,
+  "longitude": -121.8344,
+  "latitude": 47.8081,
+  "request_sha256": "0729ff532a8db7910ee7244c112bcbd7d9b1716e427a93a3ee8e80dd1e5b6c4c",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\5e136968798a_0729ff532a8d",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:15:30.377410+00:00",
+  "comid": "23962961",
+  "indexed_longitude": -121.83424934828736,
+  "indexed_latitude": 47.80806107825346,
+  "indexed_shift_m": 12.085449298474268,
+  "reference_stream_name": "Youngs Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 8.981755037100342,
+  "route_max_heading_degrees": 90
+}

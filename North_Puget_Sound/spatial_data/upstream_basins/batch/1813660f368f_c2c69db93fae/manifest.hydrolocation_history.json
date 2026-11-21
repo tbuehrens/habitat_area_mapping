@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:52071",
+  "review_number": 559,
+  "SiteId": "895708",
+  "StreamName": "Lime Cr",
+  "graph_edge_id": 3797,
+  "longitude": -121.28539509541,
+  "latitude": 48.22875460311,
+  "request_sha256": "c2c69db93fae25a19b9576134dcc4aa3de8dea6731fb979795bcd391bc98809c",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1813660f368f_c2c69db93fae",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:26:40.011582+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

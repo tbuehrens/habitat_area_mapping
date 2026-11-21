@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55902",
+  "review_number": 704,
+  "SiteId": "896211",
+  "StreamName": "Hilt Cr",
+  "graph_edge_id": 3718,
+  "longitude": -121.5739,
+  "latitude": 48.4408,
+  "request_sha256": "6db7e587eb67fc6a50c41b7aa75d8fa17e11935cc799adb9d1013f5598fb5ee5",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\3e3ac8369111_6db7e587eb67",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:45.300860+00:00",
+  "error": ""
+}

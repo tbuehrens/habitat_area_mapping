@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54699",
+  "review_number": 654,
+  "SiteId": "890733",
+  "StreamName": "Rick Cr",
+  "graph_edge_id": 3700,
+  "longitude": -121.9,
+  "latitude": 48.3497,
+  "request_sha256": "5084731f0a1422653d5e330ffd6b61f9b4e7384bb29e6af588f415e8ead903d8",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\9822cbb60740_5084731f0a14",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:03.279710+00:00",
+  "error": ""
+}

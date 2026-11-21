@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:57107",
+  "review_number": 749,
+  "SiteId": "894730",
+  "StreamName": "O' Toole Cr",
+  "graph_edge_id": 5228,
+  "longitude": -121.919180374333,
+  "latitude": 48.5078680800224,
+  "request_sha256": "d8d4f31bd2fa580414b43a6fd254e3c541402c6581599b3e59e724daab58ba28",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2783cedd3a8b_d8d4f31bd2fa",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:36:46.857890+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270590",
+  "reference_stream_name": "O'Toole Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 31.710959037714645,
+  "route_max_heading_degrees": 43.640624117532035
+}

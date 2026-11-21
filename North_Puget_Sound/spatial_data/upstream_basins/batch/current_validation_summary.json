@@ -1,0 +1,36 @@
+{
+  "audited": 263,
+  "raw_masks": 171,
+  "downstream_anchors": 166,
+  "status": {
+    "basin_delineated_pending_projected_validation": 171,
+    "reference_local_course_unconfirmed": 82,
+    "reference_stream_name_unconfirmed": 6,
+    "request_failed": 3,
+    "special_gorge_loader": 1
+  },
+  "indexing": {
+    "USGS_hydrolocation": 59,
+    "validated_route_projection_after_catchment_lookup": 204
+  },
+  "failed": [
+    {
+      "review_number": 104,
+      "nldi_comid": "23970653",
+      "request_stage": "split_catchment_execution",
+      "error": "curl: (22) The requested URL returned error: 400"
+    },
+    {
+      "review_number": 499,
+      "nldi_comid": "24265827",
+      "request_stage": "split_catchment_execution",
+      "error": "curl: (22) The requested URL returned error: 400"
+    },
+    {
+      "review_number": 505,
+      "nldi_comid": "24274591",
+      "request_stage": "split_catchment_execution",
+      "error": "curl: (22) The requested URL returned error: 400"
+    }
+  ]
+}

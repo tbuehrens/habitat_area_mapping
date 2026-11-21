@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56798",
+  "review_number": 735,
+  "SiteId": "895468",
+  "StreamName": "Barr Cr",
+  "graph_edge_id": 3754,
+  "longitude": -121.553621820898,
+  "latitude": 48.494736635662,
+  "request_sha256": "68a071add0e38205201f57786eb84c62902d21cb7f557f98e13b15c8a9504efb",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d92791584294_68a071add0e3",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:31:44.695318+00:00",
+  "error": ""
+}

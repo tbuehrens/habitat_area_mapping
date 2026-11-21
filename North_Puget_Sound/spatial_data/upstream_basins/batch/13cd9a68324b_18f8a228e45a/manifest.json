@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:56676",
+  "review_number": 731,
+  "SiteId": "893277",
+  "StreamName": "Sorenson Cr",
+  "graph_edge_id": 3151,
+  "longitude": -122.10061204077,
+  "latitude": 48.4816668374889,
+  "request_sha256": "18f8a228e45a42e8afbe1008c906b23ede7f811c3a676ceae051f54b14217336",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\13cd9a68324b_18f8a228e45a",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:36:00.200698+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270774",
+  "reference_stream_name": "Sorenson Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 78.15789138803198,
+  "route_max_heading_degrees": 35.50221794615368
+}

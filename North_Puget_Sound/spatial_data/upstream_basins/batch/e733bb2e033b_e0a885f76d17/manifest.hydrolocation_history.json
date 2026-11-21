@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56866",
+  "review_number": 737,
+  "SiteId": "895496",
+  "StreamName": "Mill Cr",
+  "graph_edge_id": 3626,
+  "longitude": -121.870065371731,
+  "latitude": 48.4968893327924,
+  "request_sha256": "e0a885f76d17ea95b52155d97aa6952c9450e4e7ffee09d65ea1f7193bb05c84",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\e733bb2e033b_e0a885f76d17",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:31:46.820962+00:00",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:38874",
+  "review_number": 222,
+  "SiteId": "891713",
+  "StreamName": "NF Tolt R",
+  "graph_edge_id": 4721,
+  "longitude": -121.7618,
+  "latitude": 47.7226,
+  "request_sha256": "b5a3b953976875c64bc219381b729b4f70f1769a669caa4d6a34ee6eb951cc52",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\67222f1d8d35_b5a3b9539768",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:07.106800+00:00",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56818",
+  "review_number": 736,
+  "SiteId": "894414",
+  "StreamName": "Loretta Cr",
+  "graph_edge_id": 3158,
+  "longitude": -122.018228019792,
+  "latitude": 48.4918574926402,
+  "request_sha256": "ef3ac696a56f9674b42005016240ee681a78cc6943517ca3a9655bfa7a237064",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ced8b1f78a5d_ef3ac696a56f",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:31:46.483057+00:00",
+  "error": ""
+}

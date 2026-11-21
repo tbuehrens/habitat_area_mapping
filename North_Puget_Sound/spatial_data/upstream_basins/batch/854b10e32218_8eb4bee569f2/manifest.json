@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:57550",
+  "review_number": 761,
+  "SiteId": "895286",
+  "StreamName": "Marble Cr",
+  "graph_edge_id": 6198,
+  "longitude": -121.2667058141,
+  "latitude": 48.5375737714087,
+  "request_sha256": "8eb4bee569f2b5331c69079b6129de5c12b4850999fd5ecd0328f782840d79ab",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\854b10e32218_8eb4bee569f2",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:36:55.349025+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24255113",
+  "reference_stream_name": "Marble Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 37.828106581815746,
+  "route_max_heading_degrees": 29.518477613468235
+}

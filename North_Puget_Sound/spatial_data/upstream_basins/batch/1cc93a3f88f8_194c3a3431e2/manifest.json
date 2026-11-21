@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:60158",
+  "review_number": 839,
+  "SiteId": "891297",
+  "StreamName": "Jones Cr",
+  "graph_edge_id": 5286,
+  "longitude": -122.2158,
+  "latitude": 48.7151,
+  "request_sha256": "194c3a3431e21c5c7297142db182ffddc0a236820d8ae28bf87d4674480a8139",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1cc93a3f88f8_194c3a3431e2",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:04.428614+00:00",
+  "error": ""
+}

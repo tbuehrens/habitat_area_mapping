@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:38358",
+  "review_number": 206,
+  "SiteId": "891679",
+  "StreamName": "NF Cr",
+  "graph_edge_id": 4711,
+  "longitude": -121.8139,
+  "latitude": 47.7088,
+  "request_sha256": "8b7b060020c89746008755cbf8691a23a937f717d4e10893709087656c51fe99",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\a2631141d25c_8b7b060020c8",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:16:36.811785+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

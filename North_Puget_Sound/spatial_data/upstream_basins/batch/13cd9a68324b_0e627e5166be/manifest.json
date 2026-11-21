@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56676",
+  "review_number": 731,
+  "SiteId": "893277",
+  "StreamName": "Sorenson Cr",
+  "graph_edge_id": 3151,
+  "longitude": -122.1006,
+  "latitude": 48.4817,
+  "request_sha256": "0e627e5166be2323a196ef61d20eb78eecbfa46f22e05b326de9cccac79ab977",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\13cd9a68324b_0e627e5166be",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:22:09.820400+00:00",
+  "error": ""
+}

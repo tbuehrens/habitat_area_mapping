@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:49738",
+  "review_number": 501,
+  "SiteId": "895765",
+  "StreamName": "Falls Cr",
+  "graph_edge_id": 6141,
+  "longitude": -121.4607,
+  "latitude": 48.12,
+  "request_sha256": "d955abb1721e0bcd743ca1d5aafeb6d46181d6a497efb5158fa1412bb179c605",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\04d2a6de4ab2_d955abb1721e",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:02.333335+00:00",
+  "error": ""
+}

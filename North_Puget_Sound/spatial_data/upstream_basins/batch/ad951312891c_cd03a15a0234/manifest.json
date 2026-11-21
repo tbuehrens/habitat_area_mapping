@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51726",
+  "review_number": 541,
+  "SiteId": "890860",
+  "StreamName": "Jim Cr",
+  "graph_edge_id": 3133,
+  "longitude": -121.8955,
+  "latitude": 48.1943,
+  "request_sha256": "cd03a15a0234672115c0a8f223df29e0c748587eb06e2403c823c722cca3fe6e",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ad951312891c_cd03a15a0234",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:38.283408+00:00",
+  "error": ""
+}

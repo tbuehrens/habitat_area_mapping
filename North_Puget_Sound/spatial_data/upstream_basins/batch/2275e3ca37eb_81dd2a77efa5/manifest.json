@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51830",
+  "review_number": 545,
+  "SiteId": "890849",
+  "StreamName": "Gerkman Cr",
+  "graph_edge_id": 4016,
+  "longitude": -121.7355,
+  "latitude": 48.206,
+  "request_sha256": "81dd2a77efa5caaa9f57d1ad4f44997dd88f67068b5b68995af78f92e15d8d63",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2275e3ca37eb_81dd2a77efa5",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:40.111186+00:00",
+  "error": ""
+}

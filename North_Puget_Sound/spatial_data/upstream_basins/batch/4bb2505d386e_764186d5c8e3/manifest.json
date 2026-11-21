@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56513",
+  "review_number": 726,
+  "SiteId": "894784",
+  "StreamName": "Found Cr",
+  "graph_edge_id": 3535,
+  "longitude": -121.2449,
+  "latitude": 48.4813,
+  "request_sha256": "764186d5c8e3d5b429545d7864c901ea5f4bfc52add76bd920c91d9f7713f046",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4bb2505d386e_764186d5c8e3",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:22:05.291928+00:00",
+  "error": ""
+}

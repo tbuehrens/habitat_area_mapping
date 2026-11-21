@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56528",
+  "review_number": 727,
+  "SiteId": "893244",
+  "StreamName": "Gilligan Cr",
+  "graph_edge_id": 461,
+  "longitude": -122.125882479992,
+  "latitude": 48.4728695501604,
+  "request_sha256": "5e433c0653923a32c04669a74fb46fc11b993820f2beaa494572e772d3e05695",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\8db10b6e5424_5e433c065392",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:31:38.642146+00:00",
+  "error": ""
+}

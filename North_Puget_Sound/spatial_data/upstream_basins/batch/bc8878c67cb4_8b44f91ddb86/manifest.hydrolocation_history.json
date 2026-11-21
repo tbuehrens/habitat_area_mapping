@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:44796",
+  "review_number": 364,
+  "SiteId": "891433",
+  "StreamName": "Goblin Cr",
+  "graph_edge_id": 4266,
+  "longitude": -121.311553331634,
+  "latitude": 47.9250484007212,
+  "request_sha256": "8b44f91ddb86c94666231c99f1dd0d1bc092249c74cbcbd7819c5a3dc69b1619",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\bc8878c67cb4_8b44f91ddb86",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:22:34.726134+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

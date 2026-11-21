@@ -1,0 +1,36 @@
+{
+  "green_stream_identity_records": 692,
+  "natural_report_records": 691,
+  "retrieval_status": {
+    "downloaded_and_text_extracted": 691
+  },
+  "blockage": {
+    "None": 1,
+    "Partial": 292,
+    "Total": 396,
+    "Unknown": 2
+  },
+  "verified_blockage": {
+    "Partial": 3,
+    "Total": 9,
+    "Unknown": 2
+  },
+  "unverified_blockage": {
+    "None": 1,
+    "Partial": 289,
+    "Total": 387
+  },
+  "natural_type": {
+    "Cascade": 1,
+    "Gradient": 493,
+    "Waterfall": 197
+  },
+  "waterfall_height": {
+    "positive": 16,
+    "zero_reported_review": 18,
+    "missing": 657
+  },
+  "passage_evidence_conflicts": 0,
+  "measured_height_never_used_to_infer_total": true,
+  "species_run_specific_blockage_independently_verified": false
+}

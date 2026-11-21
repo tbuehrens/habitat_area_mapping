@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:60834",
+  "review_number": 859,
+  "SiteId": "892815",
+  "StreamName": "Whatcom Cr",
+  "graph_edge_id": 1825,
+  "longitude": -122.4299,
+  "latitude": 48.7509,
+  "request_sha256": "a7b78f10232e19b5a8770a501b65bb46d15dc3ed4ca343810f73aa86fc4e2522",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\a564fc8e4eef_a7b78f10232e",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:16.827341+00:00",
+  "error": ""
+}

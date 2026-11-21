@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:45518",
+  "review_number": 382,
+  "SiteId": "891111",
+  "StreamName": "Silver Cr",
+  "graph_edge_id": 4485,
+  "longitude": -121.432478223046,
+  "latitude": 47.9525172795962,
+  "request_sha256": "8d3346aaa4edd6b9f1db2db5a3a29560474339c604b1a9aaa1c4dd64b60a701d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\c23bdd61dd64_8d3346aaa4ed",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:23:01.677607+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

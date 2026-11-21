@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:60231",
+  "review_number": 843,
+  "SiteId": "892287",
+  "StreamName": "Hutchinson Cr",
+  "graph_edge_id": 5479,
+  "longitude": -122.1576,
+  "latitude": 48.7189,
+  "request_sha256": "3efbbbc857f024a81a3c51c281ebe27126e94146a4cd3fab0a2aa8b3a108c7bb",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\13173d7629ad_3efbbbc857f0",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:04.734733+00:00",
+  "error": ""
+}

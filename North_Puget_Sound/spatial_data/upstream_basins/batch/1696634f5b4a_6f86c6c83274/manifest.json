@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:36427",
+  "review_number": 136,
+  "SiteId": "891781",
+  "StreamName": "Sunday Cr",
+  "graph_edge_id": 6018,
+  "longitude": -121.5895,
+  "latitude": 47.6387,
+  "request_sha256": "6f86c6c83274444b690631ed3018403475960c279cd287111c7782ae4ce126a0",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1696634f5b4a_6f86c6c83274",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:16:10.962943+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

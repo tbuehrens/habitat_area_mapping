@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:63399",
+  "review_number": 900,
+  "SiteId": "891924",
+  "StreamName": "Swamp Cr",
+  "graph_edge_id": 3427,
+  "longitude": -121.682911249569,
+  "latitude": 48.9076072712211,
+  "request_sha256": "f4bd3668b0e7f9af54ba19ac72fd1418b26754488820ccbdb0ba087ee6829a44",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\6fa13440f920_f4bd3668b0e7",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:40:10.602687+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956486",
+  "reference_stream_name": "Swamp Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.2857142857142857,
+  "route_max_distance_m": 43.05524677128304,
+  "route_max_heading_degrees": 29.072237877451975
+}

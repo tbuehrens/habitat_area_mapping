@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:46929",
+  "review_number": 422,
+  "SiteId": "891226",
+  "StreamName": "Wilson Cr",
+  "graph_edge_id": 4539,
+  "longitude": -121.764985182866,
+  "latitude": 48.0151300679062,
+  "request_sha256": "0cb2958d3d11720ddb01836a1db382456945f6657c91e9c7accb551264aec38b",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\c42d2d43c0e9_0cb2958d3d11",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:31:43.527458+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24279412",
+  "reference_stream_name": "Wilson Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 46.45625869824818,
+  "route_max_heading_degrees": 66.17496170957114
+}

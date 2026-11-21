@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:58177",
+  "review_number": 781,
+  "SiteId": "893233",
+  "StreamName": "Hansen Cr",
+  "graph_edge_id": 5388,
+  "longitude": -122.200305736299,
+  "latitude": 48.5646671527945,
+  "request_sha256": "18ad4a0c8b6101ef69252a62c84f92f23065488a5e49407f92915fc701a01b98",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4191f683d06a_18ad4a0c8b61",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:37:18.764229+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270560",
+  "reference_stream_name": "Hansen Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 49.338077962040195,
+  "route_max_heading_degrees": 35.50614523106185
+}

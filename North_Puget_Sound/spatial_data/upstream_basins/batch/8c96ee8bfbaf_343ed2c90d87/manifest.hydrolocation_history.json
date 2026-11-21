@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:57644",
+  "review_number": 762,
+  "SiteId": "895290",
+  "StreamName": "Marble Cr",
+  "graph_edge_id": 6198,
+  "longitude": -121.251989182144,
+  "latitude": 48.5417695511233,
+  "request_sha256": "343ed2c90d87030ba9767d9a0ca7bf055a4fce385e76bb8f5bd3a6e814aab4ab",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\8c96ee8bfbaf_343ed2c90d87",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:14.932838+00:00",
+  "error": ""
+}

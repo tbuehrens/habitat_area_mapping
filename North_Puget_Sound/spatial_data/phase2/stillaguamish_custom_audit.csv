@@ -1,0 +1,10 @@
+"check","observed","units","passed"
+"published_confluence_node","50115529","node",TRUE
+"published_drainage_area_balance","0","km2",TRUE
+"full_basin_area","445.138744564","km2",TRUE
+"Deer_drainage_excluded","0","km2",TRUE
+"all_upstream_reaches_included","0","m outside",TRUE
+"independent_named_junction_offset","41.7603594894","m",TRUE
+"official_upstream_Oso_gauge_included","TRUE","boolean",TRUE
+"raw_model_download_covers_whole_watershed","TRUE","boolean",TRUE
+"full_augmented_source_linework_present","114.646456051","miles",TRUE

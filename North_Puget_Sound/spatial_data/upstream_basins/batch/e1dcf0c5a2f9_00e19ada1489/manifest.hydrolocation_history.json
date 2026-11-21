@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:44084",
+  "review_number": 338,
+  "SiteId": "891401",
+  "StreamName": "Howard Cr",
+  "graph_edge_id": 4274,
+  "longitude": -121.441587258955,
+  "latitude": 47.8905441525042,
+  "request_sha256": "00e19ada148942f73c4067f1031d293d239de284bbc10e0e8dd500f56e467390",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\e1dcf0c5a2f9_00e19ada1489",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:51.866614+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

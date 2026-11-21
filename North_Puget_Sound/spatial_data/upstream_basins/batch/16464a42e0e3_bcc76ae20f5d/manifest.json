@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:44812",
+  "review_number": 366,
+  "SiteId": "891112",
+  "StreamName": "Troublesome Cr",
+  "graph_edge_id": 4269,
+  "longitude": -121.3578,
+  "latitude": 47.9255,
+  "request_sha256": "bcc76ae20f5de482c68dbe98b1ae14b934e592aea4008a42b42b067a527ef001",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\16464a42e0e3_bcc76ae20f5d",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:20.025117+00:00",
+  "error": ""
+}

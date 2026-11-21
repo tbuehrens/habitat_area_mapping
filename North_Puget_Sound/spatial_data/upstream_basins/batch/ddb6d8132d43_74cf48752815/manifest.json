@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54742",
+  "review_number": 657,
+  "SiteId": "890700",
+  "StreamName": "Bear Cr",
+  "graph_edge_id": 521,
+  "longitude": -122.0654,
+  "latitude": 48.3504,
+  "request_sha256": "74cf48752815c006aeb05191993f79211610bc5ad37f13efefed3b5c9f7df8af",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ddb6d8132d43_74cf48752815",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:09.333436+00:00",
+  "error": ""
+}

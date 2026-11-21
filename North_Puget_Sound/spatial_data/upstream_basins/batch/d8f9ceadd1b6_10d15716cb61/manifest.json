@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51069",
+  "review_number": 531,
+  "SiteId": "890972",
+  "StreamName": "NF Canyon Cr",
+  "graph_edge_id": 4032,
+  "longitude": -121.8181,
+  "latitude": 48.1648,
+  "request_sha256": "10d15716cb61001c74dc2d9e016231cbf81196a1cdd4f808b409c7fb8525d322",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d8f9ceadd1b6_10d15716cb61",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:21.965194+00:00",
+  "error": ""
+}

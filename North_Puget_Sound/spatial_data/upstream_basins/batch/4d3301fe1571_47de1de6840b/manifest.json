@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:43422",
+  "review_number": 326,
+  "SiteId": "891132",
+  "StreamName": "Excelsior Cr",
+  "graph_edge_id": 4477,
+  "longitude": -121.4868,
+  "latitude": 47.8698,
+  "request_sha256": "47de1de6840be216777b4048c76a9c5ef3c3cf61d35ba462e6ebcea92e90756d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4d3301fe1571_47de1de6840b",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:49.438242+00:00",
+  "error": ""
+}

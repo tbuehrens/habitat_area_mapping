@@ -1,0 +1,14 @@
+{
+  "anchor_id": "USGS-12178000",
+  "anchor_name": "Skagit River at Newhalem, WA",
+  "longitude": -121.246234788845,
+  "latitude": 48.6717922878038,
+  "coordinate_crs": "EPSG:4326",
+  "coordinate_source": "https://waterdata.usgs.gov/monitoring-location/USGS-12178000/",
+  "coordinate_method": "Interpolated from map; published horizontal accuracy plus or minus one arcsecond",
+  "direction_evidence": "Seattle City Light's April 2021 Revised Study Plan, section 2.5, explicitly defines the study reach from Gorge Dam downstream to the Newhalem USGS gage. Gorge Dam is USGS river mile 96.6 and this gage is river mile 93.7.",
+  "direction_source": "https://www.seattle.gov/Documents/Departments/CityLight/CurrentProjects/P-553_04_Skagit_RSP_20210407.pdf",
+  "crosswalk_source": "https://www.seattle.gov/documents/departments/citylight/currentprojects/p-553_01_skagit_rsp_20210407.pdf",
+  "crosswalk_reference": "Table 7.0-1: Gorge Dam USGS RM 96.6 / PRM 97.2; Newhalem USGS gage 12178000 USGS RM 93.7 / PRM 94.3",
+  "scope": "An independently documented local downstream anchor; does not justify filtering unrelated disconnected graph components by coast connectivity."
+}

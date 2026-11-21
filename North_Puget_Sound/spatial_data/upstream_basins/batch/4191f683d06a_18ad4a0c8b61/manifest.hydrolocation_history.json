@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:58177",
+  "review_number": 781,
+  "SiteId": "893233",
+  "StreamName": "Hansen Cr",
+  "graph_edge_id": 5388,
+  "longitude": -122.200305736299,
+  "latitude": 48.5646671527945,
+  "request_sha256": "18ad4a0c8b6101ef69252a62c84f92f23065488a5e49407f92915fc701a01b98",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4191f683d06a_18ad4a0c8b61",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:27.034261+00:00",
+  "error": ""
+}

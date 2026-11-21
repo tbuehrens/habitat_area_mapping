@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:63069",
+  "review_number": 890,
+  "SiteId": "891985",
+  "StreamName": "Bagley Cr",
+  "graph_edge_id": 3420,
+  "longitude": -121.664584317667,
+  "latitude": 48.8890721590607,
+  "request_sha256": "6be56a60983d3d725455fd96564d2a59cb6e41ddae66f55235326655ca877958",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\9f2254ff462c_6be56a60983d",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:39:54.940778+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956908",
+  "reference_stream_name": "Bagley Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.5714285714285714,
+  "route_max_distance_m": 34.14818189909618,
+  "route_max_heading_degrees": 32.153241235257575
+}

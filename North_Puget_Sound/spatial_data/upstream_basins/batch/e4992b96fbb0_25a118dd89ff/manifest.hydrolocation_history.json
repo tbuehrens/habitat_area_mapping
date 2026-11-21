@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:52110",
+  "review_number": 560,
+  "SiteId": "890839",
+  "StreamName": "Buckeye Cr",
+  "graph_edge_id": 3982,
+  "longitude": -121.641245131494,
+  "latitude": 48.2284829654486,
+  "request_sha256": "25a118dd89ffc6724b83c4b9d3607869e409e2658a273613109b23243e3c3844",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\e4992b96fbb0_25a118dd89ff",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:26:42.690651+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

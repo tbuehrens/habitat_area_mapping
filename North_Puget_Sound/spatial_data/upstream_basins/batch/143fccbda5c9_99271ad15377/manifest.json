@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:62999",
+  "review_number": 885,
+  "SiteId": "890684",
+  "StreamName": "Racehorse Cr",
+  "graph_edge_id": 66,
+  "longitude": -122.117652474429,
+  "latitude": 48.8755442046617,
+  "request_sha256": "99271ad1537796353b7767ae075ac3def8a2e47f228e44357377c78e7843988b",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\143fccbda5c9_99271ad15377",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:39:47.560407+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956262",
+  "reference_stream_name": "Racehorse Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.5714285714285714,
+  "route_max_distance_m": 29.153031322909076,
+  "route_max_heading_degrees": 43.043833709671645
+}

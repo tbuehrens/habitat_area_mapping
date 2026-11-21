@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:46929",
+  "review_number": 422,
+  "SiteId": "891226",
+  "StreamName": "Wilson Cr",
+  "graph_edge_id": 4539,
+  "longitude": -121.765,
+  "latitude": 48.0151,
+  "request_sha256": "605a011e8c215929ca44d6932f1c8e326bb8c8446d94266366e415bebdc7c4b9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\c42d2d43c0e9_605a011e8c21",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:37.814584+00:00",
+  "error": ""
+}

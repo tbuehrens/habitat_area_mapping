@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:55745",
+  "review_number": 696,
+  "SiteId": "895521",
+  "StreamName": "Clendenen Cr",
+  "graph_edge_id": 3602,
+  "longitude": -121.75539070721,
+  "latitude": 48.4275114236619,
+  "request_sha256": "a437c88385d411c589f0982855e39c9f5fc4b195c13cea1460cadfdb7d99ec72",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ccfb5852ea0e_a437c88385d4",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:35:06.211421+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270886",
+  "reference_stream_name": "Clendenen Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 32.35902289639584,
+  "route_max_heading_degrees": 26.298224469313457
+}

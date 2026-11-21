@@ -1,0 +1,18 @@
+{
+  "review_record_key": "6:47292",
+  "review_number": 436,
+  "SiteId": "891965",
+  "StreamName": "Kelly Cr",
+  "graph_edge_id": 4799,
+  "longitude": -121.819234415206,
+  "latitude": 48.0338172038763,
+  "request_sha256": "e79ce183a8bca58928b5fea513d7a8c8076a239c324c17a79b1d17264c44daff",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\01e561eb0941_e79ce183a8bc",
+  "approved": false,
+  "status": "indexed_point_beyond_tolerance",
+  "retrieved_utc": "2026-11-21T02:23:28.999538+00:00",
+  "comid": "24279372",
+  "indexed_longitude": -121.82007576094242,
+  "indexed_latitude": 48.03369932690476,
+  "indexed_shift_m": 64.09902073942976
+}

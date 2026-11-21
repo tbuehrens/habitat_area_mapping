@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:52906",
+  "review_number": 591,
+  "SiteId": "890154",
+  "StreamName": "Dan Cr",
+  "graph_edge_id": 3894,
+  "longitude": -121.5406,
+  "latitude": 48.2652,
+  "request_sha256": "d5947482403bd092e355bfc8aeb4085ec39535d4133b9012f807fb54647e316f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\273c58189c33_d5947482403b",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:14.904575+00:00",
+  "error": ""
+}

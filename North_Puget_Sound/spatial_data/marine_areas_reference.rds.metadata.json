@@ -1,0 +1,511 @@
+{
+  "currentVersion": 11.5,
+  "cimVersion": "3.5.0",
+  "id": 2,
+  "name": "Marine Area Boundaries",
+  "type": "Feature Layer",
+  "description": "",
+  "geometryType": "esriGeometryPolyline",
+  "sourceSpatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "xyUnits": 148923141.9284,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -22041257.7739,
+    "falseY": -30241100,
+    "xyUnits": 144148035.8986,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+  },
+  "copyrightText": "",
+  "parentLayer": {},
+  "subLayers": [],
+  "minScale": 0,
+  "maxScale": 0,
+  "referenceScale": 0,
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "LTYPE",
+      "uniqueValueGroups": [
+        {
+          "heading": "",
+          "classes": [
+            {
+              "label": "Marine Areas",
+              "description": "Marine Areas",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": [
+                  0,
+                  77,
+                  168,
+                  255
+                ],
+                "width": 2
+              },
+              "values": [
+                [
+                  "5"
+                ]
+              ]
+            },
+            {
+              "label": "US Canada Border",
+              "description": "US Canada Border",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": [
+                  215,
+                  194,
+                  158,
+                  255
+                ],
+                "width": 3
+              },
+              "values": [
+                [
+                  "9"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              0,
+              77,
+              168,
+              255
+            ],
+            "width": 2
+          },
+          "value": "5",
+          "label": "Marine Areas"
+        },
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              215,
+              194,
+              158,
+              255
+            ],
+            "width": 3
+          },
+          "value": "9",
+          "label": "US Canada Border"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                161,
+                85,
+                47,
+                255
+              ],
+              "toColor": [
+                161,
+                85,
+                47,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                76,
+                43,
+                196,
+                255
+              ],
+              "toColor": [
+                76,
+                43,
+                196,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                52,
+                201,
+                52,
+                255
+              ],
+              "toColor": [
+                52,
+                201,
+                52,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                42,
+                164,
+                201,
+                255
+              ],
+              "toColor": [
+                42,
+                164,
+                201,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                194,
+                60,
+                147,
+                255
+              ],
+              "toColor": [
+                194,
+                60,
+                147,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                164,
+                166,
+                48,
+                255
+              ],
+              "toColor": [
+                164,
+                166,
+                48,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                47,
+                153,
+                100,
+                255
+              ],
+              "toColor": [
+                47,
+                153,
+                100,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                39,
+                82,
+                156,
+                255
+              ],
+              "toColor": [
+                39,
+                82,
+                156,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                201,
+                42,
+                77,
+                255
+              ],
+              "toColor": [
+                201,
+                42,
+                77,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                122,
+                54,
+                156,
+                255
+              ],
+              "toColor": [
+                122,
+                54,
+                156,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                79,
+                156,
+                51,
+                255
+              ],
+              "toColor": [
+                79,
+                156,
+                51,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                153,
+                58,
+                87,
+                255
+              ],
+              "toColor": [
+                153,
+                58,
+                87,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                37,
+                179,
+                169,
+                255
+              ],
+              "toColor": [
+                37,
+                179,
+                169,
+                255
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": {}
+  },
+  "defaultVisibility": true,
+  "extent": {
+    "xmin": -14374614.1119,
+    "ymin": 5581435.3197,
+    "xmax": -13617517.2881,
+    "ymax": 6275229.248,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -22041257.7739,
+      "falseY": -30241100,
+      "xyUnits": 144148035.8986,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    }
+  },
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "displayField": "WAC",
+  "typeIdField": {},
+  "subtypeFieldName": {},
+  "subtypeField": {},
+  "defaultSubtypeCode": {},
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": {}
+    },
+    {
+      "name": "FID_WAC_220_056_185_arc",
+      "type": "esriFieldTypeInteger",
+      "alias": "FID_WAC_220_056_185_arc",
+      "domain": {}
+    },
+    {
+      "name": "LTYPE",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "LTYPE",
+      "domain": {}
+    },
+    {
+      "name": "WAC",
+      "type": "esriFieldTypeString",
+      "alias": "WAC",
+      "length": 15,
+      "domain": {}
+    },
+    {
+      "name": "Shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape",
+      "domain": {}
+    },
+    {
+      "name": "Shape.STLength()",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape.STLength()",
+      "domain": {}
+    }
+  ],
+  "geometryField": {
+    "name": "Shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape"
+  },
+  "indexes": [
+    {
+      "name": "R92_pk",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "S73_idx",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "subtypes": [],
+  "relationships": [],
+  "canModifyLayer": true,
+  "canScaleSymbols": false,
+  "hasLabels": false,
+  "capabilities": "Map,Query,Data",
+  "maxRecordCount": 2000,
+  "maxSelectionCount": 2000,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "isDataVersioned": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "useStandardizedQueries": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+  },
+  "supportsDatumTransformation": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": true
+  },
+  "dateFieldsTimeReference": {},
+  "preferredTimeReference": {},
+  "datesInUnknownTimezone": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeLengthFieldName": "Shape.STLength()",
+    "units": "esriMeters",
+    "mapUnits": {
+      "uwkid": 9001
+    }
+  },
+  "hasMetadata": true,
+  "isDataArchived": false,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsCoordinatesQuantization": true,
+  "supportsDynamicLegends": true
+}

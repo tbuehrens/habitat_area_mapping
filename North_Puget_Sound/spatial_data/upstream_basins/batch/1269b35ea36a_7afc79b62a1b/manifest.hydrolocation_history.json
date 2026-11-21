@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:59136",
+  "review_number": 810,
+  "SiteId": "892148",
+  "StreamName": "Wanlick Cr",
+  "graph_edge_id": 3446,
+  "longitude": -121.864721899535,
+  "latitude": 48.6544566844136,
+  "request_sha256": "7afc79b62a1b8ab5e35f4be4e552047f87b63ed180f825eafccadaa3cb53829d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1269b35ea36a_7afc79b62a1b",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:33:05.156336+00:00",
+  "error": ""
+}

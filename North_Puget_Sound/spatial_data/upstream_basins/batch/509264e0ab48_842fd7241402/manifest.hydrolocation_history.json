@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:44501",
+  "review_number": 355,
+  "SiteId": "891413",
+  "StreamName": "Troublesome Cr",
+  "graph_edge_id": 4278,
+  "longitude": -121.393240269576,
+  "latitude": 47.9088785593466,
+  "request_sha256": "842fd72414029276a2ef8ab7a2bc78787ff45fd26a3ac90f9fa8c33092d945df",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\509264e0ab48_842fd7241402",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:22:16.986758+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

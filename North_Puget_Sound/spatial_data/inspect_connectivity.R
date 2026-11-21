@@ -1,0 +1,10 @@
+library(sf)
+x <- readRDS("spatial_data/noded_steelhead.rds")
+g <- st_geometry(x)
+p <- do.call(rbind, lapply(g, function(m) rbind(m[1,], m[nrow(m),])))
+u <- unique(round(p, 3))
+d <- RANN::nn2(u, k=2)$nn.dists[,2]
+print(quantile(d,c(0,.1,.25,.5,.75,.9,.95,.99,1)))
+png("spatial_data/model_debug.png", width=1200, height=1200)
+plot(st_geometry(st_transform(readRDS("spatial_data/model_north_0.rds"),4326)), xlim=c(-122.8,-121.4),ylim=c(48.5,49.1),col="blue")
+dev.off()

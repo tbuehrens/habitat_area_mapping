@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:53232",
+  "review_number": 600,
+  "SiteId": "895724",
+  "StreamName": "Sulphur Cr",
+  "graph_edge_id": 3776,
+  "longitude": -121.1157,
+  "latitude": 48.2792,
+  "request_sha256": "1c27b9334b76cd003648944230f7edf5da68cdf799a11587fd51aaa498d12586",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\a0936d5253f4_1c27b9334b76",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:26.664151+00:00",
+  "error": ""
+}

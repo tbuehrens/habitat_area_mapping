@@ -1,0 +1,14 @@
+{
+  "review_record_key": "user_override:Gorge_Dam",
+  "review_number": 903,
+  "SiteId": null,
+  "StreamName": "Skagit River",
+  "graph_edge_id": 3501,
+  "longitude": -121.20813984642,
+  "latitude": 48.697757479123,
+  "request_sha256": "b097d818cfd07abd3bca7f84dfd4f005d9f858aa80c98066687d3506d1842ce4",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\e68400ca3050_b097d818cfd0",
+  "approved": false,
+  "status": "special_gorge_loader",
+  "retrieved_utc": "2026-11-21T02:34:36.171353+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:44836",
+  "review_number": 368,
+  "SiteId": "891436",
+  "StreamName": "NF Skykomish R",
+  "graph_edge_id": 4481,
+  "longitude": -121.2671,
+  "latitude": 47.9275,
+  "request_sha256": "6af0caa4723070592bb71ad03452057b50e4c15a8441ec11d549d42fe3b6ac4c",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d03df75624b8_6af0caa47230",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:21.477591+00:00",
+  "error": ""
+}

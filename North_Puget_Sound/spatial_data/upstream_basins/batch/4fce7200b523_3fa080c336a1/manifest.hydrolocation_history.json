@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:60592",
+  "review_number": 854,
+  "SiteId": "891418",
+  "StreamName": "Wallace Cr",
+  "graph_edge_id": 6243,
+  "longitude": -121.946583566445,
+  "latitude": 48.7453671497296,
+  "request_sha256": "3fa080c336a17225f25355e983d7597ad219607002ef44618313b9570e770094",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4fce7200b523_3fa080c336a1",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:33:41.717727+00:00",
+  "error": ""
+}

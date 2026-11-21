@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:52500",
+  "review_number": 568,
+  "SiteId": "896920",
+  "StreamName": "Boulder R",
+  "graph_edge_id": 4044,
+  "longitude": -121.8283,
+  "latitude": 48.2451,
+  "request_sha256": "0f711bca0d2e13aae282681c372f5f34c0c5c8265dc09fe658fed9e0549238f2",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\c9961db5d11a_0f711bca0d2e",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:02.485400+00:00",
+  "error": ""
+}

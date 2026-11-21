@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:41122",
+  "review_number": 269,
+  "SiteId": "891127",
+  "StreamName": "Bridal Veil Cr",
+  "graph_edge_id": 6121,
+  "longitude": -121.5609,
+  "latitude": 47.7987,
+  "request_sha256": "ad8b8141ab584f0fc680d2472274c4c2b9345671c0afb899fd1456d2c984110e",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2518e8a5d053_ad8b8141ab58",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:13.147093+00:00",
+  "error": ""
+}

@@ -1,0 +1,107 @@
+"source_layer","field","code","description","count"
+"5","FishUseCode","0","Missing",14
+"5","FishUseCode","10","Yes",232
+"5","FishUseCode","20","No",0
+"5","FishUseCode","99","Unknown",3
+"5","FishUseCriteriaCode","10","Other",1
+"5","FishUseCriteriaCode","11","Biological",34
+"5","FishUseCriteriaCode","12","Physical",141
+"5","FishUseCriteriaCode","13","Mapped",58
+"5","FishPassageBarrierStatusCode","0","NA",0
+"5","FishPassageBarrierStatusCode","10","Yes",248
+"5","FishPassageBarrierStatusCode","20","No",4
+"5","FishPassageBarrierStatusCode","99","Unknown",0
+"5","FishPassageBarrierReasonCode","0","N/A",0
+"5","FishPassageBarrierReasonCode","10","WS Drop",0
+"5","FishPassageBarrierReasonCode","11","Slope",0
+"5","FishPassageBarrierReasonCode","20","Velocity",0
+"5","FishPassageBarrierReasonCode","21","Depth",0
+"5","FishPassageBarrierReasonCode","30","Tidegate",0
+"5","FishPassageBarrierReasonCode","31","Other",0
+"5","FishPassageBarrierReasonCode","32","Debris",0
+"5","FishPassageBarrierReasonCode","33","Undersized",0
+"5","FishPassageBarrierReasonCode","34","Failed",0
+"5","FishPassageBarrierReasonCode","40","Level B Required",0
+"5","FishPassageBarrierReasonCode","41","Insufficient Data",0
+"5","FishPassageBarrierReasonCode","42","Tidal Influence",0
+"5","FishPassageBarrierReasonCode","43","Control Inaccessible",0
+"5","FishPassageBarrierReasonCode","44","Grade Break",0
+"5","FishPassageBarrierReasonCode","45","Engineer Review Required",0
+"5","FishPassageBarrierReasonCode","46","Streambed Material",0
+"5","FishPassageBarrierReasonCode","51","Unspecified",0
+"5","FishPassageBarrierReasonCode","12","Rack",0
+"5","PercentFishPassableCode","0","N/A",0
+"5","PercentFishPassableCode","10","0",0
+"5","PercentFishPassableCode","20","33",0
+"5","PercentFishPassableCode","30","67",0
+"5","PercentFishPassableCode","40","100",0
+"5","PercentFishPassableCode","99","Unknown",0
+"5","OwnerTypeCode","1","City",19
+"5","OwnerTypeCode","2","County",12
+"5","OwnerTypeCode","3","Federal",25
+"5","OwnerTypeCode","4","Private",121
+"5","OwnerTypeCode","5","State",36
+"5","OwnerTypeCode","6","Tribal",0
+"5","OwnerTypeCode","7","Other",8
+"5","OwnerTypeCode","8","Port",0
+"5","OwnerTypeCode","9","Drainage District",0
+"5","OwnerTypeCode","10","Diking District",0
+"5","OwnerTypeCode","11","Irrigation District",0
+"5","OwnerTypeCode","12","Unknown",17
+"5","SignificantReachCode","0","NA",0
+"5","SignificantReachCode","10","Yes",0
+"5","SignificantReachCode","20","No",0
+"5","SignificantReachCode","99","Unknown",0
+"6","FishUseCode","0","Missing",3352
+"6","FishUseCode","10","Yes",2
+"6","FishUseCode","20","No",0
+"6","FishUseCode","99","Unknown",0
+"6","FishUseCriteriaCode","10","Other",0
+"6","FishUseCriteriaCode","11","Biological",1
+"6","FishUseCriteriaCode","12","Physical",0
+"6","FishUseCriteriaCode","13","Mapped",1
+"6","FishPassageBarrierStatusCode","0","NA",0
+"6","FishPassageBarrierStatusCode","10","Yes",3352
+"6","FishPassageBarrierStatusCode","20","No",2
+"6","FishPassageBarrierStatusCode","99","Unknown",0
+"6","FishPassageBarrierReasonCode","0","N/A",0
+"6","FishPassageBarrierReasonCode","10","WS Drop",0
+"6","FishPassageBarrierReasonCode","11","Slope",0
+"6","FishPassageBarrierReasonCode","20","Velocity",0
+"6","FishPassageBarrierReasonCode","21","Depth",0
+"6","FishPassageBarrierReasonCode","30","Tidegate",0
+"6","FishPassageBarrierReasonCode","31","Other",0
+"6","FishPassageBarrierReasonCode","32","Debris",0
+"6","FishPassageBarrierReasonCode","33","Undersized",0
+"6","FishPassageBarrierReasonCode","34","Failed",0
+"6","FishPassageBarrierReasonCode","40","Level B Required",0
+"6","FishPassageBarrierReasonCode","41","Insufficient Data",0
+"6","FishPassageBarrierReasonCode","42","Tidal Influence",0
+"6","FishPassageBarrierReasonCode","43","Control Inaccessible",0
+"6","FishPassageBarrierReasonCode","44","Grade Break",0
+"6","FishPassageBarrierReasonCode","45","Engineer Review Required",0
+"6","FishPassageBarrierReasonCode","46","Streambed Material",0
+"6","FishPassageBarrierReasonCode","51","Unspecified",0
+"6","FishPassageBarrierReasonCode","12","Rack",0
+"6","PercentFishPassableCode","0","N/A",0
+"6","PercentFishPassableCode","10","0",0
+"6","PercentFishPassableCode","20","33",0
+"6","PercentFishPassableCode","30","67",0
+"6","PercentFishPassableCode","40","100",0
+"6","PercentFishPassableCode","99","Unknown",0
+"6","OwnerTypeCode","1","City",0
+"6","OwnerTypeCode","2","County",0
+"6","OwnerTypeCode","3","Federal",0
+"6","OwnerTypeCode","4","Private",4
+"6","OwnerTypeCode","5","State",0
+"6","OwnerTypeCode","6","Tribal",0
+"6","OwnerTypeCode","7","Other",0
+"6","OwnerTypeCode","8","Port",0
+"6","OwnerTypeCode","9","Drainage District",0
+"6","OwnerTypeCode","10","Diking District",0
+"6","OwnerTypeCode","11","Irrigation District",0
+"6","OwnerTypeCode","12","Unknown",3
+"6","SignificantReachCode","0","NA",0
+"6","SignificantReachCode","10","Yes",0
+"6","SignificantReachCode","20","No",0
+"6","SignificantReachCode","99","Unknown",0

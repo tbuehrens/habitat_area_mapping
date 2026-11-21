@@ -2,4 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
-/spatial_data
+Rplots.pdf
+**/python_deps/
+**/__pycache__/
+*.pyc
+*.pyo
+.local_reorganization/
+.codex/
+.agents/
+.aws/

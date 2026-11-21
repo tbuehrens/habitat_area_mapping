@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:46542",
+  "review_number": 415,
+  "SiteId": "891103",
+  "StreamName": "Miller Cr",
+  "graph_edge_id": 4610,
+  "longitude": -121.781707553243,
+  "latitude": 47.9963058495376,
+  "request_sha256": "f901051f50d66e6fad0ce4667610d3b58e4c50d7c600409676e379904fcd385f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\3d68a22da31a_f901051f50d6",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:31:35.770725+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24279448",
+  "reference_stream_name": "Miller Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 21.946930890960537,
+  "route_max_heading_degrees": 45.77763739251971
+}

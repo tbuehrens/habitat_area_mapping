@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:37806",
+  "review_number": 170,
+  "SiteId": "891955",
+  "StreamName": "SF Tolt R",
+  "graph_edge_id": 6116,
+  "longitude": -121.688798971646,
+  "latitude": 47.6928040280277,
+  "request_sha256": "195f108ba8d3d9ec70abdaf3a88f9217b1f56336e841d5508e0df4e6e867fad5",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\017e06cad8d0_195f108ba8d3",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:30:52.006140+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23970765",
+  "reference_stream_name": "South Fork Tolt River",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 38.25004247019184,
+  "route_max_heading_degrees": 72.4651323910286
+}

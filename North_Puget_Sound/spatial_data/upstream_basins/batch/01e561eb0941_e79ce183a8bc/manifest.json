@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:47292",
+  "review_number": 436,
+  "SiteId": "891965",
+  "StreamName": "Kelly Cr",
+  "graph_edge_id": 4799,
+  "longitude": -121.819234415206,
+  "latitude": 48.0338172038763,
+  "request_sha256": "e79ce183a8bca58928b5fea513d7a8c8076a239c324c17a79b1d17264c44daff",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\01e561eb0941_e79ce183a8bc",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:31:44.414887+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24279372",
+  "reference_stream_name": "Kelly Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.5714285714285714,
+  "route_max_distance_m": 45.11541593546866,
+  "route_max_heading_degrees": 31.901819365188036
+}

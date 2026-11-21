@@ -1,0 +1,68 @@
+{
+  "phase": "Phase 1: verified and unverified reported Total natural barriers plus explicit Gorge Dam override",
+  "baseline_directory": "outputs/review_swifd_connections",
+  "output_directory": "outputs/phase1_total_barriers",
+  "selection": "Inside NOAA populations; confirmed stream match, unambiguous junction; explicit Total without conflicting passage evidence (verified or unverified), or Gorge override; Partial excluded",
+  "direction_policy": "Apply only validated full upstream drainage masks, including disconnected reaches; preserve independently proven local downstream outlet geometry and unrelated basins",
+  "passage_scope": "Qualitative adult-salmonid classification; neither height nor green stream matching establishes steelhead run-specific passability",
+  "selected_barriers": 263,
+  "applied_barriers": 128,
+  "graph_diagnostic_summary": {
+    "input_pieces": 7982,
+    "partition_pieces": 8441,
+    "requested_barriers": 263,
+    "eligible_barriers": 263,
+    "applied_barriers": 202,
+    "removed_physical_m": 804073.3681,
+    "retained_physical_m": 7066375.9722,
+    "unresolved_retained_physical_m": 2828550.6504,
+    "unrelated_components_removed": 0,
+    "source_partition_error_m": 2.3283e-10
+  },
+  "graph_settings": {
+    "node_tolerance_m": 0.25,
+    "support_tolerance_m": 1e-05,
+    "barrier_snap_distance_m": 50,
+    "junction_distance_m": 25,
+    "direction_method": "explicit_reviewed_downstream_anchor_component_local_severance",
+    "maritime_connectivity_filter": false,
+    "disconnected_unproven_geometry": "retained; no upstream direction inferred"
+  },
+  "nldi_course_controls": {
+    "heading_halfspan_m": 25,
+    "sample_count": 7,
+    "local_half_length_m": 50,
+    "max_match_distance_m": 25,
+    "max_heading_degrees": 35,
+    "min_coverage": 0.8,
+    "method_note": "Symmetric 50m heading chords within the 100m local course match the generalized 1:100,000 NHDPlusV2 reference; primary finer-scale WDFW identity is unchanged."
+  },
+  "watershed_summary": {
+    "applied_masks": 128,
+    "retained_physical_m": 7067037.5865,
+    "removed_physical_m": 803411.7537,
+    "source_partition_error_m": 0
+  },
+  "watershed_settings": {
+    "method": "validated_upstream_drainage_polygon_intersection",
+    "habitat_added": false,
+    "geographic_bbox_or_longitude_filter": false
+  },
+  "approved_upstream_basins": 128,
+  "pending_upstream_basins": 135,
+  "selected_with_complete_upstream_coverage": 133,
+  "selected_covered_by_downstream_basin": 5,
+  "selected_pending_upstream_coverage": 130,
+  "reference_direction_settings": {
+    "confluence_tolerance_m": 25,
+    "mouth_tolerance_m": 100,
+    "marine_tolerance_m": 250,
+    "local_anchor_distance_m": 100,
+    "reference_tolerance_m": 25,
+    "reference_max_heading_degrees": 35,
+    "reference_tree_required": true,
+    "vertex_order_used_as_flow": false
+  },
+  "manual_source": "https://wdfw.wa.gov/publications/02061",
+  "generated_utc": "2026-11-21 03:21:27 UTC"
+}

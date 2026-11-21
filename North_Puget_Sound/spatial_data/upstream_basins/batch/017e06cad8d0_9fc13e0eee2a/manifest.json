@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:37806",
+  "review_number": 170,
+  "SiteId": "891955",
+  "StreamName": "SF Tolt R",
+  "graph_edge_id": 6116,
+  "longitude": -121.6888,
+  "latitude": 47.6928,
+  "request_sha256": "9fc13e0eee2ac7e430e154add5f2b606761c8b0a1caacd73e59aebb2dba1ce17",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\017e06cad8d0_9fc13e0eee2a",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:16:22.895149+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

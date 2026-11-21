@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:43601",
+  "review_number": 327,
+  "SiteId": "896186",
+  "StreamName": "Wallace R",
+  "graph_edge_id": 6130,
+  "longitude": -121.6489,
+  "latitude": 47.8741,
+  "request_sha256": "c4600fa4d4b991b044443ebab6e1c1b86ff3c65c63322f6171e3fe30638d8703",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\e10f9c122cf4_c4600fa4d4b9",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:49.801814+00:00",
+  "error": ""
+}

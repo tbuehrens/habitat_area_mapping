@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:63396",
+  "review_number": 899,
+  "SiteId": "891590",
+  "StreamName": "Deer Horn Cr",
+  "graph_edge_id": 3432,
+  "longitude": -121.8579,
+  "latitude": 48.9056,
+  "request_sha256": "bf17571082af98b0535e129e3cd49b581172b810f4540161e18c81045bb5c205",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ca083071e36d_bf17571082af",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:25:00.705911+00:00",
+  "error": ""
+}

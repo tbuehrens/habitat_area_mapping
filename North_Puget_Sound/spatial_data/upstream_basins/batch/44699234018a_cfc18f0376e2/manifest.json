@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51939",
+  "review_number": 554,
+  "SiteId": "895493",
+  "StreamName": "Lime Cr",
+  "graph_edge_id": 3797,
+  "longitude": -121.2792,
+  "latitude": 48.2191,
+  "request_sha256": "cfc18f0376e28bc318d7b45669e3f3cf60e2cc28d59a9fc6daee723bdb173270",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\44699234018a_cfc18f0376e2",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:46.163902+00:00",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51581",
+  "review_number": 536,
+  "SiteId": "896367",
+  "StreamName": "Clear Cr",
+  "graph_edge_id": 6153,
+  "longitude": -121.5747,
+  "latitude": 48.1879,
+  "request_sha256": "074bee4f151d052bf61adf1ece3264cf90244a705368d7d3a59f65ee8c5f93ad",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\87a5a52ee467_074bee4f151d",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:28.014308+00:00",
+  "error": ""
+}

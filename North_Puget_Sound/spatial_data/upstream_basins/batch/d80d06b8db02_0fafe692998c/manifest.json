@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:35111",
+  "review_number": 108,
+  "SiteId": "891926",
+  "StreamName": "Taylor R",
+  "graph_edge_id": 4913,
+  "longitude": -121.4487,
+  "latitude": 47.5765,
+  "request_sha256": "0fafe692998cbdb73a309e61e5b70e62bbdfd39d9ff6d5b32c1287d55854983d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d80d06b8db02_0fafe692998c",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:16:09.532332+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

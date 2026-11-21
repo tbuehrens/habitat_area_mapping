@@ -1,0 +1,7 @@
+source("R/barrier_stream_identity.R")
+source("R/stream_edge_identity.R")
+source("R/nldi_delineation.R")
+selected<-readRDS("spatial_data/phase1_validation/phase1_selected_totals.rds")
+edges<-sf::st_read("outputs/review_swifd_connections/North_Puget_Sound_Steelhead.gpkg",layer="stream_matching_edges",quiet=TRUE)
+prepare_phase1_basin_requests(selected,edges)
+cat("Prepared",nrow(selected),"requests using symmetric25m NLDIcourse tangent halfspan\n")

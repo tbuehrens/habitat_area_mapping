@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:59116",
+  "review_number": 809,
+  "SiteId": "890482",
+  "StreamName": "Newhalem Cr",
+  "graph_edge_id": 3461,
+  "longitude": -121.243780064591,
+  "latitude": 48.6584692360414,
+  "request_sha256": "756de2562c46bf750f0c1c89db9f92aefe3e17ff69b6985aeb726df378dd217a",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\31b7b7f8374d_756de2562c46",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:38:08.615471+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24255169",
+  "reference_stream_name": "Newhalem Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 15.15794736016541,
+  "route_max_heading_degrees": 35.4404057080243
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:61697",
+  "review_number": 870,
+  "SiteId": "895308",
+  "StreamName": "Porter Cr",
+  "graph_edge_id": 5248,
+  "longitude": -122.1109,
+  "latitude": 48.7947,
+  "request_sha256": "e96f66180f43e27f52d2d7387e000127fb356fcdd2e1fbaf53a05ba1fad978a0",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\b44fddedaad2_e96f66180f43",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:22.869036+00:00",
+  "error": ""
+}

@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:54418",
+  "review_number": 644,
+  "SiteId": "890146",
+  "StreamName": "Tenas Cr",
+  "graph_edge_id": 6186,
+  "longitude": -121.4314446524,
+  "latitude": 48.3367400972443,
+  "request_sha256": "65378034c8b68181bbec64b8cd56561a0b5653c774e0c71a24a3474927614b16",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\75c805541659_65378034c8b6",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:34:12.098150+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24265427",
+  "reference_stream_name": "Tenas Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.42857142857142855,
+  "route_max_distance_m": 25.685080583277358,
+  "route_max_heading_degrees": 58.57556970523526
+}

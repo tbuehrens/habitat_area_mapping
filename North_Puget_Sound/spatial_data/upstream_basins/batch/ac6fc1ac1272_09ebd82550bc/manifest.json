@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:52618",
+  "review_number": 575,
+  "SiteId": "895392",
+  "StreamName": "Circle Cr",
+  "graph_edge_id": 3880,
+  "longitude": -121.3405,
+  "latitude": 48.2554,
+  "request_sha256": "09ebd82550bc9bc2e3b202bc2032785d1672ed53de728196a9742fc010ed6d38",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ac6fc1ac1272_09ebd82550bc",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:08.528026+00:00",
+  "error": ""
+}

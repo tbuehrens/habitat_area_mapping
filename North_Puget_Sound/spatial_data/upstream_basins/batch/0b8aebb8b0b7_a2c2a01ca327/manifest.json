@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:59903",
+  "review_number": 836,
+  "SiteId": "891840",
+  "StreamName": "Canyon Cr",
+  "graph_edge_id": 3212,
+  "longitude": -121.9845,
+  "latitude": 48.9157,
+  "request_sha256": "a2c2a01ca327a3d0da6ae16cee7d3e33e0907933f67fe4a0037fd1e781dd2c2d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\0b8aebb8b0b7_a2c2a01ca327",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:23:58.682595+00:00",
+  "error": ""
+}

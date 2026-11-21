@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55530",
+  "review_number": 685,
+  "SiteId": "895524",
+  "StreamName": "Finney Cr",
+  "graph_edge_id": 3712,
+  "longitude": -121.7776,
+  "latitude": 48.4113,
+  "request_sha256": "cde8416dad97b5579fa2aed80b484113a6a87610f0e71105bec9e3afc315e111",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\f45b18da797e_cde8416dad97",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:27.173431+00:00",
+  "error": ""
+}

@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:63118",
+  "review_number": 891,
+  "SiteId": "891754",
+  "StreamName": "Wells Cr",
+  "graph_edge_id": 3515,
+  "longitude": -121.791327319236,
+  "latitude": 48.8901434624385,
+  "request_sha256": "564fd4d42bc69eaf6d49fe2f260c66592deac013e6b74cb82a8f50d3a79bedf3",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\78d02c891058_564fd4d42bc6",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:39:57.335432+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956430",
+  "reference_stream_name": "Wells Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 49.827720027642336,
+  "route_max_heading_degrees": 31.005355041125274
+}

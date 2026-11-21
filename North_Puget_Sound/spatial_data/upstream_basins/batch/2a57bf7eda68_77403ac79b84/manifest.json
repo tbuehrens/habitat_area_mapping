@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:34715",
+  "review_number": 104,
+  "SiteId": "891099",
+  "StreamName": "Tokul Cr",
+  "graph_edge_id": 5197,
+  "longitude": -121.8256,
+  "latitude": 47.5571,
+  "request_sha256": "77403ac79b843b65217b1a055bd791a47c8cf571a6682900e61a135cc362bc52",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2a57bf7eda68_77403ac79b84",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:16:06.672492+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

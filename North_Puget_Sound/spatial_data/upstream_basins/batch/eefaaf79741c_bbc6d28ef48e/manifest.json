@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56105",
+  "review_number": 713,
+  "SiteId": "894601",
+  "StreamName": "Rocky Cr",
+  "graph_edge_id": 446,
+  "longitude": -122.0149,
+  "latitude": 48.4472,
+  "request_sha256": "bbc6d28ef48ebda3704f3c6f2f7be33a4b5a03d2896b40f9a94b0e666b79d311",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\eefaaf79741c_bbc6d28ef48e",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:53.194082+00:00",
+  "error": ""
+}

@@ -1,0 +1,23 @@
+{
+  "review_record_key": "5:34699",
+  "review_number": 5,
+  "SiteId": "983028",
+  "StreamName": "Tokul Cr",
+  "graph_edge_id": 5197,
+  "longitude": -121.8211,
+  "latitude": 47.5566,
+  "request_sha256": "bee9d74af027f11b1eec2ce9b2d6cb5d031339d1c3ec01340570b024b4b24c96",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\84025d7488da_bee9d74af027",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:15:30.377298+00:00",
+  "comid": "23970653",
+  "indexed_longitude": -121.8212337791086,
+  "indexed_latitude": 47.55641198312412,
+  "indexed_shift_m": 23.202467510364585,
+  "reference_stream_name": "Tokul Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 22.714564793559067,
+  "route_max_heading_degrees": 90
+}

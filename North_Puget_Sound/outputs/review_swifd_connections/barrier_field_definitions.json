@@ -1,0 +1,1297 @@
+{
+  "mode": "Untruncated geometry review; no barrier cuts are applied",
+  "service_urls": ["https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/5", "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/6"],
+  "FishPassageBarrierStatusCode": {
+    "field_meaning": "Whether a barrier is recorded; does not establish complete blockage",
+    "coded_values": {
+      "0": "N/A",
+      "10": "Yes",
+      "20": "No",
+      "99": "Unknown"
+    }
+  },
+  "PercentFishPassableCode": {
+    "field_meaning": "Coded percent passable; code 10, not code 0, means zero percent",
+    "coded_values": {
+      "0": "N/A",
+      "10": "0",
+      "20": "33",
+      "30": "67",
+      "40": "100",
+      "99": "Unknown"
+    }
+  },
+  "candidate_policy": "Only explicit zero-passability code or exact total-blockage descriptions, or an explicit user override, can identify a future-cut candidate. Unknown passability never establishes complete blockage. The location must be within 50 m, have a unique positively identified own-stream channel, and be clear of junction ambiguity. No cuts are applied.",
+  "identity_policy": "Search every physical channel within 50 m; compare its local course using multiple samples and headings against named hydrography with LLIDs, independent of fish distribution. Require a unique own-stream channel and unambiguous reference-route support. Unknown, unnamed, conflicting, competing-channel, or junction-ambiguous matches remain for manual review. Numbered location-review points are not necessarily approved stream assignments.",
+  "numbering_policy": "Preserve existing record-key/number assignments; append numbers for newly displayed in-radius points",
+  "source_metadata": [
+    {
+      "currentVersion": 11.5,
+      "cimVersion": "3.5.0",
+      "id": 5,
+      "name": "Natural Barrier - Verified",
+      "type": "Feature Layer",
+      "description": "A naturally occuring fish passage barrie.",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857,
+        "xyTolerance": 0.001,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -20037700,
+        "falseY": -30241100,
+        "xyUnits": 10000,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857,
+        "xyTolerance": 0.001,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -20037700,
+        "falseY": -30241100,
+        "xyUnits": 148923141.9284,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": -100000,
+        "mUnits": 10000
+      },
+      "copyrightText": "DFW Habitat Program Restoration Division",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriPMS",
+            "url": "f9a12def492624b5e261eb02c94b6128",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqklEQVQokWNhIBGwUEVDQ8N/pt+8381ai7lOEKXhF/+3BIb/DNUNDf81GxoYf+HV0DD1P8+vn99aGBgYJH/xfc9kYGCYiFfDr1/fKkCKIbz/NQ2T3s5vyBP+hFVD+cTvcgx//xUhCYn8+ssBMqAKqwamP387GBgZOVGs/M9QUN33bWprEddTFA3Vvd8s/jP+j8ASBpwMDP+bGRgYklA0QIOQCYsGFEByxAEAorw4mwofVpUAAAAASUVORK5CYII=",
+            "contentType": "image/png",
+            "width": 9,
+            "height": 8,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": false,
+      "extent": {
+        "xmin": -13884083.2013,
+        "ymin": 5709979.7375,
+        "xmax": -13020796.0104,
+        "ymax": 6275235.3445,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857,
+          "xyTolerance": 0.001,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -20037700,
+          "falseY": -30241100,
+          "xyUnits": 148923141.9284,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "StreamName",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "SiteRecordID",
+          "type": "esriFieldTypeDouble",
+          "alias": "SiteRecordID",
+          "domain": null
+        },
+        {
+          "name": "SiteId",
+          "type": "esriFieldTypeString",
+          "alias": "Site Id",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "SiteLatitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude",
+          "domain": null
+        },
+        {
+          "name": "SiteLongitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude",
+          "domain": null
+        },
+        {
+          "name": "SiteSTPLEasting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting",
+          "domain": null
+        },
+        {
+          "name": "SiteSTPLNorthing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing",
+          "domain": null
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Type",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "StreamName",
+          "type": "esriFieldTypeString",
+          "alias": "Stream Name",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "TributaryToName",
+          "type": "esriFieldTypeString",
+          "alias": "Tributary To Name",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "FishUseCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fish Use",
+          "domain": {
+            "type": "codedValue",
+            "name": "FishUse",
+            "description": "Valid FPDSI fish use status codes",
+            "codedValues": [
+              {
+                "name": "Missing",
+                "code": 0
+              },
+              {
+                "name": "Yes",
+                "code": 10
+              },
+              {
+                "name": "No",
+                "code": 20
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "FishUseCriteriaCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fish Use Criteria",
+          "domain": {
+            "type": "codedValue",
+            "name": "FishUseCriteria",
+            "description": "Criteria used to establish fish use",
+            "codedValues": [
+              {
+                "name": "Other",
+                "code": 10
+              },
+              {
+                "name": "Biological",
+                "code": 11
+              },
+              {
+                "name": "Physical",
+                "code": 12
+              },
+              {
+                "name": "Mapped",
+                "code": 13
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "RoadName",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name",
+          "length": 25,
+          "domain": null
+        },
+        {
+          "name": "RoadMilePostMeasurement",
+          "type": "esriFieldTypeDouble",
+          "alias": "Road Milepost",
+          "domain": null
+        },
+        {
+          "name": "FishPassageBarrierStatusCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Barrier?",
+          "domain": {
+            "type": "codedValue",
+            "name": "YesNoUnknown",
+            "description": "Yes, no or unkown domain",
+            "codedValues": [
+              {
+                "name": "NA",
+                "code": 0
+              },
+              {
+                "name": "Yes",
+                "code": 10
+              },
+              {
+                "name": "No",
+                "code": 20
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "FishPassageBarrierReasonCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Barrier Reason",
+          "domain": {
+            "type": "codedValue",
+            "name": "FishPassageBarrierReason",
+            "description": "The reason for identifying a fish passage feature as a barrier",
+            "codedValues": [
+              {
+                "name": "N/A",
+                "code": 0
+              },
+              {
+                "name": "WS Drop",
+                "code": 10
+              },
+              {
+                "name": "Slope",
+                "code": 11
+              },
+              {
+                "name": "Velocity",
+                "code": 20
+              },
+              {
+                "name": "Depth",
+                "code": 21
+              },
+              {
+                "name": "Tidegate",
+                "code": 30
+              },
+              {
+                "name": "Other",
+                "code": 31
+              },
+              {
+                "name": "Debris",
+                "code": 32
+              },
+              {
+                "name": "Undersized",
+                "code": 33
+              },
+              {
+                "name": "Failed",
+                "code": 34
+              },
+              {
+                "name": "Level B Required",
+                "code": 40
+              },
+              {
+                "name": "Insufficient Data",
+                "code": 41
+              },
+              {
+                "name": "Tidal Influence",
+                "code": 42
+              },
+              {
+                "name": "Control Inaccessible",
+                "code": 43
+              },
+              {
+                "name": "Grade Break",
+                "code": 44
+              },
+              {
+                "name": "Engineer Review Required",
+                "code": 45
+              },
+              {
+                "name": "Streambed Material",
+                "code": 46
+              },
+              {
+                "name": "Unspecified",
+                "code": 51
+              },
+              {
+                "name": "Rack",
+                "code": 12
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "PercentFishPassableCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Percent Passable",
+          "domain": {
+            "type": "codedValue",
+            "name": "PercentFishPassability",
+            "description": "The percent passable of the fish passage feature for migration of fish upsream or downstream",
+            "codedValues": [
+              {
+                "name": "N/A",
+                "code": 0
+              },
+              {
+                "name": "0",
+                "code": 10
+              },
+              {
+                "name": "33",
+                "code": 20
+              },
+              {
+                "name": "67",
+                "code": 30
+              },
+              {
+                "name": "100",
+                "code": 40
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "OwnerTypeCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Owner Type",
+          "domain": {
+            "type": "codedValue",
+            "name": "OwnershipType",
+            "description": "The valid FPDSI type of ownership where the site is located",
+            "codedValues": [
+              {
+                "name": "City",
+                "code": 1
+              },
+              {
+                "name": "County",
+                "code": 2
+              },
+              {
+                "name": "Federal",
+                "code": 3
+              },
+              {
+                "name": "Private",
+                "code": 4
+              },
+              {
+                "name": "State",
+                "code": 5
+              },
+              {
+                "name": "Tribal",
+                "code": 6
+              },
+              {
+                "name": "Other",
+                "code": 7
+              },
+              {
+                "name": "Port",
+                "code": 8
+              },
+              {
+                "name": "Drainage District",
+                "code": 9
+              },
+              {
+                "name": "Diking District",
+                "code": 10
+              },
+              {
+                "name": "Irrigation District",
+                "code": 11
+              },
+              {
+                "name": "Unknown",
+                "code": 12
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "Data Source",
+          "length": 60,
+          "domain": null
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Date",
+          "length": 15,
+          "domain": null
+        },
+        {
+          "name": "LinealGainMeasurement",
+          "type": "esriFieldTypeInteger",
+          "alias": "Lineal Gain",
+          "domain": null
+        },
+        {
+          "name": "PriorityIndexTotalQuantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Priority Index Total",
+          "domain": null
+        },
+        {
+          "name": "PotentialSpecies",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Species",
+          "length": 150,
+          "domain": null
+        },
+        {
+          "name": "BarrierCorrectionYearsText",
+          "type": "esriFieldTypeString",
+          "alias": "Barrier Correction Years",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "FormLinkURL",
+          "type": "esriFieldTypeString",
+          "alias": "Total Passage Summarry Report",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "SignificantReachCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Significant Reach ?",
+          "domain": {
+            "type": "codedValue",
+            "name": "YesNoUnknown",
+            "description": "Yes, no or unkown domain",
+            "codedValues": [
+              {
+                "name": "NA",
+                "code": 0
+              },
+              {
+                "name": "Yes",
+                "code": 10
+              },
+              {
+                "name": "No",
+                "code": 20
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "WRIANumber",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WRIA Number",
+          "domain": null
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectName",
+          "length": 15,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R294_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S257_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 2000,
+      "maxSelectionCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsAdvancedQueryRelated": true,
+        "supportsQueryRelatedPagination": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true,
+        "supportsCurrentUserQueries": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true
+    },
+    {
+      "currentVersion": 11.5,
+      "cimVersion": "3.5.0",
+      "id": 6,
+      "name": "Natural Barrier - Not Field Verified",
+      "type": "Feature Layer",
+      "description": "A naturally occuring fish passage barrie.",
+      "geometryType": "esriGeometryPoint",
+      "sourceSpatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857,
+        "xyTolerance": 0.001,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -20037700,
+        "falseY": -30241100,
+        "xyUnits": 10000,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857,
+        "xyTolerance": 0.001,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -20037700,
+        "falseY": -30241100,
+        "xyUnits": 148923141.9284,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": -100000,
+        "mUnits": 10000
+      },
+      "copyrightText": "DFW Habitat Program Restoration Division",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriPMS",
+            "url": "f9a12def492624b5e261eb02c94b6128",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqklEQVQokWNhIBGwUEVDQ8N/pt+8381ai7lOEKXhF/+3BIb/DNUNDf81GxoYf+HV0DD1P8+vn99aGBgYJH/xfc9kYGCYiFfDr1/fKkCKIbz/NQ2T3s5vyBP+hFVD+cTvcgx//xUhCYn8+ssBMqAKqwamP387GBgZOVGs/M9QUN33bWprEddTFA3Vvd8s/jP+j8ASBpwMDP+bGRgYklA0QIOQCYsGFEByxAEAorw4mwofVpUAAAAASUVORK5CYII=",
+            "contentType": "image/png",
+            "width": 9,
+            "height": 8,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": false,
+      "extent": {
+        "xmin": -13884083.2013,
+        "ymin": 5709979.7375,
+        "xmax": -13020796.0104,
+        "ymax": 6275235.3445,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857,
+          "xyTolerance": 0.001,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -20037700,
+          "falseY": -30241100,
+          "xyUnits": 148923141.9284,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "StreamName",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "SiteRecordID",
+          "type": "esriFieldTypeDouble",
+          "alias": "SiteRecordID",
+          "domain": null
+        },
+        {
+          "name": "SiteId",
+          "type": "esriFieldTypeString",
+          "alias": "Site Id",
+          "length": 20,
+          "domain": null
+        },
+        {
+          "name": "SiteLatitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude",
+          "domain": null
+        },
+        {
+          "name": "SiteLongitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude",
+          "domain": null
+        },
+        {
+          "name": "SiteSTPLEasting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting",
+          "domain": null
+        },
+        {
+          "name": "SiteSTPLNorthing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing",
+          "domain": null
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Type",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "StreamName",
+          "type": "esriFieldTypeString",
+          "alias": "Stream Name",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "TributaryToName",
+          "type": "esriFieldTypeString",
+          "alias": "Tributary To Name",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "FishUseCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fish Use",
+          "domain": {
+            "type": "codedValue",
+            "name": "FishUse",
+            "description": "Valid FPDSI fish use status codes",
+            "codedValues": [
+              {
+                "name": "Missing",
+                "code": 0
+              },
+              {
+                "name": "Yes",
+                "code": 10
+              },
+              {
+                "name": "No",
+                "code": 20
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "FishUseCriteriaCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fish Use Criteria",
+          "domain": {
+            "type": "codedValue",
+            "name": "FishUseCriteria",
+            "description": "Criteria used to establish fish use",
+            "codedValues": [
+              {
+                "name": "Other",
+                "code": 10
+              },
+              {
+                "name": "Biological",
+                "code": 11
+              },
+              {
+                "name": "Physical",
+                "code": 12
+              },
+              {
+                "name": "Mapped",
+                "code": 13
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "RoadName",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name",
+          "length": 25,
+          "domain": null
+        },
+        {
+          "name": "RoadMilePostMeasurement",
+          "type": "esriFieldTypeDouble",
+          "alias": "Road Milepost",
+          "domain": null
+        },
+        {
+          "name": "FishPassageBarrierStatusCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Barrier?",
+          "domain": {
+            "type": "codedValue",
+            "name": "YesNoUnknown",
+            "description": "Yes, no or unkown domain",
+            "codedValues": [
+              {
+                "name": "NA",
+                "code": 0
+              },
+              {
+                "name": "Yes",
+                "code": 10
+              },
+              {
+                "name": "No",
+                "code": 20
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "FishPassageBarrierReasonCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Barrier Reason",
+          "domain": {
+            "type": "codedValue",
+            "name": "FishPassageBarrierReason",
+            "description": "The reason for identifying a fish passage feature as a barrier",
+            "codedValues": [
+              {
+                "name": "N/A",
+                "code": 0
+              },
+              {
+                "name": "WS Drop",
+                "code": 10
+              },
+              {
+                "name": "Slope",
+                "code": 11
+              },
+              {
+                "name": "Velocity",
+                "code": 20
+              },
+              {
+                "name": "Depth",
+                "code": 21
+              },
+              {
+                "name": "Tidegate",
+                "code": 30
+              },
+              {
+                "name": "Other",
+                "code": 31
+              },
+              {
+                "name": "Debris",
+                "code": 32
+              },
+              {
+                "name": "Undersized",
+                "code": 33
+              },
+              {
+                "name": "Failed",
+                "code": 34
+              },
+              {
+                "name": "Level B Required",
+                "code": 40
+              },
+              {
+                "name": "Insufficient Data",
+                "code": 41
+              },
+              {
+                "name": "Tidal Influence",
+                "code": 42
+              },
+              {
+                "name": "Control Inaccessible",
+                "code": 43
+              },
+              {
+                "name": "Grade Break",
+                "code": 44
+              },
+              {
+                "name": "Engineer Review Required",
+                "code": 45
+              },
+              {
+                "name": "Streambed Material",
+                "code": 46
+              },
+              {
+                "name": "Unspecified",
+                "code": 51
+              },
+              {
+                "name": "Rack",
+                "code": 12
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "PercentFishPassableCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Percent Passable",
+          "domain": {
+            "type": "codedValue",
+            "name": "PercentFishPassability",
+            "description": "The percent passable of the fish passage feature for migration of fish upsream or downstream",
+            "codedValues": [
+              {
+                "name": "N/A",
+                "code": 0
+              },
+              {
+                "name": "0",
+                "code": 10
+              },
+              {
+                "name": "33",
+                "code": 20
+              },
+              {
+                "name": "67",
+                "code": 30
+              },
+              {
+                "name": "100",
+                "code": 40
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "OwnerTypeCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Owner Type",
+          "domain": {
+            "type": "codedValue",
+            "name": "OwnershipType",
+            "description": "The valid FPDSI type of ownership where the site is located",
+            "codedValues": [
+              {
+                "name": "City",
+                "code": 1
+              },
+              {
+                "name": "County",
+                "code": 2
+              },
+              {
+                "name": "Federal",
+                "code": 3
+              },
+              {
+                "name": "Private",
+                "code": 4
+              },
+              {
+                "name": "State",
+                "code": 5
+              },
+              {
+                "name": "Tribal",
+                "code": 6
+              },
+              {
+                "name": "Other",
+                "code": 7
+              },
+              {
+                "name": "Port",
+                "code": 8
+              },
+              {
+                "name": "Drainage District",
+                "code": 9
+              },
+              {
+                "name": "Diking District",
+                "code": 10
+              },
+              {
+                "name": "Irrigation District",
+                "code": 11
+              },
+              {
+                "name": "Unknown",
+                "code": 12
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "Data Source",
+          "length": 60,
+          "domain": null
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Date",
+          "length": 15,
+          "domain": null
+        },
+        {
+          "name": "LinealGainMeasurement",
+          "type": "esriFieldTypeInteger",
+          "alias": "Lineal Gain",
+          "domain": null
+        },
+        {
+          "name": "PriorityIndexTotalQuantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Priority Index Total",
+          "domain": null
+        },
+        {
+          "name": "PotentialSpecies",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Species",
+          "length": 150,
+          "domain": null
+        },
+        {
+          "name": "BarrierCorrectionYearsText",
+          "type": "esriFieldTypeString",
+          "alias": "Barrier Correction Years",
+          "length": 50,
+          "domain": null
+        },
+        {
+          "name": "FormLinkURL",
+          "type": "esriFieldTypeString",
+          "alias": "Total Passage Summarry Report",
+          "length": 254,
+          "domain": null
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "SignificantReachCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Significant Reach ?",
+          "domain": {
+            "type": "codedValue",
+            "name": "YesNoUnknown",
+            "description": "Yes, no or unkown domain",
+            "codedValues": [
+              {
+                "name": "NA",
+                "code": 0
+              },
+              {
+                "name": "Yes",
+                "code": 10
+              },
+              {
+                "name": "No",
+                "code": 20
+              },
+              {
+                "name": "Unknown",
+                "code": 99
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "WRIANumber",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WRIA Number",
+          "domain": null
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectName",
+          "length": 15,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "R294_pk",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "S257_idx",
+          "fields": "Shape",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 2000,
+      "maxSelectionCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsAdvancedQueryRelated": true,
+        "supportsQueryRelatedPagination": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": true,
+        "supportsCurrentUserQueries": true
+      },
+      "supportsDatumTransformation": true,
+      "advancedQueryAnalyticCapabilities": {
+        "supportsLinearRegression": true,
+        "supportsAsync": false,
+        "supportsPercentileAnalytic": true
+      },
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:42412",
+  "review_number": 309,
+  "SiteId": "891144",
+  "StreamName": "Duffey Cr",
+  "graph_edge_id": 4733,
+  "longitude": -121.688094591445,
+  "latitude": 47.8361003170375,
+  "request_sha256": "6e862147d0f6d950569821c42954b6b6f6f2a95cec19c9f9976f84ea80286520",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\55ba331112ad_6e862147d0f6",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:28:59.234877+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23963017",
+  "reference_stream_name": "Duffey Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 31.722333484626148,
+  "route_max_heading_degrees": 44.83623048365687
+}

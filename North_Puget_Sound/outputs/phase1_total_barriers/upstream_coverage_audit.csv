@@ -1,0 +1,264 @@
+"review_record_key","own_cut_applied","covered_by_downstream_basin","covering_basin_key","coverage_status","upstream_comid","covering_outlet_comid","model_boundary_distance_m","indexed_boundary_distance_m","proof_method","cached_course_revalidated","cached_course_tangent_halfspan_m","same_comid_upstream_gap_m","cached_course_coverage","published_flowdir","cached_reference_md5","complete_upstream_coverage"
+"5:34695",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"5:34699",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"5:41473",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"5:60986",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"5:63386",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:30985",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:31009",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:32698",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:34179",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:34711",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23970537",,,,,TRUE,25,,1,"with digitized","873f41916e202ac330f316f7c41c0f1e",FALSE
+"6:34715",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:35111",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:36427",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:36499",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:37806",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:38157",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:38259",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:38358",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:38417",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:38553",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23970891",,,,,TRUE,25,,1,"with digitized","ea42d25a3b870fee12c9ab630eff8936",FALSE
+"6:38591",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:38689",FALSE,TRUE,"6:38259","covered_by_downstream_approved_basin_own_cut_not_applied","23970779","23970779",746.13260661196,746.421695812369,"same_COMID_published_WithDigitized_order_over_100m_both_cached_courses_revalidated_and_both_points_deep_inside",TRUE,25,1766.08668634547,1,"with digitized","e5a2f889943e97828d8b329e2d97ada4",TRUE
+"6:38778",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:38874",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:40992",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:41010",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:41122",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23964309",,,,,TRUE,25,,1,"with digitized","22add79391792197214030926ef05533",FALSE
+"6:41271",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:41334",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:41346",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:41694",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:41780",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:41812",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:42219",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23963547",,,,,TRUE,25,,0.857142857142857,"with digitized","c82f56e725300e02bb2dabd9d39a0215",FALSE
+"6:42228",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:42412",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:42521",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:42533",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:42574",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:42753",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23962979",,,,,TRUE,25,,1,"with digitized","7ef7794a20d295ec7a61b6cf03ce4710",FALSE
+"6:43034",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:43041",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:43045",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23963539",,,,,TRUE,25,,1,"with digitized","1dfb69bd4564280e73d361e69cc8bbcb",FALSE
+"6:43083",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23963539",,,,,TRUE,25,,1,"with digitized","1dfb69bd4564280e73d361e69cc8bbcb",FALSE
+"6:43422",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:43601",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:43635",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:43814",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23963685",,,,,TRUE,25,,1,"with digitized","27c512d148900d8a6ee5fd1ea1ca387b",FALSE
+"6:43878",FALSE,TRUE,"6:43635","covered_by_downstream_approved_basin_own_cut_not_applied","23963859","23963859",327.160108074239,323.660993705219,"same_COMID_published_WithDigitized_order_over_100m_both_cached_courses_revalidated_and_both_points_deep_inside",TRUE,25,784.627973276246,1,"with digitized","826d02e634b6d789a06c8f11416fde17",TRUE
+"6:44019",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23963685",,,,,TRUE,25,,0.857142857142857,"with digitized","27c512d148900d8a6ee5fd1ea1ca387b",FALSE
+"6:44084",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44282",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44312",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44396",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44412",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23964083",,,,,TRUE,25,,1,"with digitized","cabeefe41d3e3bc18b57ea49f9f14fc5",FALSE
+"6:44501",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44503",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23963653",,,,,TRUE,25,,1,"with digitized","55a04add4a9357997acadc7610a4ff63",FALSE
+"6:44720",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44774",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44796",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23964069",,,,,TRUE,25,,1,"with digitized","5e739cdde83b19ac87a6d8f62cffae4a",FALSE
+"6:44812",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44836",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:44987",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:45316",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:45410",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:45518",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:46542",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:46622",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24279448",,,,,TRUE,25,,1,"with digitized","9840101a24ce80bf12a9c4e9255cdc0f",FALSE
+"6:46929",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:47115",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:47159",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:47292",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:47316",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:47337",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24264987",,,,,TRUE,25,,1,"with digitized","7508b7df3cd6ac1d531ea07aa4bb27e3",FALSE
+"6:47373",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:47560",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:47632",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:47706",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:48192",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24264957",,,,,TRUE,25,,0.857142857142857,"with digitized","4c6d8f295340af8d3e88a1932bc7c195",FALSE
+"6:48832",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:49534",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24265827",,,,,TRUE,25,,1,"with digitized","c6ebea05b6fdf0cab403eace0346f223",FALSE
+"6:49738",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:49841",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:49981",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:50067",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24264899",,,,,TRUE,25,,1,"with digitized","6b1430556cd9e0062123b905d9b25df5",FALSE
+"6:50294",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24264899",,,,,TRUE,25,,1,"with digitized","b242e4d121bcfca8b2b99abb77623878",FALSE
+"6:50536",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:50812",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:50823",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:50888",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:51016",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:51069",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:51150",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51419",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51581",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51586",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:51667",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:51692",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51726",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51775",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51830",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51840",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51920",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:51939",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:51999",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52071",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52110",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24275215",,,,,TRUE,25,,1,"with digitized","c256442b36902bd2056be955b53d99cc",FALSE
+"6:52175",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52351",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52391",FALSE,TRUE,"6:52906","covered_by_downstream_approved_basin_own_cut_not_applied","24265153","24265153",1762.20986296308,1756.92847929752,"same_COMID_published_WithDigitized_order_over_100m_both_cached_courses_revalidated_and_both_points_deep_inside",TRUE,25,3563.74198458728,1,"with digitized","294767461e9fca32865add6ee044547a",TRUE
+"6:52500",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52575",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52576",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52618",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52647",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52652",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24274901",,,,,TRUE,25,,1,"with digitized","e5a2761c908030871bf1b8bc808169a4",FALSE
+"6:52891",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:52906",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:53022",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24265395",,,,,TRUE,25,,1,"with digitized","5daab1fca8dfb5c53bdae22a121a97e1",FALSE
+"6:53070",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:53136",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24265395",,,,,TRUE,25,,1,"with digitized","5daab1fca8dfb5c53bdae22a121a97e1",FALSE
+"6:53226",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:53232",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:53295",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:53565",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:53693",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:53751",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24275097",,,,,TRUE,25,,1,"with digitized","829ced63aff4c180c8cd1eebecd3a230",FALSE
+"6:53854",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:53933",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24274847",,,,,TRUE,25,,0.857142857142857,"with digitized","d9501e7d2e24fe5ca4095d0be848c477",FALSE
+"6:54105",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54167",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:54208",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:54228",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:54255",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54418",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54437",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:54477",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54521",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54530",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24265437",,,,,TRUE,25,,1,"with digitized","65ad8a6deafcbebfd4f7e1924635231d",FALSE
+"6:54571",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54599",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54699",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:54704",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54721",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54742",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:54782",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55136",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55354",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55408",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55434",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55440",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:55495",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:55530",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270502",,,,,TRUE,25,,1,"with digitized","778c8e9348aef267927882699c4d442d",FALSE
+"6:55566",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55621",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:55651",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:55745",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:55841",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55849",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24274813",,,,,TRUE,25,,1,"with digitized","888241aa0b651d6d94e4bad460b355e0",FALSE
+"6:55856",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:55896",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:55902",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24265487",,,,,TRUE,25,,1,"with digitized","956fc6f1af2f1e8ae0be6bcc75867817",FALSE
+"6:55940",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:55958",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:56010",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:56033",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270604",,,,,TRUE,25,,1,"with digitized","92fa80495484a966701544472c97d298",FALSE
+"6:56105",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270604",,,,,TRUE,25,,0.857142857142857,"with digitized","92fa80495484a966701544472c97d298",FALSE
+"6:56157",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:56239",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:56265",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24255089",,,,,TRUE,25,,1,"with digitized","f77c41c1264dec7074f25631dd70373b",FALSE
+"6:56384",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:56486",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:56513",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:56528",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:56676",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:56736",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:56798",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:56818",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:56866",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270576",,,,,TRUE,25,,1,"with digitized","fb6f7fbeb50d44eab4168df3c3133273",FALSE
+"6:56884",FALSE,TRUE,"6:57018","covered_by_downstream_approved_basin_own_cut_not_applied","24270478","24270478",469.994020448445,457.669992929548,"same_COMID_published_WithDigitized_order_over_100m_both_cached_courses_revalidated_and_both_points_deep_inside",TRUE,25,1071.03085777934,1,"with digitized","425a3f5aba34d41f6a8705ceceac683e",TRUE
+"6:56897",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:56930",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270592",,,,,TRUE,25,,1,"with digitized","b72dd1f2dd5ca3006460b548d073fd12",FALSE
+"6:56939",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:57010",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:57018",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:57060",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270462",,,,,TRUE,25,,1,"with digitized","cce800bc0b91193fc39aa5ba88f60a0e",FALSE
+"6:57072",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:57107",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:57164",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270462",,,,,TRUE,25,,1,"with digitized","cce800bc0b91193fc39aa5ba88f60a0e",FALSE
+"6:57176",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:57550",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:57644",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:57704",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24255863",,,,,TRUE,25,,1,"with digitized","6cfdde729910d4d3dc5d180d66c3bd64",FALSE
+"6:57713",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:57730",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24256197",,,,,TRUE,25,,1,"with digitized","7488accd22b38915f4745ab3b129e308",FALSE
+"6:58022",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58165",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24270654",,,,,TRUE,25,,1,"with digitized","d11f9a476f3e69d67b20b1d2792e37cb",FALSE
+"6:58177",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58207",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58311",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58440",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58479",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24255849",,,,,TRUE,25,,1,"with digitized","a54d33038267211676a83cff646250f5",FALSE
+"6:58629",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58678",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58689",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:58692",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:58697",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:58700",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:58718",FALSE,TRUE,"6:58692","covered_by_downstream_approved_basin_own_cut_not_applied","24255905","24255905",1460.12733921011,1452.79371695145,"same_COMID_published_WithDigitized_order_over_100m_both_cached_courses_revalidated_and_both_points_deep_inside",TRUE,25,1526.29894479191,0.857142857142857,"with digitized","215e4d382d8bd90c7f7f775aab652736",TRUE
+"6:58774",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956070",,,,,TRUE,25,,1,"with digitized","13b7f8e6976a17b52287ae8c316e112e",FALSE
+"6:58963",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956070",,,,,TRUE,25,,1,"with digitized","13b7f8e6976a17b52287ae8c316e112e",FALSE
+"6:59007",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59036",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59040",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24256863",,,,,TRUE,25,,1,"with digitized","87faa8b95c0b72a3e33fabc80409d944",FALSE
+"6:59077",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:59116",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:59136",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:59143",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59191",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:59474",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","24255835",,,,,TRUE,25,,1,"with digitized","6c0670d3f7aeea882122a68c052d6424",FALSE
+"6:59485",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59546",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59569",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956066",,,,,TRUE,25,,1,"with digitized","f5a9bb7aa6b0ebd8c11d669ad6672038",FALSE
+"6:59585",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23957314",,,,,TRUE,25,,1,"with digitized","1b10608ea20ee4112f79669145ca1576",FALSE
+"6:59615",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59635",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59646",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:59712",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:59903",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956494",,,,,TRUE,25,,0.857142857142857,"with digitized","2c12e80055588407683ed07a316bc8cc",FALSE
+"6:60035",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956494",,,,,TRUE,25,,1,"with digitized","2c12e80055588407683ed07a316bc8cc",FALSE
+"6:60158",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:60231",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:60321",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956206",,,,,TRUE,25,,1,"with digitized","42dfcaa59c3d7297a27874d206514ffe",FALSE
+"6:60361",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:60436",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:60592",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956208",,,,,TRUE,25,,1,"with digitized","4f830ca0712c76efc98b7ea2d34cd20d",FALSE
+"6:60791",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:60834",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:61193",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:61416",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:61697",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:61956",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:62184",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:62308",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:62628",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:62730",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956560",,,,,TRUE,25,,1,"with digitized","4f32ce43def4a8b2692eac68ff5cebc2",FALSE
+"6:62732",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:62792",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:62799",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:62999",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:63022",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956262",,,,,TRUE,25,,1,"with digitized","194acc335434383d56f72c3bde73b4bf",FALSE
+"6:63030",FALSE,FALSE,,"pending_no_independent_downstream_basin_proof","23956432",,,,,TRUE,25,,1,"with digitized","8fd497d19b9073a97475ad6817d76277",FALSE
+"6:63069",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:63118",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:63171",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:63199",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:63331",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:63359",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:63363",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"6:63396",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:63399",FALSE,FALSE,,"pending_own_cached_nldi_course_not_revalidated",,,,,,FALSE,,,,,,FALSE
+"6:63422",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE
+"user_override:Gorge_Dam",TRUE,FALSE,,"own_complete_basin_approved",,,,,,FALSE,,,,,,TRUE

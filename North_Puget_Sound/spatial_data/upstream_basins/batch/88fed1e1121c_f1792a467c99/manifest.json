@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:48192",
+  "review_number": 464,
+  "SiteId": "895778",
+  "StreamName": "SF Sauk R",
+  "graph_edge_id": 4236,
+  "longitude": -121.3997,
+  "latitude": 48.0739,
+  "request_sha256": "f1792a467c9906a5cc1d198c0cda14d647f4be1a2828534600ef3dd1f637cde0",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\88fed1e1121c_f1792a467c99",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:56.284855+00:00",
+  "error": ""
+}

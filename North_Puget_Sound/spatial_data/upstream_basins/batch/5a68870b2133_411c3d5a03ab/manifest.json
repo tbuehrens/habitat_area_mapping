@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:58678",
+  "review_number": 794,
+  "SiteId": "892547",
+  "StreamName": "Deer Cr",
+  "graph_edge_id": 5261,
+  "longitude": -122.093324077177,
+  "latitude": 48.6087988429195,
+  "request_sha256": "411c3d5a03ab3a344c9f1d6e17c042a35d3e8c3f8c5c5b80378f81502756434b",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\5a68870b2133_411c3d5a03ab",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:37:31.022217+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23957358",
+  "reference_stream_name": "Deer Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 83.97187345916683,
+  "route_max_heading_degrees": 22.187504350569064
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:52652",
+  "review_number": 581,
+  "SiteId": "890651",
+  "StreamName": "French Cr",
+  "graph_edge_id": 4017,
+  "longitude": -121.787,
+  "latitude": 48.2533,
+  "request_sha256": "b3ea3eed7c967e339dbd99b8227da18c49702df9db36d23364d8a9dda0d23a83",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d2fe01363fa3_b3ea3eed7c96",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:10.346278+00:00",
+  "error": ""
+}

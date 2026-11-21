@@ -1,0 +1,881 @@
+PDF PAGE 28
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document xxvi April 2024 
+Figure 4-75. Proportion of New Redds Identified by Month for Lower SFT River and Mainstem Tolt River 
+Winter Steelhead Spawners for 2001 to 2022 .......................................................................................... 281 
+Figure 4-76. Adult Winter Steelhead Redd Counts within the Lower SFT, NFT, and Mainstem Tolt Rivers, 
+from 2001 to 2023 .................................................................................................................................... 282 
+Figure 4-77. Number of Bull Trout Enumerated at Sunset Falls Trap and from Skykomish River 
+Escapement Surveys between 2001—2022 ............................................................................................. 291 
+Figure 4-78. Length frequency histogram for Cutthroat Trout captured in the Upper SFT River during July 
+2007 .......................................................................................................................................................... 294 
+Figure 4-79. Length frequency histogram for adfluvial Cutthroat Trout captured in the SFT Reservoir 
+during October 2007 ................................................................................................................................. 294 
+Figure 4-80. Length Frequency Histogram for Cutthroat Trout Captured in the Lower SFT River during 
+Ecological Sampling Between 2010 and 2023 .......................................................................................... 295 
+Figure 4-81. Mountain Whitefish Observations from Snorkel Sampling in the Lower SFT and NFT Rivers 
+from 2001 to 2022 .................................................................................................................................... 298 
+Figure 4-82. Water Typing for Tributaries Draining into the SFT Reservoir.............................................. 309 
+Figure 4-83. Documented Resident Fish Distribution Within SFT Reservoir Tributaries .......................... 311 
+Figure 4-84. View of SFT Reservoir and Intake Tower Infrastructure ....................................................... 313 
+Figure 4-85. View of SFT Falls at River Mile 7.8 on Lower SFT River ........................................................ 317 
+Figure 4-86. Lower SFT River and tributaries downstream of SFT Dam ................................................... 318 
+Figure 4-87. Aerial Photograph of a Typical Transport Reach with Confined Channel and Step Pool 
+Habitat Located above the Canyon Reach within the Lower SFT River .................................................... 319 
+Figure 4-88. Aerial Photograph of Typical Habitat Conditions within a Response Reach Located 
+Downstream of the Canyon Reach within the Lower SFT River ............................................................... 319 
+Figure 4-89. Representative Habitat Conditions Within Canyon Reach of the Lower SFT River .............. 320 
+Figure 4-90. Mean fall steelhead observations per surveyed river mile within the Lower SFT and NFT 
+Rivers from 1989-2021.............................................................................................................................. 321 
+Figure 4-91. Cumulative Chinook Salmon Redd Density by Reach within Lower SFT River from 2005-2022
+ .................................................................................................................................................................. 322 
+Figure 4-92. Cumulative Summer Steelhead Redd Density by Reach within Lower SFT River for 2010-2023
+ .................................................................................................................................................................. 323 
+Figure 4-93. Cumulative Winter Steelhead Redd Density by Reach within Lower SFT and Mainstem Tolt 
+Rivers from 2005, 2010-2023 .................................................................................................................... 324 
+Figure 4-94. Before and After Photographs of LWD Placement at RM 4.6 within the Lower SFT River .. 330 
+Figure 4-95. Vicinity map of Mainstem Tolt River and tributary habitats ................................................ 335 
+
+PDF PAGE 36
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 6 April 2024 
+Beyond water supply and hydropower, the SFT River provides important habitat to many fish and 
+wildlife. There are five native anadromous species of salmon in the Lower SFT River, including summer 
+and winter steelhead. The salmon species, with the exception of summer steelhead, inhabit the first 2.5 
+miles of the Lower SFT River to spawn and rear. The summer steelhead, one of only a handful of 
+populations identified in Puget Sound, are able to navigate the Lower SFT River’s steep mile-long canyon 
+reach, made up of cascades and chutes, to access an additional four miles of river between the top of 
+the canyon reach and the SFT Falls, a double waterfall with a combined height of over 70 feet. The SFT 
+Dam is located approximately 0.5 miles upstream of the SFT Falls.  
+From the SFT Reservoir, water is released from a service conduit and/or spillway immediately below the 
+SFT Dam back into the Lower SFT River and is also routed through a Penstock (a pipe that conveys water 
+to a turbine) approximately 5 miles to the Powerhouse. Water is directed from the Powerhouse and 
+then discharged into a Regulating Basin before being conveyed to the Tolt Water Treatment Facility for 
+water supply purposes. Occasionally to support dam safety and/or flood management objectives (less 
+than 5% of the year), water is also discharged from the Powerhouse directly into the Lower SFT River, 
+along with discharge to the Regulating Basin.  
+Power from the Project is transmitted via an approximately 9-mile-long City Light Electric Transmission 
+Line to the Stillwater Substation in a shared utility corridor with SPU’s Water Transmission Line. 
+The City owns the majority of land necessary for the operation and maintenance of the Project (i.e., 
+FERC Project Boundary) except for small sections of the Tolt Access Road to the Regulating Basin for 
+which it has a right-of way (ROW). There are no federal lands within the FERC Project Boundary.  
+Regarding lands in the Project Vicinity that are outside the FERC Project Boundary, two-thirds of the 
+watershed above the SFT Dam, referred to as the Upper SFT Watershed, is forested land that is owned 
+and managed by the City; the remaining one-third of the Upper SFT Watershed is owned and managed 
+by the U.S. Forest Service (USFS). Notably, the City-owned lands are closed to public access to protect 
+the quality of the public water supply per City Code 21.12.050. Most of the land surrounding the Lower 
+SFT River, downstream of the SFT Dam, is privately owned and managed as a working forest.  
+The Current FERC License 
+The current license for the Project was issued by FERC in March 1984. The Tulalip Tribes and federal and 
+state resource agencies filed motions to intervene in the relicensing proceeding, focusing primarily on 
+the need for adequate long-term provisions for managing instream flows, habitat restoration, and 
+monitoring salmon redds and water temperature. In July 1984, FERC issued a stay of the license pending 
+further environmental review. City Light, on behalf of the City, filed a Settlement Agreement with FERC 
+in 1988 between the City, the Tulalip Tribes, and federal and state resource agencies. The Settlement 
+Agreement included fish and wildlife protection, mitigation, and enhancement (PME) measures and 
+post-licensing studies proposed to be incorporated into the license. The Settlement Agreement was 
+approved by FERC, its terms and provisions were incorporated into the license, and the stay was lifted in 
+1989.  
+
+PDF PAGE 130
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 108 April 2024 
+4.1.5 Climate 
+This section describes regional climate trends within the Snohomish Watershed. Where data exist, 
+descriptions will focus preferentially on the SFT Watershed. Impacts of climate and climate change on 
+resource areas will be discussed in relevant subsections.  
+4.1.5.1 Current Climate 
+The SFT Watershed has a temperate marine climate with warm, dry summers and cool, mild, wet 
+winters. Temperatures in the SFT Watershed typically dip below freezing during winter months and 
+reach about 25°C (77°F) in the summer months (USGS Gage 12147900, WY 1991 – WY 2023). In the 
+Snohomish Watershed, most of the annual precipitation is in the form of winter snow in the humid 
+mountainous regions (approximately Elevation 5000 to 7500 feet) and in the form of mixed snow and 
+rain in the lower elevations (Elevation 5000 feet to sea level). In the Cascade Range, annual precipitation 
+ranges from about 150 to 200 inches (SPU 2011). Average annual precipitation in the SFT Watershed is 
+approximately 105 inches (NCEI Gage USC00458508, WY 1996 – WY 2023).  
+The largest pattern of natural variability within the global climate system is the El Niño–Southern 
+Oscillation (ENSO). There are two phases to this oscillation, denoted as the El Niño phase and the La 
+Niña phase. The El Niño phase of the oscillation is characterized by warmer-than-normal temperatures 
+in the eastern equatorial Pacific that results in a greater chance of warmer and drier Pacific Northwest 
+weather conditions during the winter and spring (Mote et al. 2013). The La Niña phase of the oscillation 
+is characterized by cooler-than-normal temperatures in the eastern equatorial Pacific that results in a 
+higher chance of a cooler and wetter Pacific Northwest during the winter and spring (Mote et al. 2013). 
+ENSO events occur with a frequency of approximately every 2 to 8 years (Brunn et al. 2017). 
+“Atmospheric River” is the name given to a specific type of meteorological precipitation event 
+characterized by oceanic atmospheric pressure systems that generate narrow, elongated swaths of 
+warm, moist air originating in tropical latitudes that carry large amounts of water vapor to mid-latitudes 
+of the eastern Pacific Ocean. Atmospheric rivers provide a substantial portion of the western North 
+American precipitation, including the Pacific Northwest and SFT Watershed. They can also cause major 
+flooding events either directly or because of rain-on-snow events (Dettinger 2011). The West Coast 
+experiences on average 24 atmospheric rivers a year, mostly in the late fall and winter (Yang and Hyemi 
+2019).  
+Puget Sound Convergence Zone (PSCZ) events can also locally affect the Snohomish Watershed, and 
+occasionally the SFT Watershed. A PSCZ event occurs when strong westerly winds split around the 
+Olympic Mountains and reconverge over Puget Sound, causing narrow bands of precipitation (NOAA 
+n.d.). These events typically occur dozens of times per year, and usually in the late spring (Chien and 
+Mass, 1997). 
+Meteorological data is available from several meteorological stations in the Tolt Watershed, as shown in 
+Figure 4-4 and Table 4-4. 
+
+PDF PAGE 232
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 210 April 2024 
+increased and fecal coliform bacteria have decreased from an early monitoring period of 2003 to 2005 
+to a more recent monitoring period of 2011 to 2023. Total suspended solids are low and pH is neutral in 
+the Tolt River (Sargeant and Svrjcek 2008).  
+4.3.6 Known or Potential Effects 
+This section describes the effects on water resources of continued operation of the Project under a new 
+license, which include direct, indirect, and cumulative effects as defined by the CEQ regulations at 40 
+CFR § 1508.1. Direct and indirect effects are described below. Due to the interconnected nature of the 
+hydroelectric and water supply projects, the independent effects of each are difficult to distinguish. 
+Therefore, effects of the Tolt Water Supply Project that cannot be easily distinguished from the 
+hydroelectric Project are conservatively included as direct and indirect effects. All other additional 
+actions and/or events that may incrementally contribute to effects on water resources are described 
+under Cumulative Effects, including any effects of the Tolt Water Supply Project that can be 
+distinguished from the hydroelectric Project. While cumulative effects under NEPA are Project-related 
+effects when added to other past, present, and reasonably foreseeable actions or events, they are listed 
+separately from direct and indirect effects in this PAD to distinguish them from such effects. 
+4.3.6.1 Direct and Indirect Effects 
+Known or potential direct or indirect effects on water resources that may result from continued 
+operation of the Project include the following: 
+• Instream flows: Flows in the Lower SFT River below the SFT Dam were first modified by the 
+construction of the Tolt Water Supply Project in a manner consistent with water storage 
+projects and continues to be modified after the addition of the hydroelectric Project. 
+Specifically, flow duration curves (Section 4.3.5.3) show that the Project creates more consistent 
+flows below the SFT Dam, with reduced magnitude and frequency of high flow events and 
+increased base flow in summer. The reduced variability of high flows are dampened by the 
+inflow of Lynch Creek to the Lower SFT River and the operation of the RRV, and further 
+downstream, they are difficult to observe in the Mainstem Tolt River due to the much larger and 
+unregulated flow of the NFT River. 
+• Water temperature in the Lower SFT River: During the original licensing, FERC concluded that 
+the thermal regime of the Lower SFT River would not be significantly altered by the Project, 
+provided that the City properly blends the temperature through water released by the multiple 
+level Intake Tower at the SFT Dam.  
+• Water temperature in the SFT Reservoir: The temperature of the SFT Reservoir is typical of low 
+-elevation, mid-latitude reservoirs. Available data need to be analyzed more thoroughly to 
+understand the potential impact of Project operations on temperature in the SFT Reservoir. 
+• Turbidity: Under low reservoir elevations, elevated turbidities can be observed in the Lower SFT 
+River. The extent or mechanisms for which Project operations affect turbidity are not clear. 
+
+PDF PAGE 239
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 217 April 2024 
+4.4.3.1 SFT River Process Domains and Geomorphic Reaches 
+Process domains along the SFT River are defined primarily by the boundaries of the different geological 
+provinces through which the river flows and the extent of glaciation. The Upper SFT River conveys 
+sediment from much of the Upper SFT Watershed into the SFT Reservoir. It can be divided into three 
+principal process domains. 
+• The headwaters flow out of Crater Lake, a glacial cirque61F61 carved into the north valley wall, 
+and are joined by steep alpine tributaries.  
+• Once the Upper SFT River reaches the main axis of the glacial valley at RM 16, the river flows 
+through a narrow (150-foot to 250-foot wide) inset valley incised 20 to 50 feet into the 
+surrounding glacial till plain.  
+• From about the confluence with Phelps Creek to the river’s delta into the reservoir, Tolt River 
+alluvium fills the whole 1,300-foot valley bottom width. RM alluvial segments of the Upper SFT 
+River generally decline in slope from about 0.1 in the upstream portion of the glacial valley (RM 
+16) to a minimum of about 0.01 at the delta apex (RM 13).  
+The SFT Reservoir fills about the same areas as had been occupied by the ice-marginal lake in the valley 
+during the Fraser glaciation (see Section 4.2.5.2). Tributaries to the SFT Reservoir are typically steep with 
+small watershed areas, as they flow down glacially-scoured slopes or from small cirque valleys (Section 
+4.2.5). Tributary bed material is typically cobble to boulder with some areas of bedrock exposure. 
+Typically only the relatively low gradient downstream-most segments of tributaries to the Upper SFT 
+River and Reservoir meet the physical criteria for fish habitat (described in detail in Section 4.5.4). 
+Below the SFT Dam, the Lower SFT River flows through a moderately to highly confined gorge incised 
+into glacial sediment and bedrock and is subject to landslides from the valley walls. The few tributaries 
+to the Lower SFT River typically have small drainage areas, as the surrounding glacial plateau is not 
+deeply dissected (Sections 4.2.5 and 4.4.7). Valley confinement and gradient control differences 
+between transport reaches and response reaches. Relatively steep and confined transport reaches 
+support very little storage of bed material sediment, while relatively less confined and gentle response 
+reaches support some storage of gravel and cobble-sized material and lateral geomorphic activity. The 
+transport reaches are often controlled by bedrock, including the 73-foot SFT Falls at RM 7.8. Bedrock 
+segments control the base level of upstream channel segments that are incised into and variably 
+confined by surrounding glacial sediment. Response reaches occupy broader valleys and include some 
+areas where a floodplain has developed.  
+Earth Systems and Parametrix (2003) divided the Lower SFT River below SFT Falls into ten geomorphic 
+reaches. An additional reach between the SFT Falls at SF RM 7.8 and the bottom of the SFT Dam where 
+flow is released at RM 8.2 was defined for this document. The reaches are delineated in Figure 4-52 and 
+characterized in Table 4-19, Table 4-20, and Table 4-21. Figure 4-53 shows the distribution of aquatic 
+ 
+61 A cirque is a bowl-shaped depression carved into the head of a mountain valley by an alpine glacier (Goudie 
+2004). See Section 4.2.3.1 for a description of the alpine glacial history of the SFT Watershed.  
+
+PDF PAGE 241
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 219 April 2024 
+Table 4-19. Lower SFT River Reach Morphology Data* 
+RM Reach Name(1) Slope Bed Material Morphology Planform Average Bankfull Width (ft) Valley Width (ft) Confinement Ratio 
+8.2-7.8 SF11 0.031 Boulder-Cobble Plane Bed Confined meanders No data 75 to150 1 to 2 
+7.8-7.8 SFT Falls 73-ft waterfall Bedrock Cascade Two-step waterfall with 22-ft upper falls and 51-ft lower falls.  NA NA NA 
+7.8-7.6 SF 10 (Falls) 0.028 Block-Boulder with localized bedrock Step pool to Plane Bed Confined irregular 53 75 1.4 
+7.6-6.9 SF 9 (Gage) 0.024 
+Boulder with 
+localized block and 
+cobble 
+Plane Bed to Step 
+Pool 
+Irregular confined 
+meanders 52 100 to 150 2 to 3 
+6.9-6.2 SF 8 (High Bridge) 0.022 Boulder-Cobble Plane Bed to Pool Riffle 
+Irregular confined 
+meanders, locally 
+anabranching (bar-scale 
+channel splits) 
+52 50 to 250 1 to 5 
+6.2-5.2 SF 7 (Lynch Creek) 0.025 Boulder with localized Cobble  Riffle-Run to Step Pool Irregular, part-confined meanders, local anabranching.  55 150 to 400 
+3 to 8 (berm 
+feature 
+disconnects 0.8 
+acres of 
+floodplain) 
+5.2-4.1 
+SF6 (Lynch 
+Creek 
+Downstream) 
+0.024(2)  
+Cobble-Boulder 
+(Blocks for 
+upstream 0.2 mi) 
+Riffle-Run to 
+Plane Bed 
+Irregular, part-confined 
+meanders, local 
+anabranching 
+57 80 to 800 1.4 to 14 
+4.1-3.5 SF5 (Pre Canyon) 0.021 Cobble-Boulder with Blocks Plane Bed with local Pool Riffle Irregular, part-confined meanders, local anabranching 62 80 to 520 1.3 to 8 
+3.5-2.5 SF4 (Canyon) 0.036 Boulder-Block with Bedrock Cascade to Step Pool, some 5- 10-ft high falls Constricted irregular No data 50 to 125 <1 to 1 
+
+PDF PAGE 243
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 221 April 2024 
+Table 4-20. SFT Geomorphic Unit Abundance (percent of total units observed in reach)* 
+Reach Name Chute Step Pool Boulder Riffle Riffle Boulder Run Run Pool/Riffle Pool Other 
+SF11 no data no data no data no data no data no data no data no data no data 
+SFT Falls 0% 0% 0% 0% 0% 0% 0% 0% 100% 
+SF10 2% 16% 8% 13% 22% 23% 0% 3% 14% 
+SF9 0% 31% 28% 3% 15% 17% 0% 6% 0% 
+SF8e 0% 8% 7% 51% 0% 21% 3% 9% 0% 
+SF7 0% 33% 14% 33% 0% 19% 0% 1% 0% 
+SF6 2% 19% 0% 53% 0% 24% 0% 2% 0% 
+SF5 0% 9% 10% 61% 2% 12% 0% 6% 0% 
+SF4 ”40% Cascades and Chutes, 60% pool and tail-out sections”(1) 
+SF3 9% 23% 1% 16% 10% 29% 0% 10% 2% 
+SF2 0% 37% 4% 37% 0% 15% 0% 7% 0% 
+SF1 5% 19% 18% 23% 2% 25% 0% 6% 1% 
+*Data, except as otherwise noted, summarized at reach-scale from Earth Systems and Parametrix (2003) 
+1 Chinook Engineering et al. (1993) 
+ 
+ 
+
+PDF PAGE 249
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 227 April 2024 
+1983), but gravel-size material was still being transported downstream from the landslide source area 
+through 2001 (Earth Systems and Parametrix 2003).  
+Overall, Earth Systems and Parametrix (2003) found that gravel supply to the Lower SFT River 
+downstream from RM 8.2 has been reduced due to the SFT Dam, and sediment transport is dominantly 
+supply-limited. There appears to be adequate supply of bedload to the Lower SFT River to maintain 
+gravel patches and bars except in the first 676 feet below SFT Falls. Further, Earth Systems and 
+Parametrix (2003) identified reduced sediment retention due to reduced influence of LWD as a principal 
+factor limiting the abundance of spawning-sized sediment in the Lower SFT River; this issue is addressed 
+in more detail in the next section (4.4.5) and in Section 4.5.3.7. 
+Riverbed Material and Sediment Mobilization Thresholds 
+Quantitative information about the bed material in the Lower SFT River is somewhat limited, with 
+observations only in select locations at RM 7.0, 6.9, 4.7, 2.4, 2.3 and 1.0. Qualitative characterization by 
+Ebasco Environmental (1993), summarized in Table 4-19, shows that it is dominated by block, boulder, 
+and cobble-sized sediment, with gravel-dominated areas generally occurring in restricted patches 
+around bed roughness elements including boulders and LWD, and in wider, lower-slope reaches. 
+Random-walk (Wolman 1954) pebble counts at the locations of USGS Gages 12148000 (RM 6.9) and 
+12148300 (RM 2.4), included in Ebasco Environmental (1993), show median grain size (D50)62 values of 
+35 and 50 mm and 90th percentile grainsize (D90) values of 124 and 122 mm, respectively for surface 
+material. Gendaszek et al. (2020) completed pebble counts at numerous locations of scour monitors, 
+which were located in relatively finer-grained areas where fish spawning occurs. In these areas, average 
+D50 values ranged from 25 to 42 mm, and D90 values ranged from 85 to 103 mm (Table 4-22).  
+Table 4-22. Summary of Pebble Counts and Scour Monitoring Data at Spawning Location Scour 
+Monitors* 
+USGS Scour 
+Monitoring Reach 
+SF RM (within 
+reach) 
+Average D50 (mm, 
+±1σ) 
+Average D90 (mm, 
+±1 σ) 
+Proportion 
+scoured to redd 
+depth in WY 
+2016 
+Sample Size (n) 
+A 7.0 (SF9) 25 ± 6 103 ± 82 60% 14 
+B 4.65-4.85 (SF6) 35 ± 11 88 ± 44 25% 12 
+C 2.3 (SF3) 34 ± 3 85 ± 16 33% 6 
+D 0.85-1.15 (SF1-2) 42 ± 10 94 ± 37 16% 20 
+* Data from Gendaszek et al. (2020) 
+The scour monitoring study (Gendaszek et al. 2020) provides the best currently available information 
+regarding the flow threshold required for initiation of gravel movement in the Lower SFT River 
+ 
+62 D50 and D90 denote the median (50th percentile) and 90th percentile diameters of grains from in individual sample. 
+These samples and those of Gendaszek et al (2020) were all based on Wolman (1954) type pebble counts of the 
+surface material.  
+
+PDF PAGE 254
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 232 April 2024 
+found more LWD, 182 pieces per mile counting jams and individual pieces greater than four inches 
+diameter (Earth Systems and Parametrix 2003). There were 17 jams per mile upstream of the canyon 
+reach and 21 jams per mile downstream. The 2001 survey also found that average wood diameter 
+increased downstream and that most of the wood was alder that was less than 1-foot in diameter. The 
+few channel-spanning jams were observed to be important for retaining sediment in the channel, as well 
+as creating pools, promoting bank erosion and channel migration, and promoting activation/creation of 
+secondary and side channels. Large single logs that spanned the channel retained sediment on the bed 
+and reduced the local channel grade. Both studies found the quantity of wood much less than what 
+would be found in a similar reference river in a natural condition, using a minimum LWD size of 4 inches 
+in diameter and 7 feet in length (Bilby and Ward 1989). This lack of wood is due to the area’s history of 
+extensive logging and potentially channel cleaning.  
+The Lower SFT and NFT valleys have been extensively logged since at least the mid-20th century; 
+however, the SFT less so in the last two decades. On the Lower SFT River, the most abundant streamside 
+wood supply was 10- to 40-year-old alders as of 2001, although there were also limited areas of large 
+conifers on the valley walls (Parametrix and Earth Systems 2003). 
+The City completed wood placement in the Lower SFT River as a mitigation measure based on findings of 
+the 1991 and 2001 gravel studies. In 2005, a pilot project downstream of the SFT canyon included two 
+ELJs and added 1 to 2 logs in 12 additional locations (Figure 4-54). The goals of the project were to 
+trigger channel response including side channel activation and reconnection, expand spawning areas, 
+recruit and capture spawning-size gravel, and enhance decaying jams (Abbe et al. 2012). This project 
+generally achieved these goals, particularly in the middle and downstream sections of the pilot project 
+area. Over 80% of the placed wood stayed in place or slightly shifted after a 20-year flow in 2007, and 
+about 50% stayed in place or shifted slightly after a 90-year flow in 2009 (Abbe et al. 2012). One of the 
+ELJs successfully activated an abandoned side channel, initiating channel migration, wood recruitment, 
+and the formation of an additional jam. Qualitative observations suggest these changes have supported 
+increased cover of gravel and smaller cobble substrates. Single-log placements on an existing island also 
+drove channel deflection and bank erosion (Abbe et al. 2012). 
+In 2020 and 2021, the City added additional wood to Reaches SF 1 through SF3 below the canyon and 
+SF 6 through SF 8 between the canyon and SFT Falls (Figure 4-54). A total of 192 trees were added in 
+2020 and 117 in 2021 at 47 main ELJ sites with an additional 23 placements of one to three pieces 
+(referred to as “habitat features” in Figure 4-54). Placed ELJ features included apex jams (typically a 4-
+layer jam placed at the head of a bar or island feature), deflector jams (two-layer jams placed along the 
+bank line to increase hydraulic heterogeneity), mid-channel jams (including 3-layer apex-type features 
+and channel-spanning features), and augmentation of existing jams with additional wood. Placed jams 
+have been observed to drive side channel activation as well as bank erosion, which has recruited at least 
+six additional large trees to the river. Hydraulic modeling of ELJ placement sites by Bailey (2023) shows 
+that they are expected to increase floodplain inundation during the 1.2-, 2-, and 5-year flood events, as 
+well as generally decreasing local velocities during 2- and 5-year floods, which could promote gravel 
+retention on the bed. Deflector-style jams can also increase velocities in certain local areas, promoting 
+scour and bank erosion. 
+
+PDF PAGE 257
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 235 April 2024 
+the lower six miles found that tree cover within a 150-foot buffer has increased by 11.8% since the early 
+2000s, to 85.7% (Kubo 2018).  
+4.4.6 Channel Migration 
+No detailed historical channel migration or channel migration zone delineation studies have been 
+completed along either the Upper or Lower SFT River. Channel migration along the Lower SFT River is 
+limited by extensive confinement by glacial and bedrock valley walls, the presence of coarse boulder and 
+block lag deposits, and vegetation reinforcing channel banks (Earth Systems and Parametrix 2003), even 
+in areas with a broader valley bottom where some features indicating channel past channel migration 
+have been observed (Earth Systems and Parametrix 2003). Earth Systems and Parametrix (2003) 
+identified moderate or active bank instability along about 4% of the inventoried portion of the Lower 
+SFT River banklines (the inventory excluded areas above SFT Falls and in the canyon reach). Reaches 
+with observed active bank erosion were lower-gradient alluvial reaches, including SF 7 (7.2% of the 
+reach bank length) and SF 6 (4.2%), SF 2 (5.5%), and SF 1 (6.3%), and areas still recovering from mass 
+wasting disturbance including SF 10 (6.5%) and SF 9 (4%). Bank erosion responses to the 2009 and 2020 
+floods have not been quantitatively evaluated. 
+Channel migration zone mapping based on detailed evaluation of historical channel migration rates and 
+patterns has been completed for the lower Mainstem Tolt River. Initial mapping was completed by 
+Shannon & Wilson Inc. (King County 1991) and subsequently updated by Butler (2017). Butler found that 
+average annual channel migration rates vary from 2 to 11 ft/yr. Higher channel migration rates are 
+observed in Reaches MS2 and MS3, which have typical erosion rates of 4 to 9 ft/yr, and the lowest rates 
+are observed in Reach MS1, MS4, and MS5, which are relatively confined and have erosion rates on the 
+order of 1 to 3 ft/ yr (Butler 2017). The mapped channel migration zone covers an approximately 500-
+foot-wide swath around the river channel in Reach MS5, nearly spans the valley in Reaches MS2 to MS4 
+due to potential avulsion paths along floodplain channels, and covers a nearly 2,000-foot-wide swath 
+across the alluvial fan reach (Reach 1).  
+
+PDF PAGE 260
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 238 April 2024 
+effects when added to other past, present, and reasonably foreseeable actions or events, they are listed 
+separately from direct and indirect effects in this PAD to distinguish them from such effects. 
+4.4.8.1 Direct and Indirect Effects 
+Known or potential direct or indirect effects on fluvial geomorphology that may result from continued 
+operation of the Project include the following: 
+• Sediment supply: The SFT Dam and ongoing Project operations have cut off coarse sediment 
+supply from the SFT Watershed upstream of the SFT Dam since 1963 (Butler 2017). Coarse 
+sediment is needed to maintain spawning habitat and the channel profile in alluvial reaches 
+(Section 4.5.2.7). As documented in Section 4.4.4.2, studies were completed under the 
+Settlement Agreement to evaluate this effect. Those studies found that there appears to be 
+adequate coarse sediment supply from local recruitment downstream of the SFT Dam to sustain 
+spawning patches and bars.  
+• Channel forming and maintenance flows: Project operations have reduced the magnitude and 
+duration of large flows in the Lower SFT River compared to a natural hydrograph (Section 
+4.3.5.3). This has likely reduced channel width, reduced bank erosion providing coarse sediment 
+and LWD to the channel, and reduced transport capacity for sediment and LWD. This regulation 
+of flood flows also reduces the frequency of flows capable of scouring redds (Section 4.4.4.2).  
+• Wood supply: The SFT Dam and ongoing Project operations have cut off wood supply from the 
+Upper SFT Watershed upstream of the SFT Dam since 1963 (Butler 2017). Limited management 
+of wood in the SFT Reservoir (Section 4.4.5.1) suggests this is a relatively small effect. Small 
+wood contributes to log jams by racking on existing LWD pieces and log jams, enlarging them 
+and increasing their hydraulic roughness (Abbe and Montgomery 2003, Manners et al. 2007).  
+These known or potential effects diminish with distance downstream of the SFT Dam and increasing 
+additional contributing area supplying these materials. Dramatic reductions in the magnitude of each 
+effect occur at the key confluences identified in Table 4-1. 
+4.4.8.2 Cumulative Effects 
+Potential cumulative effects on fluvial geomorphology resulting from continued operation of the Project, 
+together with other past, present, and reasonably foreseeable future actions and/or events, include the 
+following: 
+• Tolt Water Supply Project: The RM 7.5 landslide on the Lower SFT River (Section 4.2.4.3), where 
+instability was present before the SFT Dam was built, was influenced by filling of the SFT 
+Reservoir. Large movements of the slide following reservoir filling contributed a pulse of fine 
+and coarse sediment to the Lower SFT River just below the SFT Falls. Effects of fine sediment 
+were minimal within 3 to 5 years following the 1976 landslide, while gravel contributed by that 
+event likely continues to persist in the channel (Section 4.4.4.2).  
+
+PDF PAGE 262
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 240 April 2024 
+• Additional wood placement: In 2020 and 2021, the City added additional wood to alluvial 
+reaches downstream of SFT Falls. This project included the placement of more than 300 trees in 
+a variety of ELJ configurations described in Section 4.4.5.2. Preliminary monitoring and modeling 
+of channel response to these features suggest geomorphic changes like those observed in 
+response to the pilot study are beginning.  
+• Scour thresholds: The City manages discharge from the SFT Dam to protect redds from scour 
+flows. Historically, this included operational thresholds aimed at maintaining flows below 350 
+cfs and 550 cfs as measured at USGS Gages 12148000 and 12148300, respectively. A recent r edd 
+scour study (Gendaszek et al. 2020, described in Section 4.4.4.2) indicated that this threshold 
+was too conservative. In coordination with TFAC following review of these findings, the City 
+revised the operational threshold to 900 cfs for January 15 through September 1 and 1,100 cfs 
+for September 2 through January 14, for flows measured at USGS Gage 12148300 (Ablow 2017). 
+4.4.9.2 Proposed PME Measures 
+The City intends to continue the annual monitoring of the RM 7.5 landslide and manage flows to protect 
+against redd scour under the new license. The potential need for additional PME measures related to 
+fluvial geomorphology will be evaluated as part of the relicensing process. 
+4.4.10 References 
+Abbe, T., E. Ablow, S. Powell, D. Chapin, and A. Hook. 2012. Channel and floodplain restoration 
+downstream of dams: A success story from the South Fork Tolt River, WA. 
+Abbe, T.B. and D.R. Montgomery. 2003. Patterns and processes of wood debris accumulation in the 
+Queets river basin, Washington. Geomorphology, 51(1–3), 81–107. doi:10.1016/S0169-
+555X(02)00326-4. 
+Ablow, L. 2017. South Fork Tolt Scour Thresholds Issue Coordination and Decision Documentation. 
+Andrews, E.D. 1983. Entrainment of gravel from naturally sorted riverbed material. Geological Society of 
+America Bulletin, 94(10), 1225–1231. doi:10.1130/0016-7606(1983)94<1225:EOGFNS>2.0.CO;2. 
+Bailey. 2023. 2D HEC-RAS Model. 
+Bethel, J. 2004. An Overview of the Geology and Geomorphology of the Snoqualmie River Watershed. 
+Report prepared for King County Department of Natural Resources and Parks, Water and Land 
+Resources Division, Snoqualmie Watershed Forum. 
+Bilby, R.E. and J.W. Ward. 1989. Changes in characteristics and function of woody debris with increasing 
+size of streams in western Washington. Transactions of the American Fisheries Society, 118(4), 368–
+378. 
+
+PDF PAGE 296
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 274 April 2024 
+Atribute Descrip�on 
+Growth In Puget Sound, steelhead outmigrants can reach over 200 mm (Puget Sound 
+Partnership 2011). 
+Estuarine/Marine Residency 
+Estuarine/Marine Habitat 
+Characteris�cs 
+Steelhead do not rear extensively in estuaries or nearshore habitats. 
+Nevertheless, diverse riverine and estuarine channels with abundant wood and 
+complex river deltas help protect them from preda�on, largely from marine 
+mammals and birds (Gonor et al. 1988 as cited in NMFS 2019; Simenstad et al. 
+1982). The oceanic distribu�on of steelhead includes the Gulf of Alaska or the 
+waters south of the Aleu�an Islands (Light et al. 1989). 
+Diet Marine prey items include ﬁshes (e.g., juvenile rockﬁsh, sandlance, sculpins, and 
+greenling) and marine invertebrates (e.g., barnacle larvae, krill, copepods, 
+amphipods and squids; Wydoski and Whitney 2003). 
+Growth Steelhead may achieve 98% or more of their life�me growth in marine waters 
+(Quinn 2018). 
+Additional life history and population information from the Area of Interest is provided for summer and 
+winter steelhead in the subsections below. 
+Summer Steelhead 
+Life History and Ecology within Area of Interest 
+Summer steelhead occurring in the Lower SFT River are part of the Tolt River summer steelhead 
+demographically independent population (DIP) within the Puget Sound distinct population segment 
+(DPS; Myers et al. 2015). The Puget Sound DPS is ESA listed as threatened. Additional information on 
+Puget Sound steelhead ESA listing status and critical habitat is provided in Section 4.5.4. Within the DPS, 
+Tolt River summer steelhead are further categorized as part of the North Cascades Major Population 
+Group. The Lower SFT River population is composed of mostly native natural-origin steelhead (Warheit 
+and Seamons 2021). The general periodicity of life history phases is summarized in Figure 4-57. 
+Within the Area of Interest, summer steelhead spawn in the Lower SFT River upstream of the canyon 
+reach and downstream of SFT Falls (Section 4.5.3.7) during January through May (Figure 4-70). The 
+regular use of spawning habitat above the canyon reach is unique to summer steelhead and reflects 
+behavioral adaptations to seasonal changes in river hydraulics and flow. Summer steelhead enter 
+freshwater in a sexually immature state approximately 6 to 12 months before spawning in the late 
+winter or early spring. This early arrival time allows summer steelhead to access spawning reaches 
+higher within a watershed and transit areas that may be blocked by high flows in late fall and winter 
+months. Specifically, summer steelhead typically make use of headwater spawning habitats located 
+above canyons and falls that represent velocity barriers during high flow periods (NMFS 2019). 
+
+PDF PAGE 308
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 286 April 2024 
+Atribute Descrip�on 
+Diet Algae and microscopic organisms are the primary food source for ammocoetes 
+(WDFW 2015). 
+Growth Ammocoetes are ini�ally very small (< 10mm; Beamish and Youson 1987), but 
+a�er a period of several years of rearing and comple�on of metamorphosis, 
+young adult lamprey outmigrants reach a size of greater than 100 mm (Wydoski 
+and Whitney 2003). 
+Estuarine/Marine Residency 
+Estuarine/Marine Habitat 
+Characteris�cs 
+Adults have been documented in marine waters of Bri�sh Columbia, typically in 
+loca�ons where salinity is lower because of adjacent river inﬂows. Adults spend 
+less than a year in marine habitat before returning to fresh water to spawn 
+(Wydoski and Whitney 2003). 
+Diet River Lamprey are parasi�c/predatory as adults, consuming �ssue from salmon 
+and herring which may result in lethal injuries (Beamish 1980). Beamish and 
+Youson (1987) suggested that the predatory impact of River Lamprey on Fraser 
+River salmonids could be substan�al based on the es�mated abundance of 
+lamprey in the Strait of Georgia. 
+Growth Once adults enter marine habitats they feed for approximately four or ﬁve 
+months, gaining almost 25 mm per month (Wydoski and Whitney 2003). 
+Life History and Ecology within Area of Interest 
+River Lamprey have been observed in the Snoqualmie River and may occur within the Mainstem Tolt or 
+Lower South Fork River (Hayes et al. 2013). Very little is known about River Lamprey life history, 
+abundance, and habitat use within the Area of Interest. Figure 4-57 provides an overview of the timing 
+of life history information collected from other watersheds. 
+Essential Fish Habitat 
+Under The Magnuson–Stevens Fishery Conservation and Management Act, NOAA Fisheries and the 
+Pacific Fishery Management Council identify EFH for federally managed fish species that occur in marine 
+habitats for a portion or all their life history. Broadly, EFH is defined as the habitat necessary for 
+spawning or growth to maturity66.  
+Among the anadromous species occurring in the Area of Interest, EFH has been defined for Puget Sound 
+Chinook Salmon, Coho Salmon, and Pink Salmon. Puget Sound Chum Salmon, Sockeye Salmon, 
+steelhead and Pacific Lamprey and River Lamprey do not have EFH defined.  
+Chinook, Coho, and Pink Salmon EFH includes all habitat currently or historically occupied by Chinook, 
+Coho, and Pink Salmon in Washington and is listed by Hydrologic Unit Code (HUC). The Project is within 
+the Snoqualmie HUC 17110010, which is designated as EFH. The canyon reach in the Lower SFT River 
+limits access to most anadromous species, and the SFT Falls at RM 7.8 over a 0.5 mile below the SFT 
+ 
+66 https://www.fisheries.noaa.gov/west-coast/habitat-conservation/essential-fish-habitat-west-coast 
+
+PDF PAGE 312
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 290 April 2024 
+Life History and Ecology within Area of Interest 
+Bull Trout occur in the Snohomish Watershed, primarily in the Skykomish River, where fish in the Area of 
+Interest likely originate from (WDFW 2023a). Skykomish River Bull Trout are ESA listed as threatened 
+and are part of the Coastal-Puget Sound DPS. Additional information on the ESA status of Bull Trout is 
+provided in Section 4.5.4.3. 
+Bull Trout have been documented in the Mainstem Tolt, NFT, and Lower SFT rivers. Within the Lower 
+SFT River, adult Bull Trout have been observed above and below the canyon reach (City of Seattle 
+unpublished data). The presence of Bull Trout within the Area of Interest has been confirmed with 
+environmental DNA sampling (eDNA; WFC 2023a) and other field sampling efforts. Bull Trout eDNA was 
+detected in the Lower SFT River, and Mainstem Tolt River. However, Bull Trout eDNA was not detected 
+upstream of SFT Falls at RM 7.8, suggesting Bull Trout are not present in the SFT Reservoir or its 
+tributaries (WFC 2023a). The Statewide Washington Integrated Fish Distribution database indicates that 
+rearing Bull Trout have been documented in the Lower SFT River, NFT River, and Mainstem Tolt River 
+however, the source of the documentation is unclear (Washington State 2023a). Fall snorkel surveys 
+conducted by WFC have also documented Bull Trout in the Lower SFT and NFT rivers however no 
+spawning has been observed (City of Seattle unpublished data). The presence of Bull Trout in habitats 
+outside of the Skykomish Watershed is not surprising given the species’ propensity to travel for foraging, 
+migration, and overwintering opportunities (USFWS 2015a). 
+Abundance and Population Trends 
+There have been very few observations of Bull Trout in the Area of Interest. The WFC has conducted 
+annual fall snorkel surveys since 1989 and a total of six potential Bull Trout have been observed in the 
+Lower SFT River and 12 in the NFT River (City of Seattle unpublished data). A total of nine potential Bull 
+Trout were observed in both rivers combined during the period of record (2001-present). These fish 
+were recorded as “char” or “native char” or Dolly Varden but are suspected to be Bull Trout (Jamie 
+Glasgow, pers. comm.).  
+Within the Lower SFT River, four of the six Bull Trout observed since 1989 were above the canyon reach 
+(City of Seattle unpublished data). However, Bull Trout have not been observed above the canyon reach 
+during September and October electrofishing efforts that have occurred annually since 2010 (City of 
+Seattle, unpublished data). 
+Although Bull Trout abundance is not monitored in Area of Interest, the Skykomish River population has 
+abundance data in the form of redd and trap counts (Figure 4-77). For both count types, abundance 
+appears to be declining from the early 2000’s.  
+
+PDF PAGE 334
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 312 April 2024 
+Habitat Conditions 
+Habitat conditions within the watershed have generally improved over the past decades as commercial 
+logging has ceased (Section 4.1.3). Natural forest succession and ecological habitat forming process (i.e., 
+recolonization by beavers) are now occurring and are expected to contribute to healthier tributary 
+habitats in the future (Dittbrenner et al. 2022). 
+Connectivity 
+As most of the tributary habitat is located in forest land upstream of the FERC Project Boundary and not 
+influenced by Project operations, the habitat condition most relevant to Project operations is 
+connectivity between tributary habitats and the SFT Reservoir. More specifically, during periods when 
+SFT Reservoir elevations are low, typically in fall months (Section 4.3.3), tributary surface flows may fan 
+out or go subsurface on the exposed shoreline as there is no channel to consolidate flows. The 
+connectivity between fish bearing tributary habitats and the SFT Reservoir have not been assessed 
+during periods when water elevations are low. Table 4-54 summarizes the habitat condition assessment 
+and lines of evidence for SFT Reservoir tributary habitats. 
+Table 4-54. Reservoir Tributary Habitat Conditions Relevant to Project Operations 
+Category Suitable Habitat 
+Requirement 
+Current 
+Condition1 
+Lines of Evidence2 
+Connectivity 
+ 
+Migration Corridor U • DG-Connectivity between tributaries and the SFT 
+Reservoir has not been assessed during fall months 
+when SFT Reservoir elevations are low 
+• DG-Fall spawning may occur based on indirect 
+evidence from WFC (2007) and Barnett (2007) 
+Notes:   
+1. F = Functional Habitat; I = Impaired Habitat; U = Unknown; N/A = Not Applicable 
+2. DE = Direct evidence habitat condition as measured or quantified, IE = Indirect evidence of habitat 
+condition, DG = Data Gap 
+Reservoir 
+Habitat Overview 
+At full pool, the SFT Reservoir (Figure 4-84) provides 1,030 acres of lake-type habitat for resident fish 
+species (Section 3.5.3). Access to the SFT Reservoir by anadromous species is prevented the SFT Falls 
+over 0.5 mile downstream of the SFT Dam at RM 7.8 (see Lower SFT Habitat Conditions subsection 
+below).  
+Public access to the SFT Reservoir is restricted by the City to protect the municipal water supply. As a 
+result, risks of overharvesting fish or introducing non-native fish and aquatic species is greatly reduced. 
+In addition, the City has an invasive species management plan and decontamination protocols for 
+anyone working in the SFT Reservoir (Nickelson et al. 2017). 
+
+PDF PAGE 338
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 316 April 2024 
+Category Suitable Habitat 
+Requirement 
+Current 
+Condition1 
+Lines of Evidence2 
+Adequate Dissolved 
+Oxygen 
+F • IE-Cutthroat Trout are bioindicators that are 
+intolerant of low DO. 
+• IE-Cutthroat Trout present in Reservoir. 
+Connectivity 
+ 
+Migration Corridor U • N/A-Existence of SFT Falls at RM 7.8 in Lower SFT 
+River downstream of SFT Reservoir precludes 
+upstream migrations. 
+Productivity Adequate Food 
+Supply 
+F • IE-Cutthroat Trout within the SFT Reservoir appear 
+to have adequate food based on observed 
+condition indices (Table 4-48). 
+Notes:   
+1. F = Functional Habitat; I = Impaired Habitat; U = Unknown; N/A = Not Applicable 
+2. DE = Direct evidence habitat condition as measured or quantified, IE = Indirect evidence of habitat 
+condition, DG = Data Gap 
+Lower SFT River and Tributary Habitats Downstream of the SFT Dam 
+Lower SFT River 
+Habitat Overview 
+The Lower SFT River provides 7.8 miles of aquatic habitat between its downstream confluence with the 
+Mainstem Tolt River and the SFT Falls at RM 7.8 (over 0.5 mile below the SFT Dam) which represents the 
+extent of anadromy and is commonly understood by Tribes, WDFW, and other agencies to be a natural 
+upstream passage barrier to all fish species (Figure 4-85 and Figure 4-86). This is noted in a 1990 report 
+by WDFW which states that the SFT Falls are “well-known” and “constitute a complete block” (Pfeifer 
+1990). The SFT Falls are also noted by Tribal oral tradition as preventing migration of fish. In addition, 
+the Tulalip Tribes have stated in their Chinook Salmon spawning survey reports that “anadromous 
+salmon utilization can occur up to river mile 7.8, where a natural barrier (waterfall) prevents any further 
+access.” 
+The portion of the Lower SFT that is accessible to upstream fish migrants has distinct morphological 
+reaches that are described in detail within Section 4.4.3 and depicted in Figure 4-86 (i.e., reaches SF1-
+SF9). Habitat conditions vary within each reach but there are two primary reach types “transport 
+reaches” and “response reaches”. The river channel alternates between more confined transport 
+reaches with narrow valley widths and steep gradients (i.e., portions of reaches SF3, SF4, and SF9; Figure 
+4-87) and less confined response reaches with higher sinuosity, lower gradients, and wider valley widths 
+(i.e., portions of SF1, SF2, SF5, SF6, SF7, and SF8; Figure 4-88).  
+Reach SF4, which is referred to as the canyon reach (Figure 4-89), has steep bedrock walls and a high 
+gradient channel that forms waterfalls and rapids (Gendaszek et al. 2020). Under high flow conditions 
+the canyon reach restricts passage of anadromous fish and delineates the upstream extent of spawning 
+by most anadromous species except for summer steelhead and small numbers of Coho Salmon (Section 
+
+PDF PAGE 339
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 317 April 2024 
+4.5.3.2). Adult Bull Trout have also been observed above the canyon reach (Section 4.5.3.3), but 
+spawning has not been documented. 
+ 
+Figure 4-85. View of SFT Falls at River Mile 7.8 on Lower SFT River 
+
+
+PDF PAGE 350
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 328 April 2024 
+available spawning gravel was utilized and the availability of gravel was not a limiting factor for 
+spawning steelhead (Ebasco Environmental 1993). Earth Systems and Parametrix (2003) determined 
+that adequate quantities of spawning gravel are available in the Lower SFT River except immediately 
+downstream of SFT Falls at RM 7.8. Preliminary monitoring of the LWD supplementation by the City and 
+TFAC (Section 4.4.5.2) indicate that the LWD additions are helping to create additional structural 
+complexity and retain additional spawning gravel within the Lower SFT River. Gendaszek et al. (2020) 
+recently summarized the occurrence of spawning gravel relative to other geomorphic features within 
+several of the geomorphic reaches of the Lower SFT River (Table 4-58). 
+Table 4-58. Distribution of Spawning Gravels within Selected Reaches of the Lower SFT River 
+Reach  Characterization of Spawning Gravel Locations 
+SF9 
+The upstream part of reach is characterized by gravel-to-cobble-sized sediment 
+suitable for spawning across much of the channel whereas boulders restrict the 
+occurrence of suitable spawning sediment in the downstream part of the reach to 
+small, isolated areas that typically occur on the downstream side of boulders. 
+SF6 
+Gravels suitable for spawning typically occur in isolated patches on the 
+downstream side of large boulders but are distributed across the width of the 
+channel in parts of the side channel devoid of boulders. 
+SF1-2 Numerous boulders deposited in the reach limit the extent of spawning gravels to localized patches downstream of boulders. 
+Source: Gendaszek et al. 2020 
+Sedimentation is not expected to be a significant issue within the Lower SFT River because forest 
+practices have greatly reduced upstream erosion and mobilization of fines, and the SFT Dam acts as 
+sediment trap. Previous evaluations of sediment size with the Lower SFT River suggest that the riverbed 
+comprises large materials including block, boulder, cobble, and gravel (Section 4.4.4.2). 
+Channel Conditions 
+Salmonid habitat requirements related to channel conditions include lateral and longitudinal complexity.  
+With respect to lateral complexity, much of the Lower SFT River is naturally confined (Section 4.4.3.1). In 
+areas where the gradient valley width is greater, the channel exhibits some sinuosity, braiding and 
+meanders. There is no channel armoring or other physical structures related to Project operations that 
+limit channel movement or floodplain connectivity. The Snohomish River Basin Salmonid Recovery 
+Technical Committee (SRBSRTC 2002) rated the habitat condition of “shoreline condition and floodplain 
+connectivity” of the Lower SFT as “intact”. 
+The Lower SFT River exhibits a range of geomorphic units. The most common include step pools, boulder 
+riffles, riffles, boulder runs, runs which vary in frequency between transport and response reaches. The 
+proportions of geomorphic units in each reach are summarized within (Section 4.4.3.1). Overall, there 
+appears to be significant heterogeneity in the longitudinal habitat complexity within the river segment 
+and all salmonid life history stages are present including multi-year rearing juvenile steelhead. 
+
+PDF PAGE 376
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 354 April 2024 
+biological viability report for the DPS (Ford et al. 2022) concluded that recovery efforts and improved 
+ocean and climatic conditions have improved the viability trend for the Puget Sound steelhead DPS, but 
+the extinction risk remains “moderate.” 
+Critical Habitat 
+Critical habitat was designated for Puget Sound steelhead on February 24, 2016 (81 FR 9252) and 
+includes approximately 2,031 miles (3,269 km) of freshwater and estuarine habitat in Clallam, Jefferson, 
+King, Kitsap, Mason, Pierce, Skagit, Snohomish, Thurston, and Whatcom counties of Washington State. 
+Puget Sound steelhead critical habitat within the Snoqualmie Watershed of the Snohomish Watershed, 
+which includes the Project, is depicted in Figure 4-101. Of note, the current upstream extent of critical 
+habitat in the Lower SFT River includes a segment that is upstream of the SFT Falls at RM 7.8 which is a 
+natural fish barrier (Figure 4-101) that precludes upstream access or occupancy by steelhead and all 
+other anadromous species (Nelson 2001). The SFT Reservoir and other habitats upstream of the SFT 
+Dam are outside of designated critical habitat.
+
+PDF PAGE 377
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 355 April 2024 
+ 
+Note: The current upstream extent of Critical Habitat includes a portion of the Lower SFT River that is above the SFT Falls that precludes upstream access 
+or occupancy by steelhead and all other anadromous species (Nelson 2001). 
+Figure 4-101. Upstream Extent of Puget Sound Steelhead Critical Habitat Within the Mainstem Tolt, NFT, and Lower SFT Rivers and Tributaries 
+
+
+PDF PAGE 384
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 362 April 2024 
+Note: The current upstream extent of Critical Habitat includes a portion of the Lower SFT River that is above the SFT Falls that precludes upstream access 
+or occupancy by Bull Trout and other salmonids (Nelson 2001). 
+Figure 4-102. Upstream Extent of Bull Trout Critical Habitat Within the Mainstem Tolt, NFT and Lower SFT Rivers 
+
+
+PDF PAGE 393
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Pre-Application Document 371 April 2024 
+• Energy dissipating structure: The Settlement Agreement required the City to construct an 
+energy-dissipating structure at the RRV. A spill apron was constructed in 1996 and serves to 
+reduce fish attraction and prevent access to the outfall during upstream migration.  
+• Provisions for Project shutdown: The Settlement Agreement required use of a Pelton turbine. 
+The Pelton turbine was identified because in the event of Project shutdown, when in river 
+return mode, flow through the Powerhouse is not interrupted because the Pelton turbine is 
+designed to continuously bypass the operational flow. More specifically, the use of the Pelton 
+turbine ensures that flows to the Lower SFT River that provide habitat for fish are not disrupted 
+during a Project shutdown event. 
+• Temperature monitoring: The Settlement Agreement required the City to continuously monitor 
+river temperature below the Project RRV at USGS Gage 12148300 and daily temperature 
+upstream of the RRV. The City has met this obligation and temperature data are currently 
+collected at both USGS Gage 12148300 and USGS Gage 12148000 (upstream of the RRV). 
+• Additional temperature loggers: The City has voluntarily provided cooperative funding for USGS 
+gages and a temperature logger network. 
+• Downstream temperature management: The Project is required to meet current state water 
+quality standards. The Water Temperature Management Program (Section 3.10.2.4) uses dam 
+infrastructure and selective withdrawals to manage water temperature releases in the Lower 
+SFT River that provide cool water for salmonids and other aquatic resources. This beneficial 
+Project effect has resulted in the Lower SFT River meeting water quality standards for 
+temperature more frequently than the NFT River.  
+• Gravel studies: The Settlement Agreement required the City to analyze gravel supply to 
+determine if the Lower SFT River has a significant depletion of spawning gravel and whether 
+additional rearing habitat can be provided through restoration activities. The study was 
+completed in 1993 and the results indicated that adequate gravel supplies were present for 
+steelhead spawners (Ebasco Environmental 1993)  
+• Wood placement pilot project: As described in Section 4.4.5.2, the City completed wood 
+placement in the Lower SFT River as a mitigation measure based on findings of the 1991 and 
+2001 gravel studies. In 2005, a pilot project was implemented downstream of the SFT River. The 
+project successfully triggered channel response including side channel activation and 
+reconnection, spawning area expansion, recruitment and capture of spawning-size gravel, and 
+enhancement of decaying jams (Abbe et al. 2012). Further, it activated an abandoned channel, 
+initiating channel migration, wood recruitment, and the formation of an additional jam.  
+• Additional wood placement: In 2020 and 2021, the City added additional wood to alluvial 
+reaches downstream of SFT Falls. This project included the placement of more than 300 trees in 
+a variety of ELJ configurations described in Section 4.4.5.2. Preliminary monitoring and modeling 
+of channel response to these features suggest geomorphic changes like those observed in 
+response to the pilot study are beginning.  
+
+PDF PAGE 634
+South Fork Tolt Hydroelectric Project   
+FERC No. 2959 
+Project River Miles Tech Memo 3 November 2023 
+Table 3-1. PRMs of Key Landmarks 
+River PRM Landmark 
+Mainstem Tolt 
+River 
+0.57 Highway 203 Crossing 
+1.13 Snoqualmie Valley Trail Crossing 
+1.77 Downstream boundary of Geomorphic Reach MS2 
+2.68 Downstream boundary of Geomorphic Reach MS3 
+3.71 Downstream boundary of Geomorphic Reach MS4 
+4.84 Downstream boundary of Geomorphic Reach MS5 
+5.79 Downstream boundary of Geomorphic Reach MS6 
+7.18 Downstream boundary of Geomorphic Reach MS7 
+8.13 Stossel Creek 
+8.49 USGS Gage 12148500 
+8.62 Confluence of NFT and SFT Rivers 
+NFT River 
+0.00 Geomorphic Reach SF1 
+2.26 North Fork Road Crossing 
+2.96 USGS Gage 12147500 
+6.09 Unnamed Road Crossing 
+9.34 NF 8200 Road Crossing 
+13.38 NF 6242 Road Crossing 
+SFT River 
+1.04 Downstream boundary of Geomorphic Reach SF2 
+1.71 Downstream boundary of Geomorphic Reach SF3 
+2.37 USGS Gage 12148300 
+2.45 River Return Valve 
+2.45 Downstream boundary of Geomorphic Reach SF4 
+3.47 Downstream boundary of Geomorphic Reach SF5 
+4.12 Downstream boundary of Geomorphic Reach SF6 
+5.24 Downstream boundary of Geomorphic Reach SF7 
+5.35 Lynch Creek Confluence 
+6.16 Downstream boundary of Geomorphic Reach SF8 
+6.81 Tolt Access Road Crossing 
+6.90 Downstream boundary of Geomorphic Reach SF9 
+6.91 USGS Gage 12148000 
+7.60 Downstream boundary of Geomorphic Reach SF10 
+7.8 SFT Falls 
+7.82 Downstream boundary of Geomorphic Reach SF11 
+8.48 SFT Dam 
+13.07 Geomorphic Reach upstream of SFT Reservoir 
+13.14 USGS Gage 12147600 
+14.41 NF 6200 Road Crossing 

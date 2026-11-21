@@ -1,0 +1,15 @@
+library(sf)
+for (i in c(5,6)) {
+  x <- readRDS(paste0("spatial_data/barriers_north_", i, ".rds"))
+  print(names(x)); print(head(st_drop_geometry(x), 3))
+}
+x <- st_transform(readRDS("spatial_data/model_north_0.rds"), 26910)
+g <- st_cast(st_union(st_geometry(x)), "LINESTRING")
+cat("NODED LINE COUNT", length(g), "\n")
+p <- do.call(rbind, lapply(g, function(m) rbind(m[1,], m[nrow(m),])))
+keys <- apply(round(p, 2), 1, paste, collapse=",")
+edges <- matrix(match(keys, unique(keys)), ncol=2, byrow=TRUE)
+net <- igraph::graph_from_edgelist(edges, directed=FALSE)
+comp <- igraph::components(net)
+print(sort(comp$csize, decreasing=TRUE)[1:20])
+saveRDS(st_sf(geometry=g), "spatial_data/noded_steelhead.rds")

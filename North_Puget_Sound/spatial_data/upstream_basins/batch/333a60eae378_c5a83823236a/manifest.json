@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54228",
+  "review_number": 635,
+  "SiteId": "895680",
+  "StreamName": "Downey Cr",
+  "graph_edge_id": 3782,
+  "longitude": -121.1571,
+  "latitude": 48.3282,
+  "request_sha256": "c5a83823236a78b6872275ddb7d42db1af1acb1254e7805996ad10864c78bb60",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\333a60eae378_c5a83823236a",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:45.129665+00:00",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:58629",
+  "review_number": 791,
+  "SiteId": "890118",
+  "StreamName": "SF Nooksack R",
+  "graph_edge_id": 6237,
+  "longitude": -121.9117,
+  "latitude": 48.6069,
+  "request_sha256": "cdb759cd002341c3ac5705198e8fd501635a818640610a3de39b5f297fb4cb2b",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\565fbf77a590_cdb759cd0023",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:23:05.782184+00:00",
+  "error": ""
+}

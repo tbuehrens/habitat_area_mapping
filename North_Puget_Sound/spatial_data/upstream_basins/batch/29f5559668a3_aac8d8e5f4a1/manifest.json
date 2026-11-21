@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:47632",
+  "review_number": 447,
+  "SiteId": "895790",
+  "StreamName": "NF Sauk R",
+  "graph_edge_id": 4500,
+  "longitude": -121.2758,
+  "latitude": 48.0532,
+  "request_sha256": "aac8d8e5f4a14456c8dbad872cd51df21fa0e1c50a58981cd4e3a92c37f9f7c7",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\29f5559668a3_aac8d8e5f4a1",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:51.717843+00:00",
+  "error": ""
+}

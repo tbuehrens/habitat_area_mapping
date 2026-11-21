@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:58718",
+  "review_number": 799,
+  "SiteId": "895546",
+  "StreamName": "Thunder Cr",
+  "graph_edge_id": 6235,
+  "longitude": -121.628736011075,
+  "latitude": 48.6172884968208,
+  "request_sha256": "cec4b57c08c2739c7111d9d415907a77820fa519f00cf4b9d954c9b6b6a52da3",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\997713379fa4_cec4b57c08c2",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:47.277265+00:00",
+  "error": ""
+}

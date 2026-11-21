@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:62792",
+  "review_number": 881,
+  "SiteId": "891610",
+  "StreamName": "Glacier Cr",
+  "graph_edge_id": 3206,
+  "longitude": -121.9025,
+  "latitude": 48.8563,
+  "request_sha256": "4a7c8cd659ad8d3a117222614264a49241dbbdc17ae570970daadd7932f6ac46",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4089a68daee5_4a7c8cd659ad",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:36.520315+00:00",
+  "error": ""
+}

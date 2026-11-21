@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:53854",
+  "review_number": 625,
+  "SiteId": "890787",
+  "StreamName": "Dicks Cr",
+  "graph_edge_id": 6166,
+  "longitude": -121.8367,
+  "latitude": 48.3005,
+  "request_sha256": "04e928c069726d27a08274eb91cddf0ff153e81c4084da194cdd6dfcb6ca85ba",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\b53d0472eab4_04e928c06972",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:34.559527+00:00",
+  "error": ""
+}

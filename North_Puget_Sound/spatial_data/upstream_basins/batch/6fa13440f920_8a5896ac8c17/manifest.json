@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:63399",
+  "review_number": 900,
+  "SiteId": "891924",
+  "StreamName": "Swamp Cr",
+  "graph_edge_id": 3427,
+  "longitude": -121.6829,
+  "latitude": 48.9076,
+  "request_sha256": "8a5896ac8c17ac3bc73f2a6c81a1d85f54c352a0b1529e3fb9dcd2f50cf4005c",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\6fa13440f920_8a5896ac8c17",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:25:04.926593+00:00",
+  "error": ""
+}

@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:58689",
+  "review_number": 795,
+  "SiteId": "894189",
+  "StreamName": "Plumbago Cr",
+  "graph_edge_id": 5264,
+  "longitude": -122.0956519239,
+  "latitude": 48.6094829180312,
+  "request_sha256": "f02895dc6e863ed2111ac9952c597447ec1d5e224efdf1e8ca6a4c7f03abd238",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\e381df3be1c1_f02895dc6e86",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:37:32.955793+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956598",
+  "reference_stream_name": "Plumbago Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.2857142857142857,
+  "route_max_distance_m": 49.080736740671675,
+  "route_max_heading_degrees": 34.32047480979893
+}

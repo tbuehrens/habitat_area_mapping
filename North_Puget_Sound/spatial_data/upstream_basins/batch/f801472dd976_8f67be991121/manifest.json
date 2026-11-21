@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:63199",
+  "review_number": 893,
+  "SiteId": "892038",
+  "StreamName": "Ruth Cr",
+  "graph_edge_id": 3516,
+  "longitude": -121.644202636701,
+  "latitude": 48.8970374700863,
+  "request_sha256": "8f67be99112145de7c0a530cb1d7beeda910707730f637c2952ad67625337e8d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\f801472dd976_8f67be991121",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:40:00.294293+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956478",
+  "reference_stream_name": "Ruth Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.42857142857142855,
+  "route_max_distance_m": 32.0666326348906,
+  "route_max_heading_degrees": 24.44675425118477
+}

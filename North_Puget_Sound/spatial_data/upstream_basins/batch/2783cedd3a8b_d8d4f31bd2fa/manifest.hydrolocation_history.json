@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:57107",
+  "review_number": 749,
+  "SiteId": "894730",
+  "StreamName": "O' Toole Cr",
+  "graph_edge_id": 5228,
+  "longitude": -121.919180374333,
+  "latitude": 48.5078680800224,
+  "request_sha256": "d8d4f31bd2fa580414b43a6fd254e3c541402c6581599b3e59e724daab58ba28",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2783cedd3a8b_d8d4f31bd2fa",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:04.962925+00:00",
+  "error": ""
+}

@@ -1,0 +1,18 @@
+{
+  "review_record_key": "6:54530",
+  "review_number": 649,
+  "SiteId": "897082",
+  "StreamName": "Big Cr",
+  "graph_edge_id": 3690,
+  "longitude": -121.441329441148,
+  "latitude": 48.3431232445368,
+  "request_sha256": "340a4e41232ad7b31dd0d5e9dd103f230bf907e5eed8ea0c88d40758e807442e",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\b8ef4f01897b_340a4e41232a",
+  "approved": false,
+  "status": "indexed_point_beyond_tolerance",
+  "retrieved_utc": "2026-11-21T02:29:52.478823+00:00",
+  "comid": "24265437",
+  "indexed_longitude": -121.44208242566624,
+  "indexed_latitude": 48.34312322857487,
+  "indexed_shift_m": 55.81811278186217
+}

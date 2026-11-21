@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51150",
+  "review_number": 532,
+  "SiteId": "890855",
+  "StreamName": "Siberia Cr",
+  "graph_edge_id": 1819,
+  "longitude": -122.0161,
+  "latitude": 48.1651,
+  "request_sha256": "0c6c6e07aed6445288196ee3a7c871444d19cee840320475334f9fb03c7f4b25",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\81fce14787cb_0c6c6e07aed6",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:26.190830+00:00",
+  "error": ""
+}

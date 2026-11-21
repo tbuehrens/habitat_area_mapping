@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-11-21T17:08:00.824943+00:00",
+  "purpose": "Independent read-only diagnosis of false line-buffer residuals in Phase2 outside-change validator",
+  "source_md5": {
+    "outputs/phase1_total_barriers/North_Puget_Sound_Steelhead_phase1.gpkg": "1b17cb9b667a80668c0d64b3b2887820",
+    "outputs/phase2_reviewed_barriers/North_Puget_Sound_Steelhead_phase2.gpkg": "57dc138f9e7b741c026620d98bde0be2"
+  },
+  "footprint": "Union of newly approved and dropped Phase1 upstream basin masks, buffered100m; compare habitat-measuring remaining linework outside this footprint within each original NOAA population",
+  "independent_support_method": "For each direction, sample every source vertex AND midpoint of every straight coordinate segment; find nearest opposite individual linestring by GEOS spatial index; calculate point-to-line distance. Also compare exact topology after1micrometer coordinate grid. No line buffer is used in the source-support calculation.",
+  "complete_source_support_cases": [
+    {
+      "pop_id": 268,
+      "forward_sample_count": 11456,
+      "reverse_sample_count": 11456,
+      "max_forward_distance_m": 4.692848e-10,
+      "max_reverse_distance_m": 4.692848e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 269,
+      "forward_sample_count": 2028,
+      "reverse_sample_count": 2028,
+      "max_forward_distance_m": 4.692124e-10,
+      "max_reverse_distance_m": 4.692124e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 271,
+      "forward_sample_count": 10784,
+      "reverse_sample_count": 10784,
+      "max_forward_distance_m": 4.692247e-10,
+      "max_reverse_distance_m": 4.692247e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 272,
+      "forward_sample_count": 6084,
+      "reverse_sample_count": 6084,
+      "max_forward_distance_m": 4.692823e-10,
+      "max_reverse_distance_m": 4.692823e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 279,
+      "forward_sample_count": 15358,
+      "reverse_sample_count": 15358,
+      "max_forward_distance_m": 4.692201e-10,
+      "max_reverse_distance_m": 4.692201e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 280,
+      "forward_sample_count": 97564,
+      "reverse_sample_count": 97564,
+      "max_forward_distance_m": 4.791178e-10,
+      "max_reverse_distance_m": 4.69285e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 281,
+      "forward_sample_count": 2349,
+      "reverse_sample_count": 2349,
+      "max_forward_distance_m": 4.692125e-10,
+      "max_reverse_distance_m": 4.692125e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 283,
+      "forward_sample_count": 29778,
+      "reverse_sample_count": 29778,
+      "max_forward_distance_m": 4.692831e-10,
+      "max_reverse_distance_m": 4.692831e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 285,
+      "forward_sample_count": 29898,
+      "reverse_sample_count": 29898,
+      "max_forward_distance_m": 4.692852e-10,
+      "max_reverse_distance_m": 4.692852e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    },
+    {
+      "pop_id": 286,
+      "forward_sample_count": 73787,
+      "reverse_sample_count": 73787,
+      "max_forward_distance_m": 4.692822e-10,
+      "max_reverse_distance_m": 4.692822e-10,
+      "coordinate_grid_1micrometer_topological_equal": true,
+      "buffer_0_0001m_reciprocal_residual_m": 0,
+      "buffer_0_0001m_reciprocal_self_residual_m": 0
+    }
+  ],
+  "deer271_self_comparison_proof": {
+    "raw_topological_equal": true,
+    "outside_length_delta_m": 0,
+    "buffer_0_00001m_lost_m": 0.9135356,
+    "buffer_0_00001m_gained_m": 0.9135356,
+    "buffer_0_00001m_comparing_phase1_with_itself_lost_m": 0.9135356,
+    "false_fragment_midpoint_longitude": -121.9583,
+    "false_fragment_midpoint_latitude": 48.31945,
+    "midpoint_distance_to_opposite_line_m": 7.686693e-10,
+    "hausdorff_distance_m": 9.313226e-10
+  },
+  "scope_note": "Complete reciprocal all-source support calculation finished10populations listed. Stopped at parent request after all3real validators passed; no claim of completing this supplementary dense calculation for the remaining6populations. Initial all16population checks showed unchanged outside mileage within5.83e-11m, with symmetric microbuffer residuals on10cases. No production code/data/maps were edited."
+}

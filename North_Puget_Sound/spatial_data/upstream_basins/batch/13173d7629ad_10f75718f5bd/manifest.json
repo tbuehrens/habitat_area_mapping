@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:60231",
+  "review_number": 843,
+  "SiteId": "892287",
+  "StreamName": "Hutchinson Cr",
+  "graph_edge_id": 5479,
+  "longitude": -122.157576070904,
+  "latitude": 48.7189408270547,
+  "request_sha256": "10f75718f5bd6ee34eca7e1e056f0d31b636b6625d5dec4aca0682dc80c9751a",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\13173d7629ad_10f75718f5bd",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:38:54.358914+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23957274",
+  "reference_stream_name": "Hutchinson Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.2857142857142857,
+  "route_max_distance_m": 37.11118437996059,
+  "route_max_heading_degrees": 29.541874623113245
+}

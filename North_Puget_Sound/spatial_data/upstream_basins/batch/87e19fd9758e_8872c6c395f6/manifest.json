@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:42521",
+  "review_number": 311,
+  "SiteId": "891129",
+  "StreamName": "Bitter Cr",
+  "graph_edge_id": 4353,
+  "longitude": -121.5034,
+  "latitude": 47.8412,
+  "request_sha256": "8872c6c395f659555d42d9192a1689dbf26ee66c8eb0fccfddc99e06fc4cf7b3",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\87e19fd9758e_8872c6c395f6",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:31.660264+00:00",
+  "error": ""
+}

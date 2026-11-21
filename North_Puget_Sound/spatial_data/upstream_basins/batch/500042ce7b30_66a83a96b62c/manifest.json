@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:53933",
+  "review_number": 628,
+  "SiteId": "890624",
+  "StreamName": "Pilchuck Cr",
+  "graph_edge_id": 691,
+  "longitude": -122.1615,
+  "latitude": 48.3011,
+  "request_sha256": "66a83a96b62c3eba03b9c1ba48750450cc8bace58be27ad59b3a0aeb558b2d67",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\500042ce7b30_66a83a96b62c",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:38.776751+00:00",
+  "error": ""
+}

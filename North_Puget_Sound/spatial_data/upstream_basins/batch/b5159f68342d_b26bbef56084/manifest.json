@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:44282",
+  "review_number": 347,
+  "SiteId": "891397",
+  "StreamName": "Salmon Cr",
+  "graph_edge_id": 4273,
+  "longitude": -121.457,
+  "latitude": 47.8986,
+  "request_sha256": "b26bbef56084e0b5c5bfedcc08fb0a0387734f7cd309195593dd394684ed6364",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\b5159f68342d_b26bbef56084",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:01.889323+00:00",
+  "error": ""
+}

@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:59036",
+  "review_number": 804,
+  "SiteId": "892460",
+  "StreamName": "Cavanaugh Cr",
+  "graph_edge_id": 5426,
+  "longitude": -122.094661183828,
+  "latitude": 48.6402980831663,
+  "request_sha256": "6931251792f1f0fa14a32348446ac9915f6d64bf60a6e555d7928a4e0f1ef21f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\7363a8bae353_6931251792f1",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:38:03.352268+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956610",
+  "reference_stream_name": "Cavanaugh Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.2857142857142857,
+  "route_max_distance_m": 36.329275869938776,
+  "route_max_heading_degrees": 33.92859027307698
+}

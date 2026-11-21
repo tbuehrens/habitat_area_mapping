@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:44412",
+  "review_number": 353,
+  "SiteId": "891957",
+  "StreamName": "SF Salmon Cr",
+  "graph_edge_id": 4280,
+  "longitude": -121.482,
+  "latitude": 47.9048,
+  "request_sha256": "5bc90c3f82321677faefacc9a00490d921381da281ac3939ae47add2b7d41d34",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\8a52872996b8_5bc90c3f8232",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:07.934861+00:00",
+  "error": ""
+}

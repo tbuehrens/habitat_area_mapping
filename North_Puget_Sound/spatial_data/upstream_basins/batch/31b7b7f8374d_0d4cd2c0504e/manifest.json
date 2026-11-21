@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:59116",
+  "review_number": 809,
+  "SiteId": "890482",
+  "StreamName": "Newhalem Cr",
+  "graph_edge_id": 3461,
+  "longitude": -121.2438,
+  "latitude": 48.6585,
+  "request_sha256": "0d4cd2c0504e93bb2f3ffc529cb3c5f8b8e7d23724d1b8333815ad2d28080645",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\31b7b7f8374d_0d4cd2c0504e",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:23:34.187331+00:00",
+  "error": ""
+}

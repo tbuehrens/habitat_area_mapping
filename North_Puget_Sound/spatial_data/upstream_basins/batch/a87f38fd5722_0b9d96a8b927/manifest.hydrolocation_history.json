@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:63022",
+  "review_number": 886,
+  "SiteId": "896944",
+  "StreamName": "Racehorse Cr",
+  "graph_edge_id": 66,
+  "longitude": -122.12358800437,
+  "latitude": 48.8780481529773,
+  "request_sha256": "0b9d96a8b9271e127f0e90bb3da8099f81cf44fc57a0d5bcdcec7eec8d7deb10",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\a87f38fd5722_0b9d96a8b927",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:34:11.968965+00:00",
+  "error": ""
+}
