@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:62799",
+  "review_number": 882,
+  "SiteId": "891818",
+  "StreamName": "Bar Cr",
+  "graph_edge_id": 3424,
+  "longitude": -121.773593228366,
+  "latitude": 48.8588880883088,
+  "request_sha256": "51395316b841f431e9041b175d2577ff5c3ddd9f3239f35f70ab1eddd12d20bd",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\054ae461068d_51395316b841",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:34:09.855658+00:00",
+  "error": ""
+}

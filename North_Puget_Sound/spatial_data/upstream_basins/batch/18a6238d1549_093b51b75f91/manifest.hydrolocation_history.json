@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:58207",
+  "review_number": 782,
+  "SiteId": "890433",
+  "StreamName": "Diobsud Cr",
+  "graph_edge_id": 3403,
+  "longitude": -121.432251991624,
+  "latitude": 48.5757774516604,
+  "request_sha256": "093b51b75f919f5d15b3bfb682ac764709999f248910e1a7c6b533fb083d7046",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\18a6238d1549_093b51b75f91",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:28.844390+00:00",
+  "error": ""
+}

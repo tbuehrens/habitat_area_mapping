@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:56528",
+  "review_number": 727,
+  "SiteId": "893244",
+  "StreamName": "Gilligan Cr",
+  "graph_edge_id": 461,
+  "longitude": -122.125882479992,
+  "latitude": 48.4728695501604,
+  "request_sha256": "5e433c0653923a32c04669a74fb46fc11b993820f2beaa494572e772d3e05695",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\8db10b6e5424_5e433c065392",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:35:57.131123+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270544",
+  "reference_stream_name": "Gilligan Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 56.51188059585205,
+  "route_max_heading_degrees": 71.67724760708404
+}

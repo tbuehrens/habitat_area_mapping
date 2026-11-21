@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:59485",
+  "review_number": 822,
+  "SiteId": "893973",
+  "StreamName": "Skookum Cr",
+  "graph_edge_id": 5256,
+  "longitude": -122.135955085496,
+  "latitude": 48.6746393596759,
+  "request_sha256": "ea5a76eaff4abab648980b6d90268f8787790d90240700a6fba957a481c170e8",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\84b989668f0e_ea5a76eaff4a",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:38:23.693470+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956076",
+  "reference_stream_name": "Skookum Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 59.38310416398587,
+  "route_max_heading_degrees": 22.379220879618472
+}

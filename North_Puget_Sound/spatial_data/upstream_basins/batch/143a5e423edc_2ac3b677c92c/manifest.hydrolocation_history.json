@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:57730",
+  "review_number": 767,
+  "SiteId": "895226",
+  "StreamName": "Olson Cr",
+  "graph_edge_id": 6212,
+  "longitude": -121.447624425457,
+  "latitude": 48.5439402142991,
+  "request_sha256": "2ac3b677c92cfbd1f2d8da1b628815925a4527c08ed44067bfed86c2bfb61fce",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\143a5e423edc_2ac3b677c92c",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:20.981407+00:00",
+  "error": ""
+}

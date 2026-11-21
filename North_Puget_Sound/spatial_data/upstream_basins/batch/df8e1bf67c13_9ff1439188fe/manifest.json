@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55495",
+  "review_number": 683,
+  "SiteId": "890418",
+  "StreamName": "SF Cascade R",
+  "graph_edge_id": 3528,
+  "longitude": -121.1164,
+  "latitude": 48.4135,
+  "request_sha256": "9ff1439188fe2ab59c762c1bc87bd460a53b2bbbb2dc2063c17f827e868921c6",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\df8e1bf67c13_9ff1439188fe",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:22.950728+00:00",
+  "error": ""
+}

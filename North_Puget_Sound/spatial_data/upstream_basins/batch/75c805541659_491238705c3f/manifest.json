@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54418",
+  "review_number": 644,
+  "SiteId": "890146",
+  "StreamName": "Tenas Cr",
+  "graph_edge_id": 6186,
+  "longitude": -121.4314,
+  "latitude": 48.3367,
+  "request_sha256": "491238705c3f729cd02f79ba9cd4d3db7bae0d3074a7a76cef8d4ac2f38a121f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\75c805541659_491238705c3f",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:50.878741+00:00",
+  "error": ""
+}

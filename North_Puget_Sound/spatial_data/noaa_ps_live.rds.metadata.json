@@ -1,0 +1,1845 @@
+{
+  "currentVersion": 11.4,
+  "cimVersion": "3.4.0",
+  "id": 57,
+  "name": "Steelhead (Puget Sound DPS) - populations",
+  "type": "Feature Layer",
+  "description": "The base geospatial information is the Watershed Boundary Dataset (WBD), which was queried by two 2-digit \"regions\" HU 17 (Pacific Northwest) and HU 18 (California), and downloaded in June 2012. The WBD HU 17 \"region\" included transboundary hydrologic data, or HUs that cross the U.S.-Canadian border. The WBD data were merged with \"Assessment Watersheds\" for the Slocan River drainage in British Columbia, north of the transboundary HUs, to represent areas historically occupied by fish.There are 5 objects stored in this geodatabase:hydrologic (feature class)link (table)DPS (table)population (table)fish (feature class)The hydrologic feature class is the base geospatial data from the Watershed Boundary Dataset and British Columbia Assessment Watersheds. Some of the hydrologic polygon features have been split to better represent fish populations. No overlapping polygons.The link table contains the relationships between spatial and tabular data.The DPS table contains information on Distinct Population Segments, which are the listed entities under the Endangered Species Act. A DPS can be further refined to an entity called an Evolutionarily Significant Unit (ESU) for salmon. An ESU can also be a listed entity under the Endangered Species Act. For purposes of this database, DPSs and ESUs are included in this single table.The population table contains fish units smaller than the steelhead DPSs and salmon ESUs. The fish feature class is the end product to be used for visualisation of fish data. It was generated in 4 steps. Step 1: used the Make Query Table tool (ArcToolbox 10.2.2 -> Data Management Tools -> Layers and Table Views -> Make Query Table) to combine the hydrologic feature class with the link table (query is based on unique FEATURE_ID). Step 2: joined the DPS table (join is based on unique DPS_ID). Step 3: joined the population table (join is based on unique WCR_POP_ID). Step 4: exported the result to make a permanent fish feature class in the geodatabase because joins are temporary. The fish feature class has overlapping polygons for species located in the same geographic areas and for species with multiple run timings.Coded value domains are utilized in this geodataase for numerous fields. In order to export any geodatabase tables with the values (not the codes), use the Table to Excel tool (ArcToolbox 10.2.2 -> Conversion Tools -> Excel -> Table to Excel). In the tool options, check the box for \"Use domain and subtype description\".",
+  "geometryType": "esriGeometryPolygon",
+  "sourceSpatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+  },
+  "copyrightText": "Geodatabase version 1.0 was designed and populated by Shanna Dunn, completed December 2015. The information reviewed during the data assessment and used to compile this geodatabase came from a variety of sources. Credits go to the participants of Biological Review Teams and Technical Recovery Teams, recovery planning teams, staff from the West Coast Region, Northwest Fisheries Science Center, and Southwest Fisheries Science Center, external partners, and especially the states and tribes for collecting groundtruthed fish distribution data. The StreamNet 2012 data was used extensively during processing. Credit also goes to the United States Geological Survey and the Natural Resources Conservation Service for producing and maintaining the Watershed Boundary Dataset and National Hydrography Dataset, which together make it possible to consistently map fish geography.",
+  "parentLayer": {
+    "id": 54,
+    "name": "Steelhead (Puget Sound DPS)"
+  },
+  "subLayers": [],
+  "minScale": 0,
+  "maxScale": 0,
+  "referenceScale": 0,
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "WCR_POP_ID",
+      "uniqueValueGroups": [
+        {
+          "heading": "",
+          "classes": [
+            {
+              "label": "Drayton Harbor Tributaries  (winter)",
+              "description": "Drayton Harbor Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  38,
+                  115,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiDHT"
+                ]
+              ]
+            },
+            {
+              "label": "Nooksack River  (winter)",
+              "description": "Nooksack River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  77,
+                  168,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiNKS"
+                ]
+              ]
+            },
+            {
+              "label": "Samish River and Bellingham Bay Tributaries  (winter)",
+              "description": "Samish River and Bellingham Bay Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  92,
+                  230,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSBT"
+                ]
+              ]
+            },
+            {
+              "label": "South Fork Nooksack River  (summer)",
+              "description": "South Fork Nooksack River  (summer)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  169,
+                  230,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGsuSFN"
+                ]
+              ]
+            },
+            {
+              "label": "Baker River  (summer and winter)",
+              "description": "Baker River  (summer and winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  115,
+                  178,
+                  255,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGswBKR"
+                ]
+              ]
+            },
+            {
+              "label": "Skagit River  (summer and winter)",
+              "description": "Skagit River  (summer and winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  102,
+                  153,
+                  205,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGswSKG"
+                ]
+              ]
+            },
+            {
+              "label": "Nookachamps Creek  (winter)",
+              "description": "Nookachamps Creek  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  190,
+                  210,
+                  255,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiNKC"
+                ]
+              ]
+            },
+            {
+              "label": "Deer Creek  (summer)",
+              "description": "Deer Creek  (summer)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  190,
+                  255,
+                  232,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGsuDER"
+                ]
+              ]
+            },
+            {
+              "label": "Stillaguamish River  (winter)",
+              "description": "Stillaguamish River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  115,
+                  255,
+                  223,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSTL"
+                ]
+              ]
+            },
+            {
+              "label": "Canyon Creek  (summer)",
+              "description": "Canyon Creek  (summer)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  163,
+                  255,
+                  115,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGsuCAN"
+                ]
+              ]
+            },
+            {
+              "label": "Sauk River  (summer and winter)",
+              "description": "Sauk River  (summer and winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  122,
+                  245,
+                  202,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGswSAK"
+                ]
+              ]
+            },
+            {
+              "label": "Pilchuck River  (winter)",
+              "description": "Pilchuck River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  230,
+                  169,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiPLC"
+                ]
+              ]
+            },
+            {
+              "label": "Snohomish/Skykomish Rivers  (winter)",
+              "description": "Snohomish/Skykomish Rivers  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  102,
+                  205,
+                  171,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSKY"
+                ]
+              ]
+            },
+            {
+              "label": "North Fork Skykomish River  (summer)",
+              "description": "North Fork Skykomish River  (summer)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  137,
+                  205,
+                  102,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGsuNSY"
+                ]
+              ]
+            },
+            {
+              "label": "Tolt River  (summer)",
+              "description": "Tolt River  (summer)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  68,
+                  137,
+                  112,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGsuTLT"
+                ]
+              ]
+            },
+            {
+              "label": "Snoqualmie River  (winter)",
+              "description": "Snoqualmie River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  0,
+                  115,
+                  76,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSNQ"
+                ]
+              ]
+            },
+            {
+              "label": "North Lake Washington and Lake Sammamish  (winter)",
+              "description": "North Lake Washington and Lake Sammamish  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  115,
+                  76,
+                  0,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiNLW"
+                ]
+              ]
+            },
+            {
+              "label": "Cedar River  (winter)",
+              "description": "Cedar River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  168,
+                  112,
+                  0,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiCDR"
+                ]
+              ]
+            },
+            {
+              "label": "Green River  (winter)",
+              "description": "Green River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  230,
+                  152,
+                  0,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiGRN"
+                ]
+              ]
+            },
+            {
+              "label": "White River  (winter)",
+              "description": "White River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  214,
+                  189,
+                  0,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiWHT"
+                ]
+              ]
+            },
+            {
+              "label": "Puyallup River/Carbon River  (winter)",
+              "description": "Puyallup River/Carbon River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  205,
+                  170,
+                  102,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiPUY"
+                ]
+              ]
+            },
+            {
+              "label": "Nisqually River  (winter)",
+              "description": "Nisqually River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  211,
+                  127,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiNSQ"
+                ]
+              ]
+            },
+            {
+              "label": "South Puget Sound Tributaries  (winter)",
+              "description": "South Puget Sound Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  215,
+                  215,
+                  158,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSSD"
+                ]
+              ]
+            },
+            {
+              "label": "East Kitsap Peninsula Tributaries  (winter)",
+              "description": "East Kitsap Peninsula Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  235,
+                  190,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiEKP"
+                ]
+              ]
+            },
+            {
+              "label": "South Hood Canal Tributaries  (winter)",
+              "description": "South Hood Canal Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  135,
+                  0,
+                  32,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSHC"
+                ]
+              ]
+            },
+            {
+              "label": "East Hood Canal Tributaries  (winter)",
+              "description": "East Hood Canal Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  137,
+                  68,
+                  101,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiEHC"
+                ]
+              ]
+            },
+            {
+              "label": "Skokomish River  (winter)",
+              "description": "Skokomish River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  168,
+                  0,
+                  132,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSKO"
+                ]
+              ]
+            },
+            {
+              "label": "West Hood Canal Tributaries  (winter)",
+              "description": "West Hood Canal Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  205,
+                  102,
+                  153,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiWHC"
+                ]
+              ]
+            },
+            {
+              "label": "Sequim/Discovery Bays Tributaries  (winter)",
+              "description": "Sequim/Discovery Bays Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  205,
+                  102,
+                  102,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSDT"
+                ]
+              ]
+            },
+            {
+              "label": "Dungeness River  (summer and winter)",
+              "description": "Dungeness River  (summer and winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  245,
+                  162,
+                  122,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGswDNG"
+                ]
+              ]
+            },
+            {
+              "label": "Strait of Juan de Fuca Tributaries  (winter)",
+              "description": "Strait of Juan de Fuca Tributaries  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  245,
+                  122,
+                  182,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiSJF"
+                ]
+              ]
+            },
+            {
+              "label": "Elwha River  (winter)",
+              "description": "Elwha River  (winter)",
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  190,
+                  232,
+                  255
+                ],
+                "outline": {}
+              },
+              "values": [
+                [
+                  "STPUGwiELW"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              38,
+              115,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiDHT",
+          "label": "Drayton Harbor Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              77,
+              168,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiNKS",
+          "label": "Nooksack River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              92,
+              230,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSBT",
+          "label": "Samish River and Bellingham Bay Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              169,
+              230,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGsuSFN",
+          "label": "South Fork Nooksack River  (summer)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              115,
+              178,
+              255,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGswBKR",
+          "label": "Baker River  (summer and winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              102,
+              153,
+              205,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGswSKG",
+          "label": "Skagit River  (summer and winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              190,
+              210,
+              255,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiNKC",
+          "label": "Nookachamps Creek  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              190,
+              255,
+              232,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGsuDER",
+          "label": "Deer Creek  (summer)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              115,
+              255,
+              223,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSTL",
+          "label": "Stillaguamish River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              163,
+              255,
+              115,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGsuCAN",
+          "label": "Canyon Creek  (summer)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              122,
+              245,
+              202,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGswSAK",
+          "label": "Sauk River  (summer and winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              230,
+              169,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiPLC",
+          "label": "Pilchuck River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              102,
+              205,
+              171,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSKY",
+          "label": "Snohomish/Skykomish Rivers  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              137,
+              205,
+              102,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGsuNSY",
+          "label": "North Fork Skykomish River  (summer)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              68,
+              137,
+              112,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGsuTLT",
+          "label": "Tolt River  (summer)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              115,
+              76,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSNQ",
+          "label": "Snoqualmie River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              115,
+              76,
+              0,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiNLW",
+          "label": "North Lake Washington and Lake Sammamish  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              168,
+              112,
+              0,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiCDR",
+          "label": "Cedar River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              230,
+              152,
+              0,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiGRN",
+          "label": "Green River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              214,
+              189,
+              0,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiWHT",
+          "label": "White River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              205,
+              170,
+              102,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiPUY",
+          "label": "Puyallup River/Carbon River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              211,
+              127,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiNSQ",
+          "label": "Nisqually River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              215,
+              215,
+              158,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSSD",
+          "label": "South Puget Sound Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              235,
+              190,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiEKP",
+          "label": "East Kitsap Peninsula Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              135,
+              0,
+              32,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSHC",
+          "label": "South Hood Canal Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              137,
+              68,
+              101,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiEHC",
+          "label": "East Hood Canal Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              168,
+              0,
+              132,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSKO",
+          "label": "Skokomish River  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              205,
+              102,
+              153,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiWHC",
+          "label": "West Hood Canal Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              205,
+              102,
+              102,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSDT",
+          "label": "Sequim/Discovery Bays Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              245,
+              162,
+              122,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGswDNG",
+          "label": "Dungeness River  (summer and winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              245,
+              122,
+              182,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiSJF",
+          "label": "Strait of Juan de Fuca Tributaries  (winter)"
+        },
+        {
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              255,
+              190,
+              232,
+              255
+            ],
+            "outline": {}
+          },
+          "value": "STPUGwiELW",
+          "label": "Elwha River  (winter)"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "algorithmic",
+          "algorithm": "esriHSVAlgorithm",
+          "fromColor": [
+            214,
+            214,
+            255,
+            255
+          ],
+          "toColor": [
+            0,
+            57,
+            148,
+            255
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": {}
+  },
+  "defaultVisibility": true,
+  "extent": {
+    "xmin": -13883610.2178,
+    "ymin": 5031215.1635,
+    "xmax": -12578933.6898,
+    "ymax": 6556933.0222,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 148923141.9284,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    }
+  },
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "displayField": "POPULATION",
+  "typeIdField": {},
+  "subtypeFieldName": {},
+  "subtypeField": {},
+  "defaultSubtypeCode": {},
+  "fields": [
+    {
+      "name": "OBJECTID_12",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID_12",
+      "domain": {}
+    },
+    {
+      "name": "hydrologic_Shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "hydrologic_Shape",
+      "domain": {}
+    },
+    {
+      "name": "link_FEATURE_ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "FEATURE_ID",
+      "domain": {}
+    },
+    {
+      "name": "link_FEATURE_ACCESS",
+      "type": "esriFieldTypeString",
+      "alias": "FEATURE_ACCESS",
+      "length": 255,
+      "domain": {
+        "type": "codedValue",
+        "name": "WS2_Feature_Access",
+        "description": "Accessibility of the feature. Can fish migrate into the area represented by the polygon feature?",
+        "codedValues": [
+          {
+            "name": "Accessible",
+            "code": "AC"
+          },
+          {
+            "name": "Trap and Haul",
+            "code": "TH"
+          },
+          {
+            "name": "Artificial",
+            "code": "AR"
+          },
+          {
+            "name": "Naturally Blocked",
+            "code": "NB"
+          },
+          {
+            "name": "Anthropogenically Blocked",
+            "code": "AB"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      }
+    },
+    {
+      "name": "hydrologic_FEATURE_NOTES",
+      "type": "esriFieldTypeString",
+      "alias": "FEATURE_NOTES",
+      "length": 500,
+      "domain": {}
+    },
+    {
+      "name": "hydrologic_HUC_12",
+      "type": "esriFieldTypeString",
+      "alias": "HUC_12",
+      "length": 12,
+      "domain": {}
+    },
+    {
+      "name": "hydrologic_HU_12_Name",
+      "type": "esriFieldTypeString",
+      "alias": "HU_12_Name",
+      "length": 120,
+      "domain": {}
+    },
+    {
+      "name": "hydrologic_HU_SPLIT",
+      "type": "esriFieldTypeString",
+      "alias": "HU_SPLIT",
+      "length": 5,
+      "domain": {}
+    },
+    {
+      "name": "DPS_ID",
+      "type": "esriFieldTypeString",
+      "alias": "DPS_ID",
+      "length": 10,
+      "domain": {}
+    },
+    {
+      "name": "DPS",
+      "type": "esriFieldTypeString",
+      "alias": "DPS",
+      "length": 100,
+      "domain": {}
+    },
+    {
+      "name": "link_DPS_NOTES",
+      "type": "esriFieldTypeString",
+      "alias": "DPS_NOTES",
+      "length": 255,
+      "domain": {}
+    },
+    {
+      "name": "MIDLEVEL_GROUP",
+      "type": "esriFieldTypeString",
+      "alias": "GROUP",
+      "length": 100,
+      "domain": {
+        "type": "codedValue",
+        "name": "WS2_MidLevel Group",
+        "description": "Middle level groupings of populations. Biogeographic Strata, Biogeographic Population Group, Diversity Group, Diversity Strata, Strata, Geographic Regions, Population Group, Major Population Group",
+        "codedValues": [
+          {
+            "name": "Strait of Georgia",
+            "code": "700"
+          },
+          {
+            "name": "Strait of Juan de Fuca",
+            "code": "701"
+          },
+          {
+            "name": "Hood Canal",
+            "code": "702"
+          },
+          {
+            "name": "Whidbey Basin",
+            "code": "703"
+          },
+          {
+            "name": "Central/South Sound",
+            "code": "704"
+          },
+          {
+            "name": "North Coast",
+            "code": "705"
+          },
+          {
+            "name": "Mid-Coast",
+            "code": "706"
+          },
+          {
+            "name": "Lakes",
+            "code": "707"
+          },
+          {
+            "name": "Umpqua",
+            "code": "708"
+          },
+          {
+            "name": "Mid-South Coast",
+            "code": "709"
+          },
+          {
+            "name": "Kettle/Colville",
+            "code": "711"
+          },
+          {
+            "name": "Spokane",
+            "code": "712"
+          },
+          {
+            "name": "Northern Cascades",
+            "code": "713"
+          },
+          {
+            "name": "Central and South Puget Sound",
+            "code": "714"
+          },
+          {
+            "name": "Hood Canal and Strait of Juan de Fuca",
+            "code": "715"
+          },
+          {
+            "name": "Cascades Eastern Slope Tributaries",
+            "code": "716"
+          },
+          {
+            "name": "Hells Canyon",
+            "code": "725"
+          },
+          {
+            "name": "Payette/Boise",
+            "code": "726"
+          },
+          {
+            "name": "Malheur/Owyhee",
+            "code": "727"
+          },
+          {
+            "name": "Bruneau and Salmon Falls",
+            "code": "728"
+          },
+          {
+            "name": "John Day",
+            "code": "717"
+          },
+          {
+            "name": "Walla Walla and Umatilla",
+            "code": "718"
+          },
+          {
+            "name": "Yakima",
+            "code": "719"
+          },
+          {
+            "name": "Lower Snake",
+            "code": "720"
+          },
+          {
+            "name": "Clearwater",
+            "code": "721"
+          },
+          {
+            "name": "Grande Ronde",
+            "code": "722"
+          },
+          {
+            "name": "Salmon",
+            "code": "723"
+          },
+          {
+            "name": "Imnaha",
+            "code": "724"
+          },
+          {
+            "name": "Dry Clearwater",
+            "code": "729"
+          },
+          {
+            "name": "Wet Clearwater",
+            "code": "730"
+          },
+          {
+            "name": "Grande Ronde/Imnaha",
+            "code": "731"
+          },
+          {
+            "name": "South Fork Salmon",
+            "code": "732"
+          },
+          {
+            "name": "Middle Fork Salmon",
+            "code": "733"
+          },
+          {
+            "name": "Upper Salmon",
+            "code": "734"
+          },
+          {
+            "name": "Middle Snake",
+            "code": "735"
+          },
+          {
+            "name": "Malheur",
+            "code": "736"
+          },
+          {
+            "name": "Owyhee",
+            "code": "737"
+          },
+          {
+            "name": "Upper Snake",
+            "code": "738"
+          },
+          {
+            "name": "Coast",
+            "code": "739"
+          },
+          {
+            "name": "Cascade",
+            "code": "740"
+          },
+          {
+            "name": "Gorge",
+            "code": "741"
+          },
+          {
+            "name": "Cascade spring",
+            "code": "742"
+          },
+          {
+            "name": "Gorge spring",
+            "code": "743"
+          },
+          {
+            "name": "Coast fall",
+            "code": "744"
+          },
+          {
+            "name": "Cascade fall",
+            "code": "745"
+          },
+          {
+            "name": "Gorge fall",
+            "code": "746"
+          },
+          {
+            "name": "Cascade late fall",
+            "code": "747"
+          },
+          {
+            "name": "Cascade summer",
+            "code": "748"
+          },
+          {
+            "name": "Cascade winter",
+            "code": "749"
+          },
+          {
+            "name": "Gorge summer",
+            "code": "750"
+          },
+          {
+            "name": "Gorge winter",
+            "code": "751"
+          },
+          {
+            "name": "North Cascades",
+            "code": "710"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue"
+      }
+    },
+    {
+      "name": "WCR_POP_ID",
+      "type": "esriFieldTypeString",
+      "alias": "WCR_POP_ID",
+      "length": 255,
+      "domain": {}
+    },
+    {
+      "name": "POPULATION",
+      "type": "esriFieldTypeString",
+      "alias": "POPULATION",
+      "length": 255,
+      "domain": {}
+    },
+    {
+      "name": "RUN_TIMING",
+      "type": "esriFieldTypeString",
+      "alias": "RUN_TIMING",
+      "length": 255,
+      "domain": {
+        "type": "codedValue",
+        "name": "WS2_Run Timing",
+        "description": "General time of year when the population enters or entered fresh water and begins their upstream migration.",
+        "codedValues": [
+          {
+            "name": "winter",
+            "code": "wi"
+          },
+          {
+            "name": "spring",
+            "code": "sp"
+          },
+          {
+            "name": "spring/summer",
+            "code": "ss"
+          },
+          {
+            "name": "summer",
+            "code": "su"
+          },
+          {
+            "name": "summer and winter",
+            "code": "sw"
+          },
+          {
+            "name": "fall",
+            "code": "fa"
+          },
+          {
+            "name": "late fall",
+            "code": "lf"
+          },
+          {
+            "name": "early",
+            "code": "er"
+          },
+          {
+            "name": "late",
+            "code": "lt"
+          },
+          {
+            "name": "early and late",
+            "code": "el"
+          },
+          {
+            "name": "unknown",
+            "code": "xx"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      }
+    },
+    {
+      "name": "TYPE",
+      "type": "esriFieldTypeString",
+      "alias": "TYPE",
+      "length": 255,
+      "domain": {
+        "type": "codedValue",
+        "name": "WS2_Type",
+        "description": "Historical population type, as identified by the assigned Technical Recovery Team.",
+        "codedValues": [
+          {
+            "name": "Independent",
+            "code": "IN"
+          },
+          {
+            "name": "Functionally Independent",
+            "code": "FI"
+          },
+          {
+            "name": "Potentially Independent",
+            "code": "PI"
+          },
+          {
+            "name": "Dependent",
+            "code": "DP"
+          },
+          {
+            "name": "Unknown",
+            "code": "UN"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      }
+    },
+    {
+      "name": "STATUS",
+      "type": "esriFieldTypeString",
+      "alias": "STATUS",
+      "length": 255,
+      "domain": {
+        "type": "codedValue",
+        "name": "WS2_Status",
+        "description": "Current population status. Does the historical population currently have fish left?",
+        "codedValues": [
+          {
+            "name": "Extant",
+            "code": "EX"
+          },
+          {
+            "name": "Extirpated",
+            "code": "ET"
+          },
+          {
+            "name": "Functionally Extirpated",
+            "code": "FE"
+          },
+          {
+            "name": "Reintroduced",
+            "code": "RE"
+          },
+          {
+            "name": "Reintroduced - 10(j) Designation",
+            "code": "RJ"
+          },
+          {
+            "name": "Recolonized",
+            "code": "RC"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      }
+    },
+    {
+      "name": "link_POP_NOTES",
+      "type": "esriFieldTypeString",
+      "alias": "POP_NOTES",
+      "length": 255,
+      "domain": {}
+    },
+    {
+      "name": "NWFSC_POP_ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "NWFSC_POP_ID",
+      "domain": {}
+    },
+    {
+      "name": "TRT",
+      "type": "esriFieldTypeString",
+      "alias": "TRT",
+      "length": 100,
+      "domain": {
+        "type": "codedValue",
+        "name": "WS2_TRT",
+        "description": "Technical Recovery Team name.",
+        "codedValues": [
+          {
+            "name": "Willamette-Lower Columbia Technical Recovery Team",
+            "code": "WLC TRT"
+          },
+          {
+            "name": "Puget Sound Technical Recovery Team",
+            "code": "PS TRT"
+          },
+          {
+            "name": "Puget Sound Steelhead Technical Recovery Team",
+            "code": "PSS TRT"
+          },
+          {
+            "name": "Interior Columbia Technical Recovery Team",
+            "code": "IC TRT"
+          },
+          {
+            "name": "Oregon and Northern California Coast Technical Recovery Team",
+            "code": "ONCC TRT"
+          },
+          {
+            "name": "North-Central California Coast Technical Recovery Team",
+            "code": "NCCC TRT"
+          },
+          {
+            "name": "Central Valley Technical Recovery Team",
+            "code": "CV TRT"
+          },
+          {
+            "name": "South-Central and Southern California Coast Technical Recovery Team",
+            "code": "SCSCC TRT"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      }
+    },
+    {
+      "name": "TRT_POP_ID",
+      "type": "esriFieldTypeString",
+      "alias": "TRT_POP_ID",
+      "length": 255,
+      "domain": {}
+    }
+  ],
+  "geometryField": {
+    "name": "hydrologic_Shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "hydrologic_Shape"
+  },
+  "indexes": [
+    {
+      "name": "FDO_hydrologic_Shape",
+      "fields": "hydrologic_Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    }
+  ],
+  "subtypes": [],
+  "relationships": [],
+  "canModifyLayer": true,
+  "canScaleSymbols": false,
+  "hasLabels": false,
+  "capabilities": "Map,Query,Data",
+  "maxRecordCount": 1000000,
+  "maxSelectionCount": 2000,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "isDataVersioned": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "useStandardizedQueries": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": false,
+    "supportsCurrentUserQueries": true
+  },
+  "supportsDatumTransformation": true,
+  "dateFieldsTimeReference": {},
+  "preferredTimeReference": {},
+  "datesInUnknownTimezone": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "hydrologic_Shape_Area",
+    "shapeLengthFieldName": "hydrologic_Shape_Length",
+    "units": "esriMeters",
+    "mapUnits": {
+      "uwkid": 9001
+    }
+  },
+  "hasMetadata": true,
+  "isDataArchived": false,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsCoordinatesQuantization": true,
+  "supportsDynamicLegends": true,
+  "serviceItemId": "9359d044da434b34b564f7d581130edf"
+}

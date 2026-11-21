@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-121.813765801,47.7090405],[-121.813933805,47.708609499]]},"properties":{"identifier":"23970889","navigation":"https://api.water.usgs.gov/nldi/linked-data/comid/23970889/navigation","source":"comid","sourceName":"NHDPlus comid","comid":23970889},"id":23970889}]}

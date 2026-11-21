@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:56239",
+  "review_number": 717,
+  "SiteId": "895858",
+  "StreamName": "Illabot Cr",
+  "graph_edge_id": 3708,
+  "longitude": -121.469842976199,
+  "latitude": 48.4621570631905,
+  "request_sha256": "9774a61328e587914e1d653743a123b526d17a3cbb2a095e4828adc74dc39a05",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\8aa55b31dc9a_9774a61328e5",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:35:43.280647+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24254891",
+  "reference_stream_name": "Illabot Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 38.11994768819369,
+  "route_max_heading_degrees": 18.731834847375964
+}

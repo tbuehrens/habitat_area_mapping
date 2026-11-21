@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:53136",
+  "review_number": 597,
+  "SiteId": "895679",
+  "StreamName": "Buck Cr",
+  "graph_edge_id": 6157,
+  "longitude": -121.3282,
+  "latitude": 48.2752,
+  "request_sha256": "782ffc816cc7776ccd2462dedb2aa7add6bdb5518b75ddc8499bd5aa8c03b1ef",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\3c73217812c0_782ffc816cc7",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:20.949839+00:00",
+  "error": ""
+}

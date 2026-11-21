@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:42219",
+  "review_number": 304,
+  "SiteId": "891130",
+  "StreamName": "Trout Cr",
+  "graph_edge_id": 4466,
+  "longitude": -121.433645396153,
+  "latitude": 47.8327663498389,
+  "request_sha256": "bf4d1a404e9d05f1a29fd0aac3f46309bced6a067d0d6ef17a816877f8643750",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\475878a6efb1_bf4d1a404e9d",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:20:31.462334+00:00",
+  "comid": "23963547",
+  "indexed_longitude": -121.43373940286563,
+  "indexed_latitude": 47.83277345334137,
+  "indexed_shift_m": 7.082105769925207,
+  "reference_stream_name": "Trout Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 33.55696966443609,
+  "route_max_heading_degrees": 41.44088871447702
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:58165",
+  "review_number": 780,
+  "SiteId": "894774",
+  "StreamName": "Grandy Cr",
+  "graph_edge_id": 6208,
+  "longitude": -121.820422196957,
+  "latitude": 48.5680769023527,
+  "request_sha256": "db92ddbb0177fbd65155ee4fa01fa0cf2f24e86025211c97c700f8b83e93d96b",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2d8cd0edebea_db92ddbb0177",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:23.098267+00:00",
+  "error": ""
+}

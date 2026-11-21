@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:41694",
+  "review_number": 292,
+  "SiteId": "891123",
+  "StreamName": "Proctor Cr",
+  "graph_edge_id": 4648,
+  "longitude": -121.6522,
+  "latitude": 47.8162,
+  "request_sha256": "66dd84e8aae58b0614edcf18cda61377594cf6c8cff60ffbc6e6f6199a321917",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\9ee6b7550704_66dd84e8aae5",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:19.565334+00:00",
+  "error": ""
+}

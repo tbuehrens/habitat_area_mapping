@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:38157",
+  "review_number": 199,
+  "SiteId": "891682",
+  "StreamName": "NF Tolt R",
+  "graph_edge_id": 4721,
+  "longitude": -121.7964,
+  "latitude": 47.7037,
+  "request_sha256": "0f0c0cffbaa4023e2610ec41487bb4645c9daa1172ef009fb3410b1e40f7d41e",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\8b8901381625_0f0c0cffbaa4",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:16:24.153688+00:00",
+  "comid": "23970777",
+  "indexed_longitude": -121.79655202424887,
+  "indexed_latitude": 47.70351507623446,
+  "indexed_shift_m": 23.514286008368064,
+  "reference_stream_name": "North Fork Tolt River",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 13.389493095767161,
+  "route_max_heading_degrees": 90
+}

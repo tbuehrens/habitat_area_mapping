@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:54208",
+  "review_number": 634,
+  "SiteId": "890682",
+  "StreamName": "Pilchuck Cr",
+  "graph_edge_id": 691,
+  "longitude": -122.149262930925,
+  "latitude": 48.3173320486407,
+  "request_sha256": "dcee166f9e0a4e27003ba269f5e2156202a1dd3f58fbfcd3d7c0440b4bd0888f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1e0b2a5a98cd_dcee166f9e0a",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:34:08.481647+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24274849",
+  "reference_stream_name": "Pilchuck Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 85.85523049960167,
+  "route_max_heading_degrees": 55.28697868044796
+}

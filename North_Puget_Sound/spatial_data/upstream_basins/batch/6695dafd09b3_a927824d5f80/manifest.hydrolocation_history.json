@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:60791",
+  "review_number": 856,
+  "SiteId": "891459",
+  "StreamName": "Warm Cr",
+  "graph_edge_id": 5168,
+  "longitude": -121.97543129241,
+  "latitude": 48.7557299580658,
+  "request_sha256": "a927824d5f80b72a5f42c511de7489aadd8841c9db772c767fa423e6b076f7cd",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\6695dafd09b3_a927824d5f80",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:33:45.659177+00:00",
+  "error": ""
+}

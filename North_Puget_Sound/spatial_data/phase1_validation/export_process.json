@@ -1,0 +1,7 @@
+{
+    "pid":  26868,
+    "script":  "Phase1_Total_Barriers.R",
+    "started_utc":  "2026-11-21T03:18:35.0317743Z",
+    "stdout":  "export_stdout.log",
+    "stderr":  "export_stderr.log"
+}

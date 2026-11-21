@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:53565",
+  "review_number": 605,
+  "SiteId": "890634",
+  "StreamName": "Grant Cr",
+  "graph_edge_id": 528,
+  "longitude": -122.012821716139,
+  "latitude": 48.2838228055948,
+  "request_sha256": "c10f94e847330bd1a8e95f00db5c06f87443a9e2388024acce520266fa4ff137",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\21857f123dbc_c10f94e84733",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:28:21.479026+00:00",
+  "comid": "24275085",
+  "indexed_longitude": -122.0133342091288,
+  "indexed_latitude": 48.28371160111249,
+  "indexed_shift_m": 39.99431462335287,
+  "reference_stream_name": "Grant Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 50.387009742603624,
+  "route_max_heading_degrees": 25.778103166136503
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:46542",
+  "review_number": 415,
+  "SiteId": "891103",
+  "StreamName": "Miller Cr",
+  "graph_edge_id": 4610,
+  "longitude": -121.7817,
+  "latitude": 47.9963,
+  "request_sha256": "b173707b2d2423b8252cdd04bba78c59d7f902b33d04e213fe78a0e9e667814f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\3d68a22da31a_b173707b2d24",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:32.099425+00:00",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:43034",
+  "review_number": 318,
+  "SiteId": "891131",
+  "StreamName": "Snowslide Gulch",
+  "graph_edge_id": 4342,
+  "longitude": -121.5083,
+  "latitude": 47.8578,
+  "request_sha256": "41bfd6dee956f5ea25f5800f94f5359789778b576f38facade1cd6ebaaa362d9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\70304c5281e3_41bfd6dee956",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:39.160539+00:00",
+  "error": ""
+}

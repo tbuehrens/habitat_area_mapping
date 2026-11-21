@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56930",
+  "review_number": 740,
+  "SiteId": "895335",
+  "StreamName": "Quartz Cr",
+  "graph_edge_id": 3609,
+  "longitude": -121.7873,
+  "latitude": 48.5008,
+  "request_sha256": "4327f2208b395bcbe1b6f14e0c876f22b60ea38393bb6dcfa84549f65f4ff4ed",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\acb6c23b80b3_4327f2208b39",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:22:23.433645+00:00",
+  "error": ""
+}

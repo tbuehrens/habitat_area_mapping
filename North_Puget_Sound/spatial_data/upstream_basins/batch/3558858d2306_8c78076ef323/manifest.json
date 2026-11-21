@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:59007",
+  "review_number": 803,
+  "SiteId": "891403",
+  "StreamName": "Cavanaugh Cr",
+  "graph_edge_id": 5426,
+  "longitude": -122.0576,
+  "latitude": 48.6389,
+  "request_sha256": "8c78076ef3231de5a5cd53c638fb11b21bfaa3a45d44ba3ada0d4ac93763f634",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\3558858d2306_8c78076ef323",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:23:23.924170+00:00",
+  "error": ""
+}

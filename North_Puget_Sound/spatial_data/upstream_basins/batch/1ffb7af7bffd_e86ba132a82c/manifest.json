@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55958",
+  "review_number": 706,
+  "SiteId": "895801",
+  "StreamName": "Gee Cr",
+  "graph_edge_id": 3604,
+  "longitude": -121.7711,
+  "latitude": 48.442,
+  "request_sha256": "e86ba132a82c6e10beffc276e4e178889bce8193f82d5fd7e4248a6158939847",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1ffb7af7bffd_e86ba132a82c",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:47.149299+00:00",
+  "error": ""
+}

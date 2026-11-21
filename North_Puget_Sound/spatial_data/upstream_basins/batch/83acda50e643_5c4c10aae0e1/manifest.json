@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55849",
+  "review_number": 700,
+  "SiteId": "890991",
+  "StreamName": "Little Deer Cr",
+  "graph_edge_id": 3676,
+  "longitude": -121.9202,
+  "latitude": 48.4322,
+  "request_sha256": "5c4c10aae0e1c14b560d56426a70338d645581e7c6f4713f0d2887f99243b229",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\83acda50e643_5c4c10aae0e1",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:39.260063+00:00",
+  "error": ""
+}

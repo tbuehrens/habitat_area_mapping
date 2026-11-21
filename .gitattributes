@@ -1,0 +1,14 @@
+* text=auto
+*.R text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.Rproj text eol=lf
+*.png binary
+*.pdf binary
+*.rds binary
+*.gpkg binary
+# Scientific snapshots and checksum-protected exports retain their exact bytes.
+North_Puget_Sound/outputs/** -text
+North_Puget_Sound/spatial_data/** -text
+Lower_Columbia/outputs/** -text
+Willapa/outputs/** -text

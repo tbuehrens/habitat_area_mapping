@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:55856",
+  "review_number": 701,
+  "SiteId": "895523",
+  "StreamName": "Gee Cr",
+  "graph_edge_id": 3604,
+  "longitude": -121.752743937223,
+  "latitude": 48.4352726118735,
+  "request_sha256": "dd32a74b8f0f707165b6fedcb8c2b94d23a75a723fe43adc90ab64c208dc57b8",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\13039ebda25d_dd32a74b8f0f",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:35:11.081869+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270822",
+  "reference_stream_name": "Gee Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 47.92912995603016,
+  "route_max_heading_degrees": 22.620777908055533
+}

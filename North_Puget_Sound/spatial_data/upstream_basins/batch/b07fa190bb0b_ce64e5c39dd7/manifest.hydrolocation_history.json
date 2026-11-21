@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:60436",
+  "review_number": 850,
+  "SiteId": "891351",
+  "StreamName": "Green Cr",
+  "graph_edge_id": 5167,
+  "longitude": -121.935591695348,
+  "latitude": 48.7318893863538,
+  "request_sha256": "ce64e5c39dd75282be136ea9e6830f61e12573cf0b747dbb6bafbda4ef685710",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\b07fa190bb0b_ce64e5c39dd7",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:33:41.493521+00:00",
+  "error": ""
+}

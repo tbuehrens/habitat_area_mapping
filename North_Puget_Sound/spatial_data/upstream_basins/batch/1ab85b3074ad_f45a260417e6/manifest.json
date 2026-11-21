@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:50888",
+  "review_number": 526,
+  "SiteId": "890988",
+  "StreamName": "SF Canyon Cr",
+  "graph_edge_id": 6143,
+  "longitude": -121.797605230374,
+  "latitude": 48.1541541978428,
+  "request_sha256": "f45a260417e6853d51aa9affd2be5aeeac158e0a891cd5cc3c3a064166b83c1b",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1ab85b3074ad_f45a260417e6",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:32:36.715780+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24274579",
+  "reference_stream_name": "South Fork Canyon Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.2857142857142857,
+  "route_max_distance_m": 41.126976489441255,
+  "route_max_heading_degrees": 21.390632546563737
+}

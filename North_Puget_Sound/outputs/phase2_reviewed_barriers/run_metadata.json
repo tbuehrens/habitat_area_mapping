@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 2: user-reviewed passage corrections and additional barriers",
+  "baseline_directory": "outputs/review_swifd_connections",
+  "preserved_phase1_directory": "outputs/phase1_total_barriers",
+  "original_population_count": 16,
+  "custom_review_watershed_count": 1,
+  "removed_cut_numbers": [199, 205, 209, 215, 219, 220, 797, 798],
+  "new_or_reviewed_cut_numbers": [344, 663, 912, 913],
+  "applied_barriers": 125,
+  "upstream_summary": {
+    "applied_masks": 125,
+    "retained_physical_m": 7049177.0463,
+    "removed_physical_m": 821272.294,
+    "source_partition_error_m": 0
+  },
+  "selected_with_complete_upstream_coverage": 129,
+  "selected_pending_upstream_coverage": 130,
+  "source_length_partition": "full raw model plus qualifying SWIFD; alignment links excluded from mileage",
+  "custom_watershed_policy": "overlapping review area, not an official NOAA population; do not add to regional totals",
+  "generated_utc": "2026-11-21 17:02:10 UTC"
+}

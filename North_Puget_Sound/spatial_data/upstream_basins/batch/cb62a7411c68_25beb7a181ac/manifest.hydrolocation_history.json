@@ -1,0 +1,18 @@
+{
+  "review_record_key": "6:43045",
+  "review_number": 320,
+  "SiteId": "891178",
+  "StreamName": "Trout Cr",
+  "graph_edge_id": 4426,
+  "longitude": -121.469820723807,
+  "latitude": 47.8583711672835,
+  "request_sha256": "25beb7a181ac5703b9881615187217316c1b710fea472d07d478eea061d3151d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\cb62a7411c68_25beb7a181ac",
+  "approved": false,
+  "status": "indexed_point_beyond_tolerance",
+  "retrieved_utc": "2026-11-21T02:21:16.097212+00:00",
+  "comid": "23963539",
+  "indexed_longitude": -121.47092283314109,
+  "indexed_latitude": 47.858484199696136,
+  "indexed_shift_m": 83.4222752946042
+}

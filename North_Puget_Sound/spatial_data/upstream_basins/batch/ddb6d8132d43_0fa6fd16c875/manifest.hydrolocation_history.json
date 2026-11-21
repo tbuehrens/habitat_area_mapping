@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54742",
+  "review_number": 657,
+  "SiteId": "890700",
+  "StreamName": "Bear Cr",
+  "graph_edge_id": 521,
+  "longitude": -122.065357967605,
+  "latitude": 48.3504100505465,
+  "request_sha256": "0fa6fd16c875d8d74901794a385ccae298cdc1cac295187449ab1dfa9ab4a5a5",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ddb6d8132d43_0fa6fd16c875",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:30:18.764568+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

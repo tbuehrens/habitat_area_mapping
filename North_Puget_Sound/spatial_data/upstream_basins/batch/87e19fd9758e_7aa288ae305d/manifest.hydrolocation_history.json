@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:42521",
+  "review_number": 311,
+  "SiteId": "891129",
+  "StreamName": "Bitter Cr",
+  "graph_edge_id": 4353,
+  "longitude": -121.503376502336,
+  "latitude": 47.8412146722452,
+  "request_sha256": "7aa288ae305d1e638fd0409123467d6ad7c29438f7677ce62628f13229b1eee7",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\87e19fd9758e_7aa288ae305d",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:20:39.811207+00:00",
+  "comid": "23964243",
+  "indexed_longitude": -121.50390800585075,
+  "indexed_latitude": 47.84099961593728,
+  "indexed_shift_m": 46.417910675182846,
+  "reference_stream_name": "Bitter Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 35.48289862884893,
+  "route_max_heading_degrees": 20.790894503336975
+}

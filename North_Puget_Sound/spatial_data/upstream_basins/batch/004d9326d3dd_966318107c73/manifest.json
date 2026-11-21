@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:53070",
+  "review_number": 596,
+  "SiteId": "890571",
+  "StreamName": "Rock Cr",
+  "graph_edge_id": 655,
+  "longitude": -122.0946,
+  "latitude": 48.2648,
+  "request_sha256": "966318107c73c557feb48b31f974072e95f9879fae3e9853a9cbbd92476704e5",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\004d9326d3dd_966318107c73",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:20.622472+00:00",
+  "error": ""
+}

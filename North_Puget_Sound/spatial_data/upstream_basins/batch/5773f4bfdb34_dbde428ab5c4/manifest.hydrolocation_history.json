@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:62730",
+  "review_number": 879,
+  "SiteId": "894613",
+  "StreamName": "Bell Cr",
+  "graph_edge_id": 243,
+  "longitude": -122.163333807386,
+  "latitude": 48.8493847519403,
+  "request_sha256": "dbde428ab5c48d161bd920a6f0f28d225133dcf154685e185e7f55b6507e7da9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\5773f4bfdb34_dbde428ab5c4",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:34:03.810241+00:00",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:57018",
+  "review_number": 743,
+  "SiteId": "895502",
+  "StreamName": "Pressentin Cr",
+  "graph_edge_id": 6195,
+  "longitude": -121.843834017908,
+  "latitude": 48.5040423728857,
+  "request_sha256": "0cd81c3973d0ecad2ed011a7cf84faf247b70a6a1fd1b73ce1e19cdb3f7aa2d2",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2f3e2b7c96cd_0cd81c3973d0",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:31:58.919754+00:00",
+  "error": ""
+}

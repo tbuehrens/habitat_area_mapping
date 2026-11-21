@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:42228",
+  "review_number": 306,
+  "SiteId": "891173",
+  "StreamName": "McCoy Cr",
+  "graph_edge_id": 4727,
+  "longitude": -121.8264,
+  "latitude": 47.8292,
+  "request_sha256": "f2ba92694e891f223cc746f1ee1c45448e7ec66736eb4ac4ce0581b266395ee3",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ba192a437588_f2ba92694e89",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:27.061627+00:00",
+  "error": ""
+}

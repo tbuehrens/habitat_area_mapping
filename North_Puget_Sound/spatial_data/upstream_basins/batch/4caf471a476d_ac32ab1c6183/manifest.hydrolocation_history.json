@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:57072",
+  "review_number": 746,
+  "SiteId": "895479",
+  "StreamName": "Boulder Cr",
+  "graph_edge_id": 3381,
+  "longitude": -121.363710559287,
+  "latitude": 48.511804407969,
+  "request_sha256": "ac32ab1c618308dea27c6a91299652a17830039367c22eb4874559cbfb3fc5f9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4caf471a476d_ac32ab1c6183",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:04.631444+00:00",
+  "error": ""
+}

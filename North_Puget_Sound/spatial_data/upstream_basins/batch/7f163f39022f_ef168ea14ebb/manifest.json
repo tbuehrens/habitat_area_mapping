@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:41346",
+  "review_number": 280,
+  "SiteId": "891370",
+  "StreamName": "Anderson Cr",
+  "graph_edge_id": 6123,
+  "longitude": -121.5971,
+  "latitude": 47.8065,
+  "request_sha256": "ef168ea14ebb9eccb7d0fdabc7d1144ca131fa8001a8ea5c9227ae369d149f26",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\7f163f39022f_ef168ea14ebb",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:19.193864+00:00",
+  "error": ""
+}

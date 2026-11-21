@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55745",
+  "review_number": 696,
+  "SiteId": "895521",
+  "StreamName": "Clendenen Cr",
+  "graph_edge_id": 3602,
+  "longitude": -121.7554,
+  "latitude": 48.4275,
+  "request_sha256": "3ad89bddc4eaf723749c0222b68619ae25062d9d36ef905889ab913407863881",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ccfb5852ea0e_3ad89bddc4ea",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:33.531902+00:00",
+  "error": ""
+}

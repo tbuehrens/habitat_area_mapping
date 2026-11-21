@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:53693",
+  "review_number": 613,
+  "SiteId": "890635",
+  "StreamName": "Grant Cr",
+  "graph_edge_id": 528,
+  "longitude": -122.0182,
+  "latitude": 48.2898,
+  "request_sha256": "34484816933ef508679ecb16c186da651ad05f089e9234ba6653c097e31e56a0",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2066e38127dc_34484816933e",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:32.715180+00:00",
+  "error": ""
+}

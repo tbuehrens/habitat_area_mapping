@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:50823",
+  "review_number": 522,
+  "SiteId": "895755",
+  "StreamName": "Camp Cr",
+  "graph_edge_id": 6146,
+  "longitude": -121.287162354614,
+  "latitude": 48.1560805815316,
+  "request_sha256": "11dd3c3e224925063bc1b40c363a31b41deacad3cd4a30c8ed20cb17ef8315d4",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d89a3a143d14_11dd3c3e2249",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:58.748307+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

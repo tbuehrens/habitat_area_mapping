@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:59485",
+  "review_number": 822,
+  "SiteId": "893973",
+  "StreamName": "Skookum Cr",
+  "graph_edge_id": 5256,
+  "longitude": -122.135955085496,
+  "latitude": 48.6746393596759,
+  "request_sha256": "ea5a76eaff4abab648980b6d90268f8787790d90240700a6fba957a481c170e8",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\84b989668f0e_ea5a76eaff4a",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:33:11.462816+00:00",
+  "error": ""
+}

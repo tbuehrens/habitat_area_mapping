@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:62184",
+  "review_number": 873,
+  "SiteId": "895415",
+  "StreamName": "Glacier Cr",
+  "graph_edge_id": 3206,
+  "longitude": -121.894446802765,
+  "latitude": 48.8195348822906,
+  "request_sha256": "cd9d51bf4f77caa94ca43fbf2d36076b2a55f9a28db52b224f7e0e4e2aab726e",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\972f9a5d8075_cd9d51bf4f77",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:39:30.865888+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956406",
+  "reference_stream_name": "Glacier Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.5714285714285714,
+  "route_max_distance_m": 36.99628976712674,
+  "route_max_heading_degrees": 19.782494771618317
+}

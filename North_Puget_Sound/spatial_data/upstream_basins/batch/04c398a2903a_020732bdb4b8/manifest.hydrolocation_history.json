@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51667",
+  "review_number": 539,
+  "SiteId": "890662",
+  "StreamName": "Squire Cr",
+  "graph_edge_id": 3983,
+  "longitude": -121.63835253842,
+  "latitude": 48.1933656320848,
+  "request_sha256": "020732bdb4b8c3de85590db1b13161201e2b64dc3676b39a68e274cfd2e6e125",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\04c398a2903a_020732bdb4b8",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:25:52.335518+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

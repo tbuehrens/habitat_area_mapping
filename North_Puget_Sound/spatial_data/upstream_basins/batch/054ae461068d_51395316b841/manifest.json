@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:62799",
+  "review_number": 882,
+  "SiteId": "891818",
+  "StreamName": "Bar Cr",
+  "graph_edge_id": 3424,
+  "longitude": -121.773593228366,
+  "latitude": 48.8588880883088,
+  "request_sha256": "51395316b841f431e9041b175d2577ff5c3ddd9f3239f35f70ab1eddd12d20bd",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\054ae461068d_51395316b841",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:39:44.662780+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956434",
+  "reference_stream_name": "Bar Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 45.40446178674781,
+  "route_max_heading_degrees": 16.984945144089988
+}

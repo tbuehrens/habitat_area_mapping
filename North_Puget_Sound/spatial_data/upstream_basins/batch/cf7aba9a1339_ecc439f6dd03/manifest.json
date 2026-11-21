@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:47373",
+  "review_number": 442,
+  "SiteId": "895792",
+  "StreamName": "NF Sauk R",
+  "graph_edge_id": 4500,
+  "longitude": -121.24512560459,
+  "latitude": 48.0434201962229,
+  "request_sha256": "ecc439f6dd035a73963bbe368c0bec1c88298ce3d291b6e9bb92937d9cd9a1c9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\cf7aba9a1339_ecc439f6dd03",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:31:50.531077+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24265045",
+  "reference_stream_name": "North Fork Sauk River",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.5714285714285714,
+  "route_max_distance_m": 30.564479397152365,
+  "route_max_heading_degrees": 9.954158585511708
+}

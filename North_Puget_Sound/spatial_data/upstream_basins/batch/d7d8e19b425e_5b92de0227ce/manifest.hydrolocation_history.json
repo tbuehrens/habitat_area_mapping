@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54437",
+  "review_number": 646,
+  "SiteId": "890691",
+  "StreamName": "Crane Cr",
+  "graph_edge_id": 702,
+  "longitude": -122.115294543365,
+  "latitude": 48.3300207440684,
+  "request_sha256": "5b92de0227ce1eee586d2d3b34b473ce85d5ed1178731721fe2ea2a69f9a757a",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d7d8e19b425e_5b92de0227ce",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:29:25.629589+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

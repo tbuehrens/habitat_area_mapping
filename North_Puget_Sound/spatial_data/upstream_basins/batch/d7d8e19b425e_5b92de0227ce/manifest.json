@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:54437",
+  "review_number": 646,
+  "SiteId": "890691",
+  "StreamName": "Crane Cr",
+  "graph_edge_id": 702,
+  "longitude": -122.115294543365,
+  "latitude": 48.3300207440684,
+  "request_sha256": "5b92de0227ce1eee586d2d3b34b473ce85d5ed1178731721fe2ea2a69f9a757a",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d7d8e19b425e_5b92de0227ce",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:34:13.477339+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24275395",
+  "reference_stream_name": "Crane Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 52.45141162951155,
+  "route_max_heading_degrees": 41.8553793053654
+}

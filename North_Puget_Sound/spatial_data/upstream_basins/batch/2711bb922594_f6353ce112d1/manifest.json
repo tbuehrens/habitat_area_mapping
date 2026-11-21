@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:63171",
+  "review_number": 892,
+  "SiteId": "893067",
+  "StreamName": "Wells Cr",
+  "graph_edge_id": 3515,
+  "longitude": -121.799,
+  "latitude": 48.8938,
+  "request_sha256": "f6353ce112d1019fa6e703eb0c2f542dfcc0926fb09fcc7f10d26341e95e20ab",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2711bb922594_f6353ce112d1",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:52.824560+00:00",
+  "error": ""
+}

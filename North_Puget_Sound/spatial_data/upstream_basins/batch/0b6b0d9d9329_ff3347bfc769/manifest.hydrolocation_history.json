@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55408",
+  "review_number": 678,
+  "SiteId": "895840",
+  "StreamName": "White Cr",
+  "graph_edge_id": 3648,
+  "longitude": -121.5378510153,
+  "latitude": 48.4032505452689,
+  "request_sha256": "ff3347bfc76991b46a13459510c490452ff6f2a07ad51dbd9d39096168fb4c89",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\0b6b0d9d9329_ff3347bfc769",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:30:36.497437+00:00",
+  "error": ""
+}

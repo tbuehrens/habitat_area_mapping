@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56157",
+  "review_number": 715,
+  "SiteId": "890419",
+  "StreamName": "Kindy Cr",
+  "graph_edge_id": 6194,
+  "longitude": -121.2119,
+  "latitude": 48.4586,
+  "request_sha256": "fc57c799c6c57ea09fe35ba1c85630e7a8dec07819dba6e8e69fa30240ea13f7",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\904aac0d8570_fc57c799c6c5",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:57.401814+00:00",
+  "error": ""
+}

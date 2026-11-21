@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:61956",
+  "review_number": 871,
+  "SiteId": "891179",
+  "StreamName": "Clearwater Cr",
+  "graph_edge_id": 5484,
+  "longitude": -121.990368835232,
+  "latitude": 48.8063562352028,
+  "request_sha256": "f882b51bbc029b072cb66807bfc8a90c6fefee53041c06878b06d80b0c6d5976",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\010f4967b861_f882b51bbc02",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:33:53.821926+00:00",
+  "error": ""
+}

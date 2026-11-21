@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:63199",
+  "review_number": 893,
+  "SiteId": "892038",
+  "StreamName": "Ruth Cr",
+  "graph_edge_id": 3516,
+  "longitude": -121.644202636701,
+  "latitude": 48.8970374700863,
+  "request_sha256": "8f67be99112145de7c0a530cb1d7beeda910707730f637c2952ad67625337e8d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\f801472dd976_8f67be991121",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:34:23.841415+00:00",
+  "error": ""
+}

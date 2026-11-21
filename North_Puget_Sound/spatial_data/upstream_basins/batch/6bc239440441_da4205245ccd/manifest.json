@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:53751",
+  "review_number": 619,
+  "SiteId": "890575",
+  "StreamName": "Brooks Cr",
+  "graph_edge_id": 6172,
+  "longitude": -121.9073,
+  "latitude": 48.2938,
+  "request_sha256": "da4205245ccd8a895392e1b952e3dc8332415a332b5173bbcaf03b7bf01c2c58",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\6bc239440441_da4205245ccd",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:33.049706+00:00",
+  "error": ""
+}

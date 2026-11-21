@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55940",
+  "review_number": 705,
+  "SiteId": "895861",
+  "StreamName": "Illabot Cr",
+  "graph_edge_id": 3708,
+  "longitude": -121.4471,
+  "latitude": 48.444,
+  "request_sha256": "b95ae7e9f76223b01550d4908eb9b4f4c506aeb763fc7d5e4baa54bd6c01d9b9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d2dc3898798e_b95ae7e9f762",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:45.623079+00:00",
+  "error": ""
+}

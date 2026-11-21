@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:58689",
+  "review_number": 795,
+  "SiteId": "894189",
+  "StreamName": "Plumbago Cr",
+  "graph_edge_id": 5264,
+  "longitude": -122.0957,
+  "latitude": 48.6095,
+  "request_sha256": "2ea6b998486892bea72ed9a108024a72aa1ff173a5e6d0964ddf4cd8bd5451f1",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\e381df3be1c1_2ea6b9984868",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:23:10.296717+00:00",
+  "error": ""
+}

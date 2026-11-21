@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:42574",
+  "review_number": 313,
+  "SiteId": "891120",
+  "StreamName": "Hogarty Cr",
+  "graph_edge_id": 6129,
+  "longitude": -121.6121,
+  "latitude": 47.842,
+  "request_sha256": "3804c5b2eecac6642dad3a5440908051ee78f86a04620068b91134e3a41c0007",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d89c226babda_3804c5b2eeca",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:37.347213+00:00",
+  "error": ""
+}

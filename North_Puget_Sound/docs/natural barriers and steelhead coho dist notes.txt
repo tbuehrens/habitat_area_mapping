@@ -1,0 +1,71 @@
+notes on accessing statewide steelhead and coho predictive distribution layers and natural barriers datasets:
+
+Predictive distribution service supplied for the North Puget Sound update:
+https://services.arcgis.com/rcya3vExsaVBGUDp/arcgis/rest/services/Statewide_Dist_Models_1b66a3ddb471/FeatureServer
+Steelhead Modeled Statewide: layer 0
+Coho Modeled Statewide TW: layer 1
+The steelhead layer publishes geometry, OBJECTID, MAX_UniqueCHID, and Shape__Length,
+but no downstream routing or run-specific prediction fields. See README.md for
+the reproducible analysis and unresolved-connectivity interpretation.
+
+SWIFD-supported gap routing update:
+https://geodataservices.wdfw.wa.gov/arcgis/rest/services/MapServices/SWIFD/MapServer/0
+Winter and summer steelhead Presence/Spawning/Rearing are dissolved as routing
+support. Artificial, Transported, and Presumed distribution are included;
+Gradient Accessible categories are excluded. Both gap attachment locations must
+be within 100 meters of eligible SWIFD and have a continuous SWIFD route.
+Endpoint alignment links are topology only and excluded from habitat mileage.
+
+Verified:
+https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/5
+ 
+Not Field Verified:
+https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/6
+ 
+FPDSI:
+https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer
+Layer: Natural Barrier - Verified (ID: 5)
+ 
+Here's how R access the verified:
+ 
+library(sf)
+ 
+layer <- "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/5"
+
+url <- paste0(
+
+  layer, "/query?where=1%3D1&outFields=*&outSR=4326&f=geojson"
+
+)
+ 
+barriers <- st_read(url, quiet = TRUE)
+
+head(st_drop_geometry(barriers))
+Layer: Natural Barrier - Verified (ID: 5)
+ 
+Heres how Python does:
+ 
+import geopandas as gpd
+ 
+layer = "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/5"
+
+url = (
+
+    f"{layer}/query?where=1%3D1&outFields=*&outSR=4326&f=geojson"
+
+)
+ 
+barriers = gpd.read_file(url)
+
+print(barriers. Head())
+Layer: Natural Barrier - Verified (ID: 5)
+ 
+832 verified, 5536 Not verified
+ 
+CoPilot gave me those code.  It also said this about the verified:
+The service limits responses to 2,000 features. Its current 832 records fit in one request; larger results would require pagination.
+So the unverified evidently needs pagination
+ 
+The FPDSI stuff is only shared w/ Organization, so you'd have to have login for AGOL (ArcGIS Online)
+ 
+Actually, I think this version is public.  I was thinking of a different source.

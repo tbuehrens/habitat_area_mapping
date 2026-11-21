@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:58440",
+  "review_number": 785,
+  "SiteId": "890430",
+  "StreamName": "Diobsud Cr",
+  "graph_edge_id": 3403,
+  "longitude": -121.454838072397,
+  "latitude": 48.5953015138746,
+  "request_sha256": "3fd0426476c00265b5204d533da83e9a4853b12acbc0c77e7a77f4e454415dd4",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\5d23df809b87_3fd0426476c0",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:37:22.631495+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24255847",
+  "reference_stream_name": "Diobsud Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 28.560513571353013,
+  "route_max_heading_degrees": 26.812185599687563
+}

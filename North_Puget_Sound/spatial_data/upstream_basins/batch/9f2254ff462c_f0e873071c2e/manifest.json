@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:63069",
+  "review_number": 890,
+  "SiteId": "891985",
+  "StreamName": "Bagley Cr",
+  "graph_edge_id": 3420,
+  "longitude": -121.6646,
+  "latitude": 48.8891,
+  "request_sha256": "f0e873071c2e41e46d14b0a1755efb09b99de9aefb3af2023f55a705233b72fc",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\9f2254ff462c_f0e873071c2e",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:24:47.057438+00:00",
+  "error": ""
+}

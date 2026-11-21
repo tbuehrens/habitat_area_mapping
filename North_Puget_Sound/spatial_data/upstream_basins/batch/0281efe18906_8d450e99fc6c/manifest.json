@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54105",
+  "review_number": 631,
+  "SiteId": "890807",
+  "StreamName": "NF Stillaguamish R",
+  "graph_edge_id": 4118,
+  "longitude": -121.6386,
+  "latitude": 48.3177,
+  "request_sha256": "8d450e99fc6c4033ebef9716923d605a9840fdd377a76f71b3497f4e6fef592f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\0281efe18906_8d450e99fc6c",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:39.085383+00:00",
+  "error": ""
+}

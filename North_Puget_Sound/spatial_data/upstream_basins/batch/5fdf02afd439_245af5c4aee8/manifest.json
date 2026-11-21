@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:45316",
+  "review_number": 379,
+  "SiteId": "891269",
+  "StreamName": "Olney Cr",
+  "graph_edge_id": 6133,
+  "longitude": -121.665,
+  "latitude": 47.9412,
+  "request_sha256": "245af5c4aee8e5a3b33a5e6299c1d10f600ce853d31efb62c3fc2d1b2ac0ca66",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\5fdf02afd439_245af5c4aee8",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:26.066364+00:00",
+  "error": ""
+}

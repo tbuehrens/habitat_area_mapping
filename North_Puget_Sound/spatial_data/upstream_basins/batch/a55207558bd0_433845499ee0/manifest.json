@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54571",
+  "review_number": 650,
+  "SiteId": "890815",
+  "StreamName": "Crevice Cr",
+  "graph_edge_id": 3942,
+  "longitude": -121.6499,
+  "latitude": 48.3438,
+  "request_sha256": "433845499ee0cc5fda1015a62883dfd55f12561dac0a0493aac48dedf38a8d07",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\a55207558bd0_433845499ee0",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:20:58.763040+00:00",
+  "error": ""
+}

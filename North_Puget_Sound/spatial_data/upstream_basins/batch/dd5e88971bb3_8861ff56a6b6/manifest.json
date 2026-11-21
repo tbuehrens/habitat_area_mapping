@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:41812",
+  "review_number": 296,
+  "SiteId": "891380",
+  "StreamName": "Lewis Cr",
+  "graph_edge_id": 4360,
+  "longitude": -121.5085,
+  "latitude": 47.8201,
+  "request_sha256": "8861ff56a6b6e006a30185ce31434eb62acf35b75d90c6aeec84cdf4e53a2cdd",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\dd5e88971bb3_8861ff56a6b6",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:25.243494+00:00",
+  "error": ""
+}

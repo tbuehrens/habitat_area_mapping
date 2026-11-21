@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:59474",
+  "review_number": 821,
+  "SiteId": "895487",
+  "StreamName": "Bacon Cr",
+  "graph_edge_id": 3258,
+  "longitude": -121.462908019305,
+  "latitude": 48.6809644218527,
+  "request_sha256": "96b7535852f65c19e60285763a919bf6687bdc39aed07da8da1b294cc1db5d9f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\517622828f4f_96b7535852f6",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:33:11.208836+00:00",
+  "error": ""
+}

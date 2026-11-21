@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:56939",
+  "review_number": 741,
+  "SiteId": "895503",
+  "StreamName": "Hatchery Cr",
+  "graph_edge_id": 3611,
+  "longitude": -121.778872736497,
+  "latitude": 48.5014107355059,
+  "request_sha256": "a8eef011e6c4a422ed72be4860c05357573751dae4fb69c8e63713f34de589c2",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d3979fac45de_a8eef011e6c4",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:36:27.617713+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270770",
+  "reference_stream_name": "Hatchery Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 34.894301182549285,
+  "route_max_heading_degrees": 28.600024349334852
+}

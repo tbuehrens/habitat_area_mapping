@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51920",
+  "review_number": 552,
+  "SiteId": "890864",
+  "StreamName": "Cub Cr",
+  "graph_edge_id": 3132,
+  "longitude": -121.9403,
+  "latitude": 48.211,
+  "request_sha256": "aa5e7426c73b79628ee53196879cfa424f64419694bcf87e543e93ba70d27caa",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\327ae62dbf67_aa5e7426c73b",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:44.668506+00:00",
+  "error": ""
+}

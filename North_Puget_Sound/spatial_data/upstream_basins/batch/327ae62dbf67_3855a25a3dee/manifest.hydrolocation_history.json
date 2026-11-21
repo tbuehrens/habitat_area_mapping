@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:51920",
+  "review_number": 552,
+  "SiteId": "890864",
+  "StreamName": "Cub Cr",
+  "graph_edge_id": 3132,
+  "longitude": -121.940262478069,
+  "latitude": 48.2109802465266,
+  "request_sha256": "3855a25a3dee0ab847b823ccf613e7f2ece96336d59a8645b55201442c5c0657",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\327ae62dbf67_3855a25a3dee",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:26:20.132398+00:00",
+  "comid": "24274621",
+  "indexed_longitude": -121.94010729294958,
+  "indexed_latitude": 48.21100892434351,
+  "indexed_shift_m": 11.96615783963149,
+  "reference_stream_name": "Cub Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 45.07156220067471,
+  "route_max_heading_degrees": 41.2575134498409
+}

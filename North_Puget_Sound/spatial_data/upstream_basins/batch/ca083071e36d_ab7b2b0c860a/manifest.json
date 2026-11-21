@@ -1,0 +1,20 @@
+{
+  "review_record_key": "6:63396",
+  "review_number": 899,
+  "SiteId": "891590",
+  "StreamName": "Deer Horn Cr",
+  "graph_edge_id": 3432,
+  "longitude": -121.857885083046,
+  "latitude": 48.9056459204314,
+  "request_sha256": "ab7b2b0c860a5a5b69c5a0ec770a814dc35a36da78e303476aa9a52b3efb7ca8",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ca083071e36d_ab7b2b0c860a",
+  "approved": false,
+  "status": "reference_stream_name_unconfirmed",
+  "retrieved_utc": "2026-11-21T03:12:04.501344+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956418",
+  "reference_stream_name": "North Fork Nooksack River",
+  "reference_flowdir": "With Digitized"
+}

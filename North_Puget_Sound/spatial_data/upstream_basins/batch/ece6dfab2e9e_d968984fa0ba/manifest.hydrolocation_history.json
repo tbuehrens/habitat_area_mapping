@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:54599",
+  "review_number": 652,
+  "SiteId": "890992",
+  "StreamName": "Deer Cr",
+  "graph_edge_id": 3943,
+  "longitude": -121.740591228082,
+  "latitude": 48.3446578066636,
+  "request_sha256": "d968984fa0ba307c3678bc9071e64d783ab5ae1f9cdf80f4ef5e98f61bf37417",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\ece6dfab2e9e_d968984fa0ba",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:29:53.994841+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

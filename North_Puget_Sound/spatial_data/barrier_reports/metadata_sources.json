@@ -1,0 +1,13 @@
+{
+  "natural_layers": ["https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/5", "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/6"],
+  "manual_publication": "https://wdfw.wa.gov/publications/02061",
+  "manual_pdf": "https://wdfw.wa.gov/sites/default/files/publications/02061/Fish%20Passage%20Inventory%2C%20Assessment%2C%20and%20Prioritization%20Manual.pdf",
+  "manual_local": "spatial_data/barrier_reports/wdfw02061.pdf",
+  "manual_md5": "2ca5c928382a39d2933244f4b6e6f8b4",
+  "manual_pages": {
+    "passability": "PDF page12 / printed1-4",
+    "natural_barriers": "PDF page102 / printed7-2"
+  },
+  "interpretation": ["Public Barrier Yes is distinct from explicit Total blockage", "Printed species labels/list are not independently validated per-run blockage evidence", "Dimension sentinels are missing, and height/type alone do not establish total steelhead blockage", "Report Total is a source classification, not an independently verified universal steelhead-run passage conclusion"],
+  "generated_utc": "2026-11-21 02:01:40 UTC"
+}

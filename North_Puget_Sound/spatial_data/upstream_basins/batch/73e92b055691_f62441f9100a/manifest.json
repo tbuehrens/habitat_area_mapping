@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:47337",
+  "review_number": 438,
+  "SiteId": "895781",
+  "StreamName": "Elliott Cr",
+  "graph_edge_id": 4501,
+  "longitude": -121.3984,
+  "latitude": 48.0402,
+  "request_sha256": "f62441f9100a536cc23a9efe3549929961242f9cb0788673aa132c995276da7d",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\73e92b055691_f62441f9100a",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:18:45.671408+00:00",
+  "error": ""
+}

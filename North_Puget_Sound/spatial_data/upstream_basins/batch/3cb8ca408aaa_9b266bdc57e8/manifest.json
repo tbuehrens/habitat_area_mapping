@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:62732",
+  "review_number": 880,
+  "SiteId": "892105",
+  "StreamName": "NF Nooksack R",
+  "graph_edge_id": 3509,
+  "longitude": -121.565747907669,
+  "latitude": 48.8565099159136,
+  "request_sha256": "9b266bdc57e87a2e6e96f315a219328e14c871620566b0480e9a119e38c2f0cd",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\3cb8ca408aaa_9b266bdc57e8",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:39:38.582281+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23956474",
+  "reference_stream_name": "North Fork Nooksack River",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 41.42694213784446,
+  "route_max_heading_degrees": 10.26486986686803
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:55896",
+  "review_number": 703,
+  "SiteId": "894580",
+  "StreamName": "Day Cr",
+  "graph_edge_id": 3142,
+  "longitude": -122.0024,
+  "latitude": 48.4354,
+  "request_sha256": "d4c281c92937201b0cb43589af3db200572a6d3be73ead4c89f165e1dae68a66",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\6ecbb9d6a0de_d4c281c92937",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:21:41.102804+00:00",
+  "error": ""
+}

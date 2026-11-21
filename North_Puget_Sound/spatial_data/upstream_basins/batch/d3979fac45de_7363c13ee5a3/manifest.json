@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56939",
+  "review_number": 741,
+  "SiteId": "895503",
+  "StreamName": "Hatchery Cr",
+  "graph_edge_id": 3611,
+  "longitude": -121.7789,
+  "latitude": 48.5014,
+  "request_sha256": "7363c13ee5a34af34cf509173ead1edd05792e781c876d9b127f2d57cc0bfc49",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d3979fac45de_7363c13ee5a3",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:22:27.671627+00:00",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:57704",
+  "review_number": 765,
+  "SiteId": "895620",
+  "StreamName": "Jackman Cr",
+  "graph_edge_id": 6217,
+  "longitude": -121.664555984189,
+  "latitude": 48.5412297021183,
+  "request_sha256": "e3e5f7889928b6eeb3ff4f6865ace2a2613f6e7ab832457f6388d190b87a6dfb",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4ddafbac3d91_e3e5f7889928",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:16.728573+00:00",
+  "error": ""
+}

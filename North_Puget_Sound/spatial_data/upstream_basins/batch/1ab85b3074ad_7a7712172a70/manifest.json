@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:50888",
+  "review_number": 526,
+  "SiteId": "890988",
+  "StreamName": "SF Canyon Cr",
+  "graph_edge_id": 6143,
+  "longitude": -121.7976,
+  "latitude": 48.1542,
+  "request_sha256": "7a7712172a70b140e435dbc6ce6c3f091fb8dbecdcaebedaab8e460bcbd719a0",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\1ab85b3074ad_7a7712172a70",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:19:20.143964+00:00",
+  "error": ""
+}

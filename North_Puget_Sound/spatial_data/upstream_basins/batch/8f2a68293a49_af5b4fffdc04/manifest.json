@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:54167",
+  "review_number": 632,
+  "SiteId": "890812",
+  "StreamName": "NF Stillaguamish R",
+  "graph_edge_id": 4118,
+  "longitude": -121.639836418244,
+  "latitude": 48.3211954333982,
+  "request_sha256": "af5b4fffdc0419977cdfef22d5570c95f0164bdff1ea39a670f372dce61790dc",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\8f2a68293a49_af5b4fffdc04",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:34:06.669431+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24274763",
+  "reference_stream_name": "North Fork Stillaguamish River",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 39.70007699367764,
+  "route_max_heading_degrees": 16.47292534239076
+}

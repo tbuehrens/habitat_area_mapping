@@ -1,0 +1,5 @@
+source("R/arcgis.R")
+source("R/swifd_sources.R")
+x <- download_steelhead_swifd("spatial_data", c(-123.2,47.2,-120.5,49.5))
+cat(nrow(x), "eligible winter/summer SWIFD records downloaded\n")
+print(table(x$SPECIESRUN, x$DISTTYPE_DESC))

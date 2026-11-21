@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:34179",
+  "review_number": 95,
+  "SiteId": "891187",
+  "StreamName": "Snoqualmie R",
+  "graph_edge_id": 5196,
+  "longitude": -121.8357,
+  "latitude": 47.5404,
+  "request_sha256": "8465470f5a0d59e5948ee6c9029a655a7e8e0c2c3f74c8a75fc6295c967dc384",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\a5d4a615a4e7_8465470f5a0d",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:16:01.468624+00:00",
+  "comid": "23970255",
+  "indexed_longitude": -121.83578086210467,
+  "indexed_latitude": 47.540376705034774,
+  "indexed_shift_m": 6.615799116070362,
+  "reference_stream_name": "Snoqualmie River",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.2857142857142857,
+  "route_max_distance_m": 15.041745536133686,
+  "route_max_heading_degrees": 41.17868215782849
+}

@@ -1,0 +1,5 @@
+NF Tolt222 retained as user-reviewed limit; remove all six lower NF Tolt Total masks and graphcuts to restore full raw+SWIFD upstream to222.
+SF Tolt913 is the permanent natural waterfall RM7.8,73ft, digitized from authoritative City2024 Fig4-86. City confirms dam about0.5mi upstream. WDFW170 is near dam and remains separate.
+Falls point is map-digitized, not surveyed; fine named-stream overlay and strict physical match retained. No generic identity/course distance threshold relaxed.
+Culmback912 uses official current NWIS12137300 point described on rightbank at dam; mask agrees within5% of published68.3mi2.
+Both masks require unique full drainageBasin, published area range, original50m primary snap, and independent local downstream proof. Root must revalidate against combined Phase2 graph before exporting.

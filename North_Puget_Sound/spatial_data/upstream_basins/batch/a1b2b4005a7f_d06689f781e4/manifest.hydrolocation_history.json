@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56736",
+  "review_number": 732,
+  "SiteId": "895280",
+  "StreamName": "Jordan Cr",
+  "graph_edge_id": 6196,
+  "longitude": -121.410376136757,
+  "latitude": 48.4925045279604,
+  "request_sha256": "d06689f781e40b49f3c600f32ac1a316b1f1e5c927c12229a11fd59b569efab9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\a1b2b4005a7f_d06689f781e4",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:31:40.772313+00:00",
+  "error": ""
+}

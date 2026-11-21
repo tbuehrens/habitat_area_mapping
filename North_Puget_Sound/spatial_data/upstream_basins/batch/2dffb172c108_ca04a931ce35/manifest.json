@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:43878",
+  "review_number": 333,
+  "SiteId": "891116",
+  "StreamName": "NF Wallace R",
+  "graph_edge_id": 4308,
+  "longitude": -121.6607,
+  "latitude": 47.8817,
+  "request_sha256": "ca04a931ce35cf3d9c688294c12bc6dfe2f7dceb96c1c445d179e12da599601f",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2dffb172c108_ca04a931ce35",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:55.848256+00:00",
+  "error": ""
+}

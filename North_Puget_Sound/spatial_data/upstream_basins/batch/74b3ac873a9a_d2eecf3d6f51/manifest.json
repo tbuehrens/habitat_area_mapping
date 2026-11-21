@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:36499",
+  "review_number": 141,
+  "SiteId": "891777",
+  "StreamName": "Lennox Cr",
+  "graph_edge_id": 6036,
+  "longitude": -121.5452,
+  "latitude": 47.6421,
+  "request_sha256": "d2eecf3d6f51abfd61d99bc4408649801f162e84dbcbbf8a23da472d7d9d8b27",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\74b3ac873a9a_d2eecf3d6f51",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:16:19.879861+00:00",
+  "comid": "23970625",
+  "indexed_longitude": -121.54580095098466,
+  "indexed_latitude": 47.64201087437664,
+  "indexed_shift_m": 46.22998208078587,
+  "reference_stream_name": "Lennox Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.0,
+  "route_max_distance_m": 32.6504680939011,
+  "route_max_heading_degrees": 66.98542334540484
+}

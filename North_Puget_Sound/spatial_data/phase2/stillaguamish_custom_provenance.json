@@ -1,0 +1,45 @@
+{
+  "notes": ["This is an additional custom analysis unit, not a NOAA population replacement.", "The geographic definition is the North Fork Stillaguamish immediately above the Deer Creek confluence; Deer Creek drainage is excluded.", "The USGS COMID upstream-basin endpoint supplies the complete watershed, including all contributing tributaries and disconnected model reaches.", "Use full cached raw/augmented network geometry for clipping; do not restrict the source to previously clipped NOAA outputs.", "The USGS and WDFW confluence locations differ within the documented hydrography precision; provenance and checks are retained."],
+  "sources": [
+    {
+      "file": "deer_confluence_fabric.json",
+      "source_url": "https://api.water.usgs.gov/fabric/pygeoapi/collections/nhdflowline_network/items?bbox=-121.95,48.25,-121.91,48.29&limit=100&f=json",
+      "md5": "0f6fc047598554acf07885a2b52aad79",
+      "retrieved_utc": "2026-11-21 16:45:07 UTC"
+    },
+    {
+      "file": "nf_stillaguamish_oso_site.json",
+      "source_url": "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-12166495?f=json",
+      "md5": "43a1e876df32b6a150df9d0dd2751acf",
+      "retrieved_utc": "2026-11-21 16:45:06 UTC"
+    },
+    {
+      "file": "nf_stillaguamish_above_deer_basin.json",
+      "source_url": "https://api.water.usgs.gov/nldi/linked-data/comid/24274669/basin?simplified=false",
+      "md5": "5c6ac58c389b1bd4802329f4927dd3a0",
+      "retrieved_utc": "2026-11-21 16:45:57 UTC"
+    },
+    {
+      "file": "deer_creek_basin.json",
+      "source_url": "https://api.water.usgs.gov/nldi/linked-data/comid/24274775/basin?simplified=false",
+      "md5": "cea4e86549c6a788985458f0a35840d9",
+      "retrieved_utc": "2026-11-21 16:45:57 UTC"
+    },
+    {
+      "file": "nf_stillaguamish_above_deer_UT.json",
+      "source_url": "https://api.water.usgs.gov/nldi/linked-data/comid/24274669/navigation/UT/flowlines?f=json&distance=1000",
+      "md5": "f4d34af90beca29202268cdaf26c61a3",
+      "retrieved_utc": "2026-11-21 16:45:57 UTC"
+    }
+  ],
+  "validation": {
+    "published_upstream_area_km2": 445.4019,
+    "published_deer_area_km2": 187.4637,
+    "published_downstream_area_km2": 633.9987,
+    "full_augmented_physical_miles": 114.646456051077,
+    "upstream_reach_count": 108,
+    "deer_overlap_km2": 0,
+    "upstream_outside_m": 0
+  },
+  "generated_utc": "2026-11-21 16:50:06 UTC"
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:52652",
+  "review_number": 581,
+  "SiteId": "890651",
+  "StreamName": "French Cr",
+  "graph_edge_id": 4017,
+  "longitude": -121.786982668577,
+  "latitude": 48.2532504768024,
+  "request_sha256": "7a50aac659a68e87a314493f4a1bc3ab8eb30dba025a39ee02e687863a649875",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\d2fe01363fa3_7a50aac659a6",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:27:27.331609+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:46622",
+  "review_number": 417,
+  "SiteId": "891141",
+  "StreamName": "Miller Cr",
+  "graph_edge_id": 4610,
+  "longitude": -121.779797584238,
+  "latitude": 48.0001209363956,
+  "request_sha256": "fe9fb6682a152552a32de9121a21b49e835c56da7464d703267597dc4ec5c5b6",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\01ae85cc795c_fe9fb6682a15",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:23:11.031583+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

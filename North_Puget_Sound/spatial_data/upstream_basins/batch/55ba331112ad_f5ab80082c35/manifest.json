@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:42412",
+  "review_number": 309,
+  "SiteId": "891144",
+  "StreamName": "Duffey Cr",
+  "graph_edge_id": 4733,
+  "longitude": -121.6881,
+  "latitude": 47.8361,
+  "request_sha256": "f5ab80082c359627f408319619d96428416d88f96a35fee05bc586f855fa3c1a",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\55ba331112ad_f5ab80082c35",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:17:31.298647+00:00",
+  "error": ""
+}

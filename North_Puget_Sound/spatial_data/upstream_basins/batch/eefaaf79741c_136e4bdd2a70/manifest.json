@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:56105",
+  "review_number": 713,
+  "SiteId": "894601",
+  "StreamName": "Rocky Cr",
+  "graph_edge_id": 446,
+  "longitude": -122.014925274851,
+  "latitude": 48.4471783119004,
+  "request_sha256": "136e4bdd2a70eab41a9bd8961bf34ea53a2317a765fc1e190eff3e23765a5b18",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\eefaaf79741c_136e4bdd2a70",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:35:40.184716+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24270604",
+  "reference_stream_name": "Rocky Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 24.25728281256117,
+  "route_max_heading_degrees": 44.43955224701673
+}

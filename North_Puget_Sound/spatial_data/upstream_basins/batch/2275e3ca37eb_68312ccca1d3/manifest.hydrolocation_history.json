@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:51830",
+  "review_number": 545,
+  "SiteId": "890849",
+  "StreamName": "Gerkman Cr",
+  "graph_edge_id": 4016,
+  "longitude": -121.73551896486,
+  "latitude": 48.206036861738,
+  "request_sha256": "68312ccca1d3a55721862e6e230801d97016d3e9efc80ad590a3d35a9a001641",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2275e3ca37eb_68312ccca1d3",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:26:06.196221+00:00",
+  "error": "curl: (22) The requested URL returned error: 502"
+}

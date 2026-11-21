@@ -1,0 +1,19 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Phase 1: 263 reported Total candidates, including verified and unverified records
+Phase 1: cached drainage requests loaded; 168 candidate full basins
+Phase 1: local graph direction checked; validating complete upstream drainage masks
+Phase 1: 128 complete drainage masks approved; checking nested upstream coverage
+Phase 1: all approved upstream masks applied and checked for remaining upstream linework
+Phase 1: writing updated figures and per-basin completeness audits
+Coordinate system already present.
+i Adding new coordinate system, which will replace the existing one.
+Coordinate system already present.
+i Adding new coordinate system, which will replace the existing one.
+Coordinate system already present.
+i Adding new coordinate system, which will replace the existing one.
+Phase 1 exported separately: 128 applied cuts; untruncated baseline unchanged
+There were 50 or more warnings (use warnings() to see the first 50)

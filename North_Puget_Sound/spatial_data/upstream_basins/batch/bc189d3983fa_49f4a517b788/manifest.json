@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:56384",
+  "review_number": 722,
+  "SiteId": "895301",
+  "StreamName": "NF Cascade R",
+  "graph_edge_id": 3534,
+  "longitude": -121.1609,
+  "latitude": 48.4738,
+  "request_sha256": "49f4a517b7881f218b08258b7d3847d4b0d008dfc484aab92bf1f891687ca946",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\bc189d3983fa_49f4a517b788",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:22:03.453575+00:00",
+  "error": ""
+}

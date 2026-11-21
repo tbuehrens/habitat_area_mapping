@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:45410",
+  "review_number": 380,
+  "SiteId": "891268",
+  "StreamName": "Olney Cr",
+  "graph_edge_id": 6133,
+  "longitude": -121.703984933902,
+  "latitude": 47.9453746901119,
+  "request_sha256": "62c8385f65f55eb1cfe58b0b8144fb05e96dd91e0ac375122765c7f37a6fca22",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\50a6170d977d_62c8385f65f5",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:31:18.611967+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23963685",
+  "reference_stream_name": "Olney Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.42857142857142855,
+  "route_max_distance_m": 37.97202263968181,
+  "route_max_heading_degrees": 46.05012469110708
+}

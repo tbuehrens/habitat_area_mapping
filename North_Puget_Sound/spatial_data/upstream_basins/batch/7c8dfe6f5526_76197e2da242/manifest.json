@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:34711",
+  "review_number": 103,
+  "SiteId": "891918",
+  "StreamName": "Quartz Cr",
+  "graph_edge_id": 4912,
+  "longitude": -121.5363,
+  "latitude": 47.5596,
+  "request_sha256": "76197e2da24298b8623ec964964eb978f900250466e2706ac085b014a781d2bb",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\7c8dfe6f5526_76197e2da242",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:16:02.902486+00:00",
+  "comid": "23970537",
+  "indexed_longitude": -121.53594453590777,
+  "indexed_latitude": 47.55940942017937,
+  "indexed_shift_m": 34.126561474017926,
+  "reference_stream_name": "Quartz Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 8.101167596073132,
+  "route_max_heading_degrees": 38.489717438355626
+}

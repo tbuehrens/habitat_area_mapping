@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:53295",
+  "review_number": 601,
+  "SiteId": "890729",
+  "StreamName": "Rock Cr",
+  "graph_edge_id": 655,
+  "longitude": -122.09944873881,
+  "latitude": 48.2718770896286,
+  "request_sha256": "0e0372ba21e237332e0983ce7e8412e269ce0edfa7d70266ac8ef0770bda47c3",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\067508c9a1d9_0e0372ba21e2",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:33:57.264405+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "24274931",
+  "reference_stream_name": "Rock Creek",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.14285714285714285,
+  "route_max_distance_m": 54.69793417795807,
+  "route_max_heading_degrees": 44.42604964968633
+}

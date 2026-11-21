@@ -1,0 +1,23 @@
+{
+  "review_record_key": "6:31009",
+  "review_number": 70,
+  "SiteId": "891854",
+  "StreamName": "SF Snoqualmie R",
+  "graph_edge_id": 5185,
+  "longitude": -121.703768966544,
+  "latitude": 47.4464067773774,
+  "request_sha256": "4d4eb19d579730ee2ce9c61553aca91b59e3f63985a84519fada529ce4f3b847",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\2b63d157b330_4d4eb19d5797",
+  "approved": false,
+  "status": "reference_local_course_unconfirmed",
+  "retrieved_utc": "2026-11-21T02:26:21.829547+00:00",
+  "index_recovery_attempted": true,
+  "indexing_method": "validated_route_projection_after_catchment_lookup",
+  "request_stage": "named_reference_flowline",
+  "comid": "23970293",
+  "reference_stream_name": "South Fork Snoqualmie River",
+  "reference_flowdir": "With Digitized",
+  "route_support_coverage": 0.7142857142857143,
+  "route_max_distance_m": 26.6032772499965,
+  "route_max_heading_degrees": 36.32366506294139
+}

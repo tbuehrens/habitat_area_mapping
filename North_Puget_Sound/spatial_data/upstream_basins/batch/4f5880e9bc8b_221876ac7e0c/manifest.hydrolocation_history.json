@@ -1,0 +1,15 @@
+{
+  "review_record_key": "6:57164",
+  "review_number": 750,
+  "SiteId": "894697",
+  "StreamName": "Cumberland Cr",
+  "graph_edge_id": 5237,
+  "longitude": -121.993254820901,
+  "latitude": 48.5104735960724,
+  "request_sha256": "221876ac7e0c9051c9987bfd7d0f9f003c265b538a7eaf09a8a062e935baecd9",
+  "cache_folder": "spatial_data\\upstream_basins\\batch\\4f5880e9bc8b_221876ac7e0c",
+  "approved": false,
+  "status": "request_failed",
+  "retrieved_utc": "2026-11-21T02:32:08.883942+00:00",
+  "error": ""
+}
