@@ -22,8 +22,10 @@ paths <- file.path(baseline, slash(snapshot$RelativePath))
 assert(all(file.info(paths)$size == snapshot$Length), "A preserved review file changed length")
 assert(identical(tolower(unname(tools::md5sum(paths))), tolower(snapshot$MD5)),
   "A preserved review file changed content")
-assert(setequal(basename(list.dirs("outputs", recursive = FALSE)),
-  c("review_swifd_connections", "phase1_total_barriers", "phase2_reviewed_barriers", "legacy_nooksack")), "Unexpected extra output folders")
+output_folders <- basename(list.dirs("outputs", recursive = FALSE))
+preserved_folders <- c("review_swifd_connections", "phase1_total_barriers", "phase2_reviewed_barriers", "legacy_nooksack")
+assert(all(preserved_folders %in% output_folders) &&
+  all(output_folders %in% c(preserved_folders, "phase3_tidal_barriers")), "Unexpected extra output folders")
 
 needed <- c("population_phase1_miles.csv", "phase1_barrier_decisions.csv", "barrier_characteristics.csv",
   "phase1_cut_barriers.csv", "phase1_graph_cut_audit.csv", "downstream_direction_audit.csv",

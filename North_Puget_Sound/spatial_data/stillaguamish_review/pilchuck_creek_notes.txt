@@ -1,0 +1,7 @@
+Pilchuck CREEK is Stillaguamish population296, LLID1222246482085; unrelated Pilchuck RIVER population283 is unchanged.
+634/WDFW890682 is current reportWaterfall/Total, notfieldverified, unknownheight.633nearby isWaterfall/Partial andexcluded.
+628 is a lowerGradientTotal record ~2753.5m below634; retained ascontext only, notautomatically applied in this waterfall-specific review.
+The generalized NHD lake routing incorrectly partitions LakeCavanaugh artificial paths24274873/24275741 despite both belonging to the same named waterbody24277115.
+The incorrect foreign-Deer exception is retired. FineWDFW and WAC/Ecology corroborate LakeCavanaugh to LakeCreek to PilchuckCreek; graph certainty and all source geometry/other barrier causes are preserved.
+The full634 sourcebasin is unioned with the unchanged official whole24275741 same-lake basin. Every newly intersected raw source piece was checked: only prediction physical6952158.88034m, entirely within the named lake; genuine DeerCreek remains outside.
+The physicalbarrier snap stays8.77m<=50. A separately documented85.82m generalizedNHDreferenceoffset is checked byfineWDFWidentity and unchanged100m exactlocalmaskvalidation; no generic thresholds change.

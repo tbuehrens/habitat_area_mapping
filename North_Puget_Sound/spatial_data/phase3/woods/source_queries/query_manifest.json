@@ -1,0 +1,74 @@
+[
+  {
+    "layer": 0,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/0/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_0.geojson",
+    "md5": "868708eb22b3087f4852cb65af94a1a7",
+    "feature_count": 44,
+    "retrieved_utc": "2026-11-21T18:41:30.843232+00:00"
+  },
+  {
+    "layer": 1,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/1/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_1.geojson",
+    "md5": "7503de67e67ce665cc625358d192cf45",
+    "feature_count": 27,
+    "retrieved_utc": "2026-11-21T18:41:30.855032+00:00"
+  },
+  {
+    "layer": 2,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/2/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_2.geojson",
+    "md5": "35cdd1c43492d88be1dc143f0e865be8",
+    "feature_count": 31,
+    "retrieved_utc": "2026-11-21T18:41:30.815205+00:00"
+  },
+  {
+    "layer": 3,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/3/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_3.geojson",
+    "md5": "df7406b10da62957d694b0a50f605cdd",
+    "feature_count": 6,
+    "retrieved_utc": "2026-11-21T18:41:30.785905+00:00"
+  },
+  {
+    "layer": 4,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/4/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_4.geojson",
+    "md5": "bbaae5134a5ccb0be47990ad4fbfe6c1",
+    "feature_count": 0,
+    "retrieved_utc": "2026-11-21T18:41:31.245238+00:00"
+  },
+  {
+    "layer": 5,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/5/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_5.geojson",
+    "md5": "dd7b44926b0a776aab2544bc971517be",
+    "feature_count": 1,
+    "retrieved_utc": "2026-11-21T18:41:31.190747+00:00"
+  },
+  {
+    "layer": 6,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/6/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_6.geojson",
+    "md5": "81459b8b765294a35696b3c8f70cf1ca",
+    "feature_count": 1,
+    "retrieved_utc": "2026-11-21T18:41:31.238634+00:00"
+  },
+  {
+    "layer": 7,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/7/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_7.geojson",
+    "md5": "971309f4335ae564daa22e42ecf0a8e5",
+    "feature_count": 3,
+    "retrieved_utc": "2026-11-21T18:41:31.238634+00:00"
+  },
+  {
+    "layer": 8,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/8/query?where=%28UPPER%28StreamName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25WOOD%25%27+OR+UPPER%28StreamName%29+LIKE+%27%25CARPENTER%25%27%29+AND+SiteLatitude+BETWEEN+47.80+AND+48.05+AND+SiteLongitude+BETWEEN+-122.10+AND+-121.70&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\phase3\\woods\\source_queries\\layer_8.geojson",
+    "md5": "66523263e628839f9b8f9f3466f33867",
+    "feature_count": 21,
+    "retrieved_utc": "2026-11-21T18:41:31.640317+00:00"
+  }
+]

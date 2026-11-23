@@ -1,0 +1,110 @@
+{
+  "query_bbox": [
+    -123.2,
+    47.2,
+    -120.5,
+    49.5
+  ],
+  "generated_utc": "2026-11-21T19:07:43.657312+00:00",
+  "sources": [
+    {
+      "file": "r1_metadata.json",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson",
+      "bytes": 15668,
+      "md5": "2bd574ed2ce82cc29355bd9c1e75703b",
+      "sha256": "dc0a1185a41349037ed0f4d8fa0d676c53d3a856cdb7c7a4b18e5927454c2275",
+      "cached_modified_utc": "2026-11-21T19:07:39.335741+00:00"
+    },
+    {
+      "file": "r1_ids.json",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?where=ATTRIBUTE+LIKE+%27R1%25%27&geometry=-123.2%2C47.2%2C-120.5%2C49.5&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+      "bytes": 1207,
+      "md5": "1b7006c48e8c811ee549c5842df8989d",
+      "sha256": "472885af70b789ad660c6ca95ad2ec05ed9442b2020b2342033c6c91a9de0923",
+      "cached_modified_utc": "2026-11-21T19:07:39.609434+00:00"
+    },
+    {
+      "file": "r1_count.json",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?where=ATTRIBUTE+LIKE+%27R1%25%27&geometry=-123.2%2C47.2%2C-120.5%2C49.5&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=json&returnCountOnly=true",
+      "bytes": 13,
+      "md5": "a745f3c6039ca95a690c3d3ff153ac70",
+      "sha256": "c7e30667524a535c2ad79b27eff865059cb63e21c819f0a1e699a99dfdadcc28",
+      "cached_modified_utc": "2026-11-21T19:07:39.887223+00:00"
+    },
+    {
+      "file": "r1_batch_0001.geojson",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0/query?objectIds=19110001%2C19110002%2C19110014%2C19110015%2C19110016%2C19110017%2C19110018%2C19110147%2C19110150%2C19110151%2C19110153%2C19110156%2C19110160%2C19110162%2C19110169%2C19110170%2C19110173%2C19110174%2C19110175%2C19110176%2C19110180%2C19110182%2C19110184%2C19110185%2C19110186%2C19110187%2C19110194%2C19110195%2C19110196%2C19110335%2C19110336%2C19110351%2C19110352%2C19110551%2C19110552%2C19110553%2C19110561%2C19110562%2C19110563%2C19110564%2C19110565%2C19110566%2C19110567%2C19110568%2C19110569%2C19110571%2C19110572%2C19110577%2C19110580%2C19110581%2C19110582%2C19110583%2C19110584%2C19110585%2C29137759%2C29137760%2C29137761%2C29139999%2C29140000%2C29438655%2C32828098%2C32828848%2C32833017%2C32834289%2C32834591%2C32835523%2C32836074%2C32836395%2C32836889%2C32838230%2C32838577%2C32838578%2C33144183%2C33145007%2C33145065%2C33145066%2C33145071%2C33145073%2C33145106%2C33145107%2C33145108%2C33145141%2C33145146%2C33145166%2C33145172%2C33146007%2C33146064%2C33146692%2C33146775%2C33146816%2C33147118%2C33147122%2C33147137%2C33147138%2C33147139%2C33147156%2C33147176%2C33147192%2C33147199%2C33151423%2C33151424%2C33151425%2C33151426%2C33151427%2C33151428%2C33151429%2C33151430%2C33151431%2C33151432%2C33151433%2C33151434%2C33151435%2C33151436%2C33173496%2C33173497%2C33173498%2C33173499%2C33173500%2C33173501%2C33173502%2C33173503%2C33173504%2C33173505%2C33173506%2C33173507%2C33173508%2C33173509%2C33173510%2C33173511&outFields=%2A&returnGeometry=true&returnZ=false&returnM=false&outSR=4326&f=geojson",
+      "bytes": 2270407,
+      "md5": "215e81601c51050621868e4eb906f667",
+      "sha256": "f799c0d71bca93abd7352741863e34359a3af3abb481a73c51be50a49ddb2fa8",
+      "cached_modified_utc": "2026-11-21T19:07:40.629072+00:00"
+    },
+    {
+      "file": "source_vintage_metadata.json",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3?f=pjson",
+      "bytes": 27066,
+      "md5": "d6296449d5fc254db9710c40f4753fcd",
+      "sha256": "72d4e808305e35328b9216606d1dd565bc5a995fdcb879cb2c28666a1eb6f6b4",
+      "cached_modified_utc": "2026-11-21T19:07:40.948940+00:00"
+    },
+    {
+      "file": "source_vintage_ids.json",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?where=1%3D1&geometry=-123.2%2C47.2%2C-120.5%2C49.5&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=json&returnIdsOnly=true",
+      "bytes": 1831,
+      "md5": "b003222b3d652b4e22f32b7b94bd2890",
+      "sha256": "2df38e2d600309f393930236c96caa31f91922fe599870bc3be4e23f9a128365",
+      "cached_modified_utc": "2026-11-21T19:07:41.263157+00:00"
+    },
+    {
+      "file": "source_vintage_count.json",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?where=1%3D1&geometry=-123.2%2C47.2%2C-120.5%2C49.5&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&f=json&returnCountOnly=true",
+      "bytes": 13,
+      "md5": "f70011bfdd6f53fd508fb94720287cb6",
+      "sha256": "58c7d5045e15d4553afbbef5b16a2c8b0df53ead900f284f8321f9f72afd661d",
+      "cached_modified_utc": "2026-11-21T19:07:41.544712+00:00"
+    },
+    {
+      "file": "source_vintage_batch_0001.geojson",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?objectIds=2064%2C2200%2C2787%2C2888%2C2954%2C3009%2C3034%2C3155%2C3180%2C3243%2C3256%2C3303%2C3325%2C3334%2C3335%2C3355%2C3357%2C3360%2C3404%2C3410%2C3447%2C3477%2C3581%2C3598%2C3657%2C3677%2C3708%2C3766%2C4478%2C4482%2C4592%2C4807%2C5107%2C5263%2C5406%2C5706%2C5710%2C5764%2C5828%2C5835%2C5934%2C5969%2C6043%2C6118%2C6154%2C6186%2C6247%2C6274%2C6339%2C6400%2C6485%2C6506%2C6519%2C6897%2C7065%2C7072%2C7108%2C7181%2C7204%2C7265%2C7347%2C7354%2C7379%2C7395%2C7411%2C7546%2C7816%2C7860%2C7895%2C7944%2C8079%2C8336%2C8644%2C8884%2C8891%2C8897%2C8903%2C8933%2C9011%2C9063%2C9110%2C9166%2C9204%2C9233%2C9571%2C9860%2C9988%2C10115%2C10175%2C10454%2C10514%2C10528%2C10572%2C10632%2C10669%2C10684%2C10692%2C10742%2C10760%2C10797%2C10814%2C10882%2C10992%2C11027%2C11062%2C11112%2C11126%2C11128%2C11150%2C11167%2C11177%2C11237%2C11377%2C11420%2C11468%2C11596%2C11695%2C11865%2C11875%2C11929%2C11957%2C11999%2C12045%2C12121%2C12132%2C12280%2C12282%2C12333%2C12340%2C12369%2C12395%2C12406%2C12500%2C12549%2C12576%2C12678%2C12692%2C12739%2C12803%2C12831%2C12965%2C13110%2C13129%2C13242%2C13503%2C13512%2C13642%2C13735%2C13873%2C13990%2C14073%2C14132%2C14172%2C14177%2C14227%2C14280%2C14304%2C14384%2C14395%2C14407%2C14451%2C14484%2C14519%2C14525%2C14526%2C14527%2C14528%2C14529%2C14530%2C14578%2C14594%2C14608%2C14609%2C14651%2C14678%2C14698%2C14699%2C14730%2C14806%2C14828%2C14874%2C14947%2C14965%2C14975%2C15003%2C15195%2C15197%2C15372%2C15489%2C15596%2C15693%2C15762%2C15978%2C16091%2C16136%2C16352%2C16415%2C16465%2C16544%2C16548%2C16764%2C16855%2C16897%2C16911%2C16923%2C16940%2C17076%2C17080%2C17143%2C17173%2C17194%2C17222%2C17266%2C17267%2C17274%2C17415%2C17569%2C17763%2C17825%2C17920%2C17934%2C17947%2C17966%2C17975%2C18048%2C18376%2C18481%2C18605%2C18719%2C18727%2C18786%2C18857%2C18873%2C18905%2C19039%2C19073%2C19191%2C19247%2C19316%2C19385%2C19458%2C19469%2C19501%2C19536%2C19787%2C19873%2C19879%2C19880%2C20008%2C20012&outFields=%2A&returnGeometry=true&returnZ=false&returnM=false&outSR=4326&f=geojson",
+      "bytes": 2090118,
+      "md5": "93e65e15e47337c42b1e6d8027d5859e",
+      "sha256": "1b70049c9f4f9f31f4c2b84271b6da99543c12110243039dbfd3697e16639f45",
+      "cached_modified_utc": "2026-11-21T19:07:42.279227+00:00"
+    },
+    {
+      "file": "source_vintage_batch_0002.geojson",
+      "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3/query?objectIds=20093%2C20135%2C20148%2C20152%2C20197%2C20242%2C20272%2C20390%2C20429%2C20454%2C20501%2C20529%2C20541%2C20545%2C20668%2C20714%2C20718%2C20724%2C20841%2C21050%2C21058%2C21074%2C21122%2C21149%2C21152%2C21163%2C21217%2C21236%2C21253%2C21262%2C21281%2C21483%2C21601%2C21862%2C21907%2C21908%2C22048%2C22127%2C22140%2C22176%2C22178%2C22273%2C22434%2C22498%2C22530%2C22552%2C22624%2C22630%2C22774%2C22816%2C22832%2C22982%2C22983%2C25525%2C26113%2C26119%2C26122%2C26125%2C26137%2C29498%2C29575%2C29582&outFields=%2A&returnGeometry=true&returnZ=false&returnM=false&outSR=4326&f=geojson",
+      "bytes": 5681067,
+      "md5": "dfdcc847e16aaa12251db0c3c2052cd0",
+      "sha256": "f0ed47ce41228cc64d69794fe707d3aba9c17a13c300520c07667e5659c99b1f",
+      "cached_modified_utc": "2026-11-21T19:07:43.533440+00:00"
+    }
+  ],
+  "layers": [
+    {
+      "label": "r1",
+      "endpoint": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0",
+      "where": "ATTRIBUTE LIKE 'R1%'",
+      "count": 129,
+      "oid_field": "OBJECTID",
+      "batch_files": [
+        "r1_batch_0001.geojson"
+      ],
+      "metadata_file": "r1_metadata.json"
+    },
+    {
+      "label": "source_vintage",
+      "endpoint": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Data_Source/MapServer/3",
+      "where": "1=1",
+      "count": 312,
+      "oid_field": "OBJECTID",
+      "batch_files": [
+        "source_vintage_batch_0001.geojson",
+        "source_vintage_batch_0002.geojson"
+      ],
+      "metadata_file": "source_vintage_metadata.json"
+    }
+  ],
+  "classification_definition_url": "https://www.fws.gov/apps/sites/default/files/documents/data-collection-requirements-and-procedures-for-mapping-wetland-deepwater-and-related-habitats-of-the-united-states.pdf",
+  "classification_note": "R1: freshwater riverine tidal subsystem; not merely estuarine salinity or floodplain."
+}

@@ -1,0 +1,12 @@
+"check","source_layer","observed","units","passed"
+"complete_source_inventory",2,4132,"features",TRUE
+"polygon_normalization_area_change",2,0.000357329845428467,"m2",TRUE
+"published_empty_geometry_held",2,0,"features",TRUE
+"substantive_geometry_repairs_held_from_cut_mask",2,0,"features",TRUE
+"complete_source_inventory",3,5872,"features",TRUE
+"polygon_normalization_area_change",3,6197493.36835504,"m2",FALSE
+"published_empty_geometry_held",3,1,"features",FALSE
+"substantive_geometry_repairs_held_from_cut_mask",3,12,"features",TRUE
+"source_overlap_before_union",,1915.11524626795,"m2",TRUE
+"contradictory_selection_overlap_deferred",,148.10351347695,"m2",TRUE
+"current_tidal_union_area",,1762793164.21059,"m2",TRUE

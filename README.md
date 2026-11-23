@@ -6,13 +6,13 @@ Code and saved results are organized by region:
 | --- | --- | --- |
 | Lower Columbia | [Lower_Columbia](Lower_Columbia/README.md) | [Outputs](Lower_Columbia/outputs/) |
 | Willapa | [Willapa](Willapa/README.md) | [Outputs](Willapa/outputs/) |
-| North Puget Sound | [North_Puget_Sound](North_Puget_Sound/README.md) | [Phase 2 results](North_Puget_Sound/outputs/phase2_reviewed_barriers/) |
+| North Puget Sound | [North_Puget_Sound](North_Puget_Sound/README.md) | [Phase 3 results](North_Puget_Sound/outputs/phase3_tidal_barriers/) |
 
 Open `habitat_area_mapping.Rproj` for the whole repository, or a regional
 `.Rproj` to work within one region. For example, from the repository root:
 
 ```r
-source("North_Puget_Sound/Phase2_Reviewed_Barriers.R")
+source("North_Puget_Sound/Phase3_Tidal_Barriers.R")
 ```
 
 Regional entry points resolve their own input and output folders and restore
@@ -22,9 +22,10 @@ be supplied separately.
 
 North Puget Sound contains the full occupancy-model/SWIFD workflow, numbered
 barrier evidence, cached public source snapshots, and the preserved
-untruncated, Phase 1, and Phase 2 scenarios. Phase 2 is the latest review set:
-16 NOAA populations plus the custom North Fork Stillaguamish watershed above
-Deer Creek. Original standalone Nooksack outputs are retained in
+untruncated, Phase 1, Phase 2, and Phase 3 scenarios. Phase 3 is the latest
+review set: 16 NOAA populations plus the custom North Fork Stillaguamish
+watershed above Deer Creek, with reviewed Woods/Olney and French/Pilchuck Creek barriers and mapped
+tidal exclusions. Original standalone Nooksack outputs are retained in
 `North_Puget_Sound/outputs/legacy_nooksack/`.
 
 To validate saved North Puget Sound results without regenerating maps:
