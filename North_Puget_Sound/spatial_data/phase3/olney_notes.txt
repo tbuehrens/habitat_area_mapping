@@ -1,0 +1,7 @@
+Olney331 / WDFW891117 is the lowest confirmed Total: Waterfall, not field verified. Partial sites371/374 remain excluded.
+Published downstream orientation plus exact unbranched physical-channel measures places335 1413m upstream,380 14249m upstream,and379 17917m upstream of331.
+The prior hold was a conservative remote-downstream overlap gate, not missing Total classification or an incomplete watershed.
+Physical and indexed official elevation flowtraces independently converge to the same Olney COMID23963685 outlet within6.78m; full source basin remains unchanged.
+Every protected inside-mask piece must independently pass exact physical-edge membership, published downstream route order, and seven local reference-course samples. No remote geographic buffer is used.
+All other inside-mask model, SWIFD and alignment geometry, including disconnected reaches, is removed; original source lengths are conserved.
+Upper379 basin area outside331 basin: 47090.94191m2. Retain379 as source evidence;331 is the effective lower cutoff.

@@ -1,0 +1,46 @@
+"tidal_source_layer","tidal_class","tidal_present","Data_Year","features","area_km2"
+2,"Complete",FALSE,"2018",278,49.7345974293295
+2,"Complete",FALSE,,559,134.418739709184
+2,"Partial",TRUE,"2002",72,0.181929560387582
+2,"Partial",TRUE,"2005",2,7.91739495636139e-05
+2,"Partial",TRUE,"2006",25,0.0169393641053383
+2,"Partial",TRUE,"2011",2,0.0242420455987847
+2,"Partial",TRUE,"2013",26,0.00558948829501013
+2,"Partial",TRUE,"2015",74,0.151492412673571
+2,"Partial",TRUE,"2016",131,0.118081790731564
+2,"Partial",TRUE,"2018",125,8.03347418932091
+2,"Partial",TRUE,"2019",1,0.592713195418464
+2,"Partial",TRUE,,127,1.32031525768441
+2,"Significant",TRUE,"2018",51,11.2528330120647
+2,"Significant",TRUE,,70,8.67658194641065
+2,"Unknown",FALSE,"2018",17,0.308333103736115
+2,"Unknown",FALSE,,10,3.67240591577786
+2,"Unrestricted",TRUE,"2002",1,2.23377358155558e-05
+2,"Unrestricted",TRUE,"2010",5,0.000656125022974331
+2,"Unrestricted",TRUE,"2011",55,1.97959155688376
+2,"Unrestricted",TRUE,"2013",1,7.1151386711339e-05
+2,"Unrestricted",TRUE,"2018",766,37.2874420667049
+2,"Unrestricted",TRUE,"2019",193,8.16358355493909
+2,"Unrestricted",TRUE,,1541,36.5780682194583
+3,"Completely Restricted Non-tidal",FALSE,"2022",87,0.178626466119804
+3,"Completely Restricted Non-tidal",FALSE,,737,14.1615124928407
+3,"Developed",FALSE,"2022",9,0.0159097423135037
+3,"Developed",FALSE,,1400,2.81844920787889
+3,"Partially Restricted - nearshore deep",TRUE,,6,0.0557079683437328
+3,"Partially Restricted - nearshore shallow",TRUE,"2022",1,5.41219688397832e-05
+3,"Partially Restricted - nearshore shallow",TRUE,,47,0.423288805478658
+3,"Partially Restricted Tidal",TRUE,"2022",20,0.093402049535216
+3,"Partially Restricted Tidal",TRUE,,157,3.37186000335603
+3,"Significantly Restricted Tidal",TRUE,"2022",2,0.0940756517533434
+3,"Significantly Restricted Tidal",TRUE,,118,2.02052055732184
+3,"Unknown",FALSE,"2022",3,0.106163547227317
+3,"Unknown",FALSE,,580,1.9766676447184
+3,"Unrestricted - nearshore deep",FALSE,,1,0
+3,"Unrestricted - nearshore deep",TRUE,"2022",24,41.6371637233277
+3,"Unrestricted - nearshore deep",TRUE,,192,1079.3596511905
+3,"Unrestricted - nearshore shallow",FALSE,"2022",1,25.2760326161515
+3,"Unrestricted - nearshore shallow",FALSE,,5,34.8234066920865
+3,"Unrestricted - nearshore shallow",TRUE,"2022",9,6.8703900859088
+3,"Unrestricted - nearshore shallow",TRUE,,1634,430.318680740508
+3,"Unrestricted Tidal",FALSE,,6,17.6441714745004
+3,"Unrestricted Tidal",TRUE,,833,84.1676570223309

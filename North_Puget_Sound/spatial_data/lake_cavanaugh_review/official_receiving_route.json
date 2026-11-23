@@ -1,0 +1,11 @@
+{
+  "source_url": "https://appswr.ecology.wa.gov/docs/WaterRights/ScanToWRTS/HQ4/6802520_DraftReportofExam_50_156.pdf",
+  "title": "Ecology draft Report of Examination S1-28916, Water Right Doc ID6802520",
+  "page": 5,
+  "exact_excerpt": "From the outlet weir, water is released to Lake Creek, tributary to Pilchuck Creek, which flows into the Stillaguamish River.",
+  "retrieval_method": "web tool PDF text extraction, page5 lines168-171; direct local PDF download failed403",
+  "pdf_archived": false,
+  "retrieved_utc": "2026-11-21T20:37:34.413995+00:00",
+  "corroborating_primary_url": "https://app.leg.wa.gov/wac/default.aspx?cite=173-18-330",
+  "corroborating_primary_entry": "27; Lake Creek is listed from Lake Cavanaugh outlet downstream to Pilchuck Creek"
+}

@@ -24,7 +24,12 @@ north_puget_workflow({
 # Read-only scientific validation of the committed review scenarios.
 checks <- c("test_project_paths.R", "validate_untruncated_review.R", "validate_phase1_total_barriers.R",
   "validate_phase2_reviewed_barriers.R", "validate_phase2_custom_stillaguamish.R",
-  "validate_phase2_culmback_terminal.R")
+  "validate_phase2_culmback_terminal.R", "test_phase3_tidal_partition.R",
+  "test_phase3_woods_barriers.R", "test_phase3_tidal_sources.R",
+  "test_phase3_freshwater_tidal.R", "validate_phase3_tidal_barriers.R",
+  "validate_phase3_olney.R", "validate_phase3_tidal_sources_output.R",
+  "test_french_creek_review.R", "test_pilchuck_creek_review.R", "validate_stillaguamish_review.R",
+  "validate_lake_cavanaugh_correction.R")
 for (check in checks) {
   message("Checking ", check)
   source(file.path("tests", check), local = new.env(parent = globalenv()))

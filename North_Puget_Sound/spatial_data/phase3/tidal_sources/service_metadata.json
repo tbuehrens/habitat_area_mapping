@@ -1,0 +1,170 @@
+{
+ "currentVersion": 11.5,
+ "cimVersion": "3.5.0",
+ "serviceDescription": "<div style='text-align:Left;'><div><div><p><span>Tidal restriction data for Puget Sound, updated 2025<\/span><\/p><\/div><\/div><\/div>",
+ "mapName": "CFS_Tidal_Restrictions_2025",
+ "description": "Tidal restriction data for Puget Sound, updated 2025",
+ "copyrightText": "Cramer Fish Sciences",
+ "supportsDynamicLayers": true,
+ "layers": [
+  {
+   "id": 0,
+   "name": "Large River Deltas - Tidal Restrictions",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolyline",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 1,
+   "name": "Tidal Restrictions - Puget Sound",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolyline",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 2,
+   "name": "Large River Deltas - Tidal Polygons",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 3,
+   "name": "Tidally Influenced - Puget Sound",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 2927,
+  "latestWkid": 2927,
+  "xyTolerance": 6.566215546488373E-4,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -2147483647,
+  "falseY": -2147483647,
+  "xyUnits": 3045.8945275861442,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": 1146490.8263865528,
+  "ymin": 691834.6818080887,
+  "xmax": 1190186.4393979576,
+  "ymax": 721404.7412461864,
+  "spatialReference": {
+   "wkid": 2927,
+   "latestWkid": 2927,
+   "xyTolerance": 6.566215546488373E-4,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -2147483647,
+   "falseY": -2147483647,
+   "xyUnits": 3045.8945275861442,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "fullExtent": {
+  "xmin": 617939.1113743782,
+  "ymin": 622940.1266145706,
+  "xmax": 1245807.960325241,
+  "ymax": 1348593.8407216072,
+  "spatialReference": {
+   "wkid": 2927,
+   "latestWkid": 2927,
+   "xyTolerance": 6.566215546488373E-4,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -2147483647,
+   "falseY": -2147483647,
+   "xyUnits": 3045.8945275861442,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "datesInUnknownTimezone": false,
+ "minScale": 0,
+ "maxScale": 0,
+ "units": "esriFeet",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "CFS_Tidal_Restrictions_2025",
+  "Author": "",
+  "Comments": "Tidal restriction data for Puget Sound, updated 2025",
+  "Subject": "Tidal restriction data for Puget Sound, updated 2025",
+  "Category": "",
+  "Version": "3.1.0",
+  "AntialiasingMode": "Fast",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "WDFW,Habitat Program,Tidal Connectivity,Tidal Restrictions,CFS"
+ },
+ "supportsQueryDomains": true,
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "exportTilesAllowed": false,
+ "referenceScale": 0.0,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 1580,
+     "latestWkid": 1580,
+     "transformForward": false,
+     "name": "NAD_1983_HARN_To_WGS_1984"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 1580,
+     "latestWkid": 1580,
+     "transformForward": true,
+     "name": "NAD_1983_HARN_To_WGS_1984"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "archivingInfo": {"supportsHistoricMoment": false},
+ "supportsClipping": true,
+ "supportsSpatialFilter": true,
+ "supportsTimeRelation": true,
+ "supportsQueryDataElements": true,
+ "mapUnits": {"uwkid": 9003},
+ "maxSelectionCount": 2000,
+ "maxRecordCount": 2000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": ""
+}

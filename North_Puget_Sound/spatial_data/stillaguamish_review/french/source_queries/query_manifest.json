@@ -1,0 +1,74 @@
+[
+  {
+    "layer": 0,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/0/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_0.geojson",
+    "md5": "61e5bb2182928a469f64be50cc7855b4",
+    "feature_count": 2,
+    "retrieved_utc": "2026-11-21T19:50:27.780363+00:00"
+  },
+  {
+    "layer": 1,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/1/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_1.geojson",
+    "md5": "bbaae5134a5ccb0be47990ad4fbfe6c1",
+    "feature_count": 0,
+    "retrieved_utc": "2026-11-21T19:50:27.783636+00:00"
+  },
+  {
+    "layer": 2,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/2/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_2.geojson",
+    "md5": "bdb122e92455fb97202155a52f71decb",
+    "feature_count": 1,
+    "retrieved_utc": "2026-11-21T19:50:27.805646+00:00"
+  },
+  {
+    "layer": 3,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/3/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_3.geojson",
+    "md5": "bbaae5134a5ccb0be47990ad4fbfe6c1",
+    "feature_count": 0,
+    "retrieved_utc": "2026-11-21T19:50:27.807923+00:00"
+  },
+  {
+    "layer": 4,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/4/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_4.geojson",
+    "md5": "bbaae5134a5ccb0be47990ad4fbfe6c1",
+    "feature_count": 0,
+    "retrieved_utc": "2026-11-21T19:50:28.164122+00:00"
+  },
+  {
+    "layer": 5,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/5/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_5.geojson",
+    "md5": "861698a76a9124f5bf52aae1bb571a5f",
+    "feature_count": 1,
+    "retrieved_utc": "2026-11-21T19:50:28.152745+00:00"
+  },
+  {
+    "layer": 6,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/6/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_6.geojson",
+    "md5": "20ec5a6d28c532606282e993aa512693",
+    "feature_count": 3,
+    "retrieved_utc": "2026-11-21T19:50:28.167175+00:00"
+  },
+  {
+    "layer": 7,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/7/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_7.geojson",
+    "md5": "bbaae5134a5ccb0be47990ad4fbfe6c1",
+    "feature_count": 0,
+    "retrieved_utc": "2026-11-21T19:50:28.186547+00:00"
+  },
+  {
+    "layer": 8,
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/ApplicationServices/FP_Sites/MapServer/8/query?where=%28UPPER%28StreamName%29+LIKE+%27%25FRENCH%25%27+OR+UPPER%28TributaryToName%29+LIKE+%27%25FRENCH%25%27%29+AND+SiteLatitude+BETWEEN+48.20+AND+48.31+AND+SiteLongitude+BETWEEN+-121.90+AND+-121.65&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson",
+    "cache_file": "spatial_data\\stillaguamish_review\\french\\source_queries\\layer_8.geojson",
+    "md5": "bbaae5134a5ccb0be47990ad4fbfe6c1",
+    "feature_count": 0,
+    "retrieved_utc": "2026-11-21T19:50:28.538951+00:00"
+  }
+]

@@ -1,0 +1,2 @@
+"review_record_key","review_number","original_physical_graph_edge_id","graph_certainty_preserved","source_partition_error_m","other_barrier_causes_preserved","lake_waterbody_comid","lake_waterbody_name","formerly_misclassified_lake_artificial_path_comid","fine_channel_llid","fine_receiving_channel_llid","action"
+"6:54208",634,695,TRUE,0,TRUE,"24277115","Lake Cavanaugh","24275741","1220573483422","1222246482085","Preserve all original upstream graph certainty; retire incorrect foreign-Deer exception after named same-lake and fine-channel verification"

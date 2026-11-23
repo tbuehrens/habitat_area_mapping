@@ -1,0 +1,935 @@
+{
+ "currentVersion": 11.5,
+ "cimVersion": "3.5.0",
+ "id": 2,
+ "name": "Large River Deltas - Tidal Polygons",
+ "type": "Feature Layer",
+ "description": "The Tidal Wetland network represents the current and potential tidal wetland habitat network as polygons and their tidal connectivity determined using the Tidal Restriction network, remotely sensed aerial imagery, SHSTMP tidal wetland habitat extent and feature polygons (NOAA 2011; 2016), and Pacific Marine and Estuarine Fish Habitat Partnership (PMEP) tidal exceedance polygons (PMEP 2018). The maps of current and potential tidal wetland habitat were updated using the spatial database of the tidal restriction network developed in this project, SHSTMP tidal wetland habitat extent, feature polygons, and overwater structures (NOAA 2011; 2016; 2019), and Pacific Marine and Estuarine Fish Habitat Partnership (PMEP) tidal exceedance polygons (PMEP 2018). Tidal restrictions were buffered and used to segment PMEP wetland polygons into individual polygons, to associate tidal restriction features, feature types, and tidal connectivity ratings to polygons of tidal wetland habitat. Tidal wetland connectivity ratings were determined using the Tidal Restriction network and the SHSTMP tidal wetland habitat features to assess pathways of tidal movement and were assigned as Completely Restricted, Significantly Restricted, Partially Restricted, Unrestricted, or Unknown. Tidal wetlands were classified by both their tidal feature connectivity and landscape connectivity with certainty ratings. The feature tidal connectivity classified the tidal connectivity of the feature based on the tidal connectivity to that feature given the immediately downstream tidal restriction features. Feature tidal connectivity was determined by the downstream feature allowing tidal connectivity regardless of upstream or landward tidal restrictions connectivity restrictions. The landscape tidal connectivity classified the tidal connectivity of the wetland feature based on its connectivity to the delta as a whole. The landscape tidal connectivity of a feature was determined by the connectivity rating of the landscape wetlands and the downstream tidal restriction features.",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 2927,
+  "latestWkid": 2927,
+  "xyTolerance": 3.0480060960121926E-4,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -2147483647,
+  "falseY": -2147483647,
+  "xyUnits": 32808.33333333333,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "spatialReference": {
+  "wkid": 2927,
+  "latestWkid": 2927,
+  "xyTolerance": 6.566215546488373E-4,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -2147483647,
+  "falseY": -2147483647,
+  "xyUnits": 3045.8945275861442,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "referenceScale": 0.0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "LS_TidalConnectivity",
+   "uniqueValueGroups": [
+    {
+     "heading": "Tidal Connectivity",
+     "classes": [
+      {
+       "label": "Complete",
+       "description": "Complete",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         168,
+         0,
+         0,
+         191
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Complete"
+        ]
+       ]
+      },
+      {
+       "label": "Significant",
+       "description": "Significant",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         170,
+         0,
+         191
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Significant"
+        ]
+       ]
+      },
+      {
+       "label": "Partial",
+       "description": "Partial",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         255,
+         0,
+         191
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Partial"
+        ]
+       ]
+      },
+      {
+       "label": "Unknown",
+       "description": "Unknown",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         130,
+         130,
+         130,
+         191
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Unknown"
+        ]
+       ]
+      },
+      {
+       "label": "Unrestricted",
+       "description": "Unrestricted",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         163,
+         255,
+         115,
+         191
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Unrestricted"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       168,
+       0,
+       0,
+       191
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Complete",
+     "label": "Complete"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       170,
+       0,
+       191
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Significant",
+     "label": "Significant"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       255,
+       0,
+       191
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Partial",
+     "label": "Partial"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       130,
+       130,
+       130,
+       191
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Unknown",
+     "label": "Unknown"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       163,
+       255,
+       115,
+       191
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Unrestricted",
+     "label": "Unrestricted"
+    }
+   ],
+   "fieldDelimiter": ",",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        207,
+        223,
+        255
+       ],
+       "toColor": [
+        252,
+        207,
+        223,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        184,
+        252,
+        184,
+        255
+       ],
+       "toColor": [
+        184,
+        252,
+        184,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        244,
+        252,
+        255
+       ],
+       "toColor": [
+        179,
+        244,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        182,
+        252,
+        255
+       ],
+       "toColor": [
+        179,
+        182,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        240,
+        184,
+        255
+       ],
+       "toColor": [
+        252,
+        240,
+        184,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        182,
+        250,
+        255
+       ],
+       "toColor": [
+        252,
+        182,
+        250,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        212,
+        252,
+        219,
+        255
+       ],
+       "toColor": [
+        212,
+        252,
+        219,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        215,
+        221,
+        252,
+        255
+       ],
+       "toColor": [
+        215,
+        221,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        222,
+        199,
+        255
+       ],
+       "toColor": [
+        252,
+        222,
+        199,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        240,
+        207,
+        252,
+        255
+       ],
+       "toColor": [
+        240,
+        207,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        179,
+        179,
+        255
+       ],
+       "toColor": [
+        252,
+        179,
+        179,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        182,
+        222,
+        255
+       ],
+       "toColor": [
+        252,
+        182,
+        222,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        233,
+        252,
+        184,
+        255
+       ],
+       "toColor": [
+        233,
+        252,
+        184,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": false,
+ "extent": {
+  "xmin": 890526.0311102867,
+  "ymin": 623498.5195026398,
+  "xmax": 1245200.794585228,
+  "ymax": 1283868.8894286156,
+  "spatialReference": {
+   "wkid": 2927,
+   "latestWkid": 2927,
+   "xyTolerance": 6.566215546488373E-4,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -2147483647,
+   "falseY": -2147483647,
+   "xyUnits": 3045.8945275861442,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "ReviewerName",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "fid",
+   "type": "esriFieldTypeDouble",
+   "alias": "fid",
+   "domain": null
+  },
+  {
+   "name": "DataID",
+   "type": "esriFieldTypeString",
+   "alias": "DataID",
+   "length": 1000,
+   "domain": null
+  },
+  {
+   "name": "Delta",
+   "type": "esriFieldTypeString",
+   "alias": "Delta",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Latitude_mid",
+   "type": "esriFieldTypeDouble",
+   "alias": "Latitude_mid",
+   "domain": null
+  },
+  {
+   "name": "Longitude_mid",
+   "type": "esriFieldTypeDouble",
+   "alias": "Longitude_mid",
+   "domain": null
+  },
+  {
+   "name": "Data_Year",
+   "type": "esriFieldTypeString",
+   "alias": "Data_Year",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Modification_Date",
+   "type": "esriFieldTypeString",
+   "alias": "Modification_Date",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Modification_Type",
+   "type": "esriFieldTypeString",
+   "alias": "Modification_Type",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "LS_TidalConnectivity",
+   "type": "esriFieldTypeString",
+   "alias": "LS_TidalConnectivity",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "LS_TidalConnectivity_Certainty",
+   "type": "esriFieldTypeString",
+   "alias": "LS_TidalConnectivity_Certainty",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Field_Verification_Date",
+   "type": "esriFieldTypeString",
+   "alias": "Field_Verification_Date",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Verification_Method",
+   "type": "esriFieldTypeString",
+   "alias": "Verification_Method",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Field_Verification_Results",
+   "type": "esriFieldTypeString",
+   "alias": "Field_Verification_Results",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Verification_Results_Feat_Conn",
+   "type": "esriFieldTypeString",
+   "alias": "Verification_Results_Feat_Conn",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Verification_Results_LS_Conn",
+   "type": "esriFieldTypeString",
+   "alias": "Verification_Results_LS_Conn",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Comments",
+   "type": "esriFieldTypeString",
+   "alias": "Comments",
+   "length": 1000,
+   "domain": null
+  },
+  {
+   "name": "Notes",
+   "type": "esriFieldTypeString",
+   "alias": "Notes",
+   "length": 500,
+   "domain": null
+  },
+  {
+   "name": "Status",
+   "type": "esriFieldTypeString",
+   "alias": "Status",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Feat_TidalConnectivity",
+   "type": "esriFieldTypeString",
+   "alias": "Feat_TidalConnectivity",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Feat_TidalConnectivity_Certainty",
+   "type": "esriFieldTypeString",
+   "alias": "Feat_TidalConnectivity_Certainty",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "TidalFeat_Type",
+   "type": "esriFieldTypeString",
+   "alias": "TidalFeat_Type",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Field_Perimeter",
+   "type": "esriFieldTypeDouble",
+   "alias": "Field_Perimeter",
+   "domain": null
+  },
+  {
+   "name": "TW_ID",
+   "type": "esriFieldTypeString",
+   "alias": "TW_ID",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "Feature_Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Feature_Area",
+   "domain": null
+  },
+  {
+   "name": "ReviewDate",
+   "type": "esriFieldTypeString",
+   "alias": "ReviewDate",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "ReviewerName",
+   "type": "esriFieldTypeString",
+   "alias": "ReviewerName",
+   "length": 200,
+   "domain": null
+  },
+  {
+   "name": "FeatureModificationSource",
+   "type": "esriFieldTypeString",
+   "alias": "FeatureModificationSource",
+   "length": 500,
+   "domain": null
+  },
+  {
+   "name": "FeatureModification",
+   "type": "esriFieldTypeString",
+   "alias": "FeatureModification",
+   "length": 500,
+   "domain": null
+  },
+  {
+   "name": "FeatureModificationDate",
+   "type": "esriFieldTypeString",
+   "alias": "FeatureModificationDate",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "ReviewerComment",
+   "type": "esriFieldTypeString",
+   "alias": "ReviewerComment",
+   "length": 500,
+   "domain": null
+  },
+  {
+   "name": "TW_ID_Backup",
+   "type": "esriFieldTypeString",
+   "alias": "TW_ID_Backup",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "PrevFeatClassification",
+   "type": "esriFieldTypeString",
+   "alias": "PrevFeatClassification",
+   "length": 500,
+   "domain": null
+  },
+  {
+   "name": "Reviewer_Results",
+   "type": "esriFieldTypeString",
+   "alias": "Reviewer_Results",
+   "length": 500,
+   "domain": null
+  },
+  {
+   "name": "Verification_Category",
+   "type": "esriFieldTypeString",
+   "alias": "Verification_Category",
+   "length": 65536,
+   "domain": null
+  },
+  {
+   "name": "Field_Verification_ID",
+   "type": "esriFieldTypeString",
+   "alias": "Field_Verification_ID",
+   "length": 500,
+   "domain": null
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Length",
+   "domain": null
+  },
+  {
+   "name": "Shape_Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Area",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 2000,
+ "maxSelectionCount": 2000,
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelRelation"
+ ],
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsCountDistinct": true,
+  "supportsAdvancedQueryRelated": true,
+  "supportsQueryRelatedPagination": true,
+  "supportsPagination": true,
+  "supportsLod": false,
+  "supportsQueryWithLodSR": false,
+  "supportsTrueCurve": true,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true,
+  "supportsTimeRelation": true,
+  "supportsSqlFormat": false,
+  "supportsQueryAnalytic": false,
+  "supportsCurrentUserQueries": true
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null,
+ "preferredTimeReference": null,
+ "datesInUnknownTimezone": false,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "Shape_Area",
+  "shapeLengthFieldName": "Shape_Length",
+  "units": "esriFeet",
+  "mapUnits": {"uwkid": 9003}
+ },
+ "hasMetadata": true,
+ "isDataArchived": false,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": false,
+  "startArchivingMoment": -1
+ },
+ "supportsCoordinatesQuantization": true,
+ "supportsDynamicLegends": true
+}

@@ -1,0 +1,49 @@
+# Phase 3: reviewed barriers and mapped current tidal influence
+
+This is the latest North Puget Sound review scenario. Earlier outputs remain byte-for-byte unchanged.
+Start with maps/ or North_Puget_Sound_Steelhead_population_maps.pdf (16 NOAA populations plus the custom Stillaguamish area).
+
+## Barrier review
+
+- Woods Creek #10: field-verified Total waterfall (reported height 18.3 m). Independent same-stream routing resolves the old channel-match hold.
+- Olney Creek #331: lowest confirmed Total, below #379. The complete upstream basin removes disconnected headwaters too.
+- West Fork Woods #914: source-reported Total but no modeled/SWIFD channel within 50 m; retained at its original location as an amber review point, without a forced snap or cut.
+- French Creek #581: unverified source-reported Total gradient barrier, about 2.025 km downstream of the previous #563 cut. Its 10.59 m own-channel snap and complete upstream basin pass the unchanged safeguards. Applies to the official Stillaguamish and custom North Fork watershed.
+- French Creek #915 (Site 890155): farther downstream but reported Partial and 85.13 m from the physical modeled channel; original point retained in the review table without a snap or cut.
+- Pilchuck Creek #634 (Site 890682): source-reported Total waterfall below Lake Cavanaugh; the adjacent #633 waterfall is Partial and is excluded. This is Pilchuck Creek in the Stillaguamish basin, separate from the NOAA Pilchuck River population.
+- Lake Cavanaugh correction: the original coarse routing split two artificial paths inside the same named lake and wrongly exempted part of Lake Creek. The #634 basin now includes the verified contributing lake catchment. Fine WDFW channel geometry and Ecology's documented lake outlet to Lake Creek/Pilchuck corroborate the correction; genuine neighboring Deer drainage remains protected.
+- The lower Pilchuck Creek gradient Total #628 remains pending and unchanged; this review specifically applies the requested waterfall #634. Source metadata and the independent downstream ordering are retained in stillaguamish_barrier_review.csv.
+- Previous Phase 2 passage corrections and approved cuts remain in effect.
+
+The Woods drainage mask also removes 3.10 miles inside NOAA's Pilchuck polygon while barrier #10 lies outside that outline. The Pilchuck map labels this watershed/population-boundary difference.
+
+phase3_barrier_decisions.csv contains all numbered source records. targeted_barrier_review.csv, woods_graph_direction_review.csv, olney_downstream_proof.csv and upstream_basin_audit.csv record the checks.
+
+stillaguamish_barrier_review.csv, stillaguamish_basin_validation.csv and pilchuck_graph_direction_review.csv record the French/Pilchuck checks. The previous Phase 3 version is frozen under spatial_data/stillaguamish_review/previous_phase3/ with a file-hash manifest; the current results stay in this one output folder.
+
+French_Creek_barrier_detail.png and Pilchuck_Creek_barrier_detail.png show the full upstream basins, removed source reaches, effective cuts and nearby excluded records. stillaguamish_mileage_changes.csv compares this revision with the frozen previous Phase 3.
+
+lake_cavanaugh_mileage_change.csv isolates the latest missed-creek correction against the saved before-fix revision under spatial_data/lake_cavanaugh_review/before_fix/. Source geometry remains unchanged; only upstream exclusion at #634 is extended.
+
+## Tidal exclusion
+
+Teal polygons show approved WDFW/CFS current tidal influence. Violet polygons add independently mapped NWI freshwater-tidal channel. Teal T# squares match tidal_cutpoint_review.csv.
+For crowded markers, use tidal_cutoff_details.pdf or tidal_details/; tidal_detail_index.csv links close-up pages to the T# identifiers.
+The source is WDFW/Cramer Fish Sciences CFS_Tidal_Restrictions_2025, polygon layers 2 and 3:
+https://geodataservices.wdfw.wa.gov/arcgis/rest/services/HP_Projects/CFS_Tidal_Restrictions_2025/MapServer
+
+Selection uses landscape connectivity: unrestricted, partially restricted and significantly restricted tidal areas. Disconnected, developed, unknown, conflicting or untrusted-geometry areas are deferred.
+USFWS National Wetlands Inventory R1 (Riverine Tidal) supplements freshwater tidal channels beyond the CFS footprint. Older NWI source imagery does not override known current CFS restrictions or unresolved source areas; overlaps are deferred. Original mapping years are retained in freshwater_tidal_source_vintage.csv.
+The source represents maximum mapped tidal influence with current connectivity; underlying mapping dates vary. It includes freshwater tidal areas and is a regional review proxy, not a surveyed daily-tide or discharge-independent hydraulic head-of-tide boundary.
+Only positively mapped tidal areas are excluded. Connection to tidal water alone never deletes an entire upstream stream component.
+tidal_source_audit.csv records source checks. Original attributes, dates, raw source batches and geometry-quality holds are preserved under spatial_data/phase3/tidal_sources/.
+
+## Mileage and GIS
+
+population_phase3_miles.csv separates Phase 2 miles, additional barrier exclusions, tidal exclusions (CFS and additional NWI), and final miles by source. Alignment links do not count as habitat.
+The mileage balance is baseline = upstream barrier exclusions + additional tidal exclusions + remaining distribution. Barrier exclusions take precedence where masks overlap.
+The custom Stillaguamish area overlaps official populations; do not add its mileage to their totals.
+North_Puget_Sound_Steelhead_phase3.gpkg contains the geometry used for maps, tidal mask/current polygons/cutpoints, applied and held barriers, upstream basins, and source-class linework.
+preserved_source_manifest.csv verifies that earlier scenarios are unchanged.
+
+Reproduce from the North_Puget_Sound folder with Rscript Phase3_Tidal_Barriers.R after preparing the explicit source bundles.

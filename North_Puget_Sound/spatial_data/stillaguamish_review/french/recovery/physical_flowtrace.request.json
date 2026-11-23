@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "id": "lon",
+      "type": "text/plain",
+      "value": "-121.786982668577"
+    },
+    {
+      "id": "lat",
+      "type": "text/plain",
+      "value": "48.2532504768024"
+    },
+    {
+      "id": "direction",
+      "type": "text/plain",
+      "value": "none"
+    }
+  ]
+}

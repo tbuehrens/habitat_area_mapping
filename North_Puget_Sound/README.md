@@ -18,6 +18,78 @@ The current products are kept in separate scenario folders:
 | `outputs/review_swifd_connections/` | Preserved untruncated review: the full occupancy model plus qualifying SWIFD connections, with no cuts. |
 | `outputs/phase1_total_barriers/` | Phase 1: remove upstream distribution at explicitly Total natural barriers, verified or unverified, plus the authorized Gorge Dam override. |
 | `outputs/phase2_reviewed_barriers/` | Phase 2: user-reviewed passage corrections, additional named barriers, and a separate custom Stillaguamish watershed map. |
+| `outputs/phase3_tidal_barriers/` | Latest review: Woods/Olney and French/Pilchuck Creek Total barriers plus mapped current tidal and freshwater-tidal exclusions. |
+
+## Phase 3: tidal and barrier review
+
+Run `Rscript Phase3_Tidal_Barriers.R`. This preserves every earlier scenario
+and writes all 17 maps, a combined PDF, numbered barrier/tidal review tables,
+GeoPackage, and `population_phase3_miles.csv` into `outputs/phase3_tidal_barriers/`.
+
+Woods Creek #10 is a field-verified Total waterfall (reported 18.3 m). Olney
+Creek #331 is the lowest confirmed Total below #379. Their complete upstream
+drainages remove disconnected source reaches as well as connected ones.
+West Fork Woods #914 is a reported Total but lies about 395 m from the modeled
+network; it remains an amber review point without a forced snap or cut.
+The Woods drainage mask also excludes 3.10 miles of source linework inside
+NOAA's Pilchuck polygon; the downstream barrier lies outside that population
+outline. The Pilchuck map explicitly attributes this effect to #10.
+
+The Stillaguamish revision uses lower French Creek Total gradient barrier
+#581 instead of #563 as the effective cut, plus Total waterfall #634 on
+Pilchuck Creek below Lake Cavanaugh. The nearby Pilchuck #633 and farther-downstream
+French #915 are Partial and do not truncate the model. Both applied barriers
+are source-reported Total without field verification; reported heights are
+unavailable. Complete upstream basins remove disconnected model reaches too.
+See `stillaguamish_barrier_review.csv` and `stillaguamish_mileage_changes.csv`
+in the same Phase 3 output folder. The previous Phase 3 files are frozen under
+`spatial_data/stillaguamish_review/previous_phase3/`; its manifest maps original
+filenames to short storage names and verifies their hashes.
+`French_Creek_barrier_detail.png` and `Pilchuck_Creek_barrier_detail.png`
+show the complete approved basins, removed reaches, and nearby excluded records.
+Lower Pilchuck Creek gradient Total #628 stays pending; this revision applies
+the specifically requested waterfall #634.
+
+The Lake Cavanaugh correction extends #634's upstream mask to its missed
+contributing lake catchment. The previous coarse network divided artificial
+paths inside the same named lake and incorrectly exempted part of Lake Creek.
+The fine WDFW Lake Creek course and Ecology's documented outlet to Pilchuck
+Creek support the correction. See `lake_cavanaugh_mileage_change.csv` for
+this correction alone; the before-fix results and source proof are under
+`spatial_data/lake_cavanaugh_review/`.
+
+Teal shading shows positively classified current tidal influence from the
+[WDFW/Cramer Fish Sciences 2025 service](https://geodataservices.wdfw.wa.gov/arcgis/rest/services/HP_Projects/CFS_Tidal_Restrictions_2025/MapServer).
+Violet shading adds [USFWS NWI Riverine Tidal (R1)](https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper)
+channels beyond that footprint. Older NWI source mapping does not override
+current CFS restrictions, developed/unknown areas, or untrusted geometry.
+Original source dates, geometry holds, and deferred conflicts are retained.
+T# markers identify mapped cutoff intersections. These are mapped proxies;
+neither layer establishes an exact, flow-dependent physical head of tide.
+The close-up `tidal_cutoff_details.pdf` and `tidal_details/` figures help review
+crowded estuary markers; `tidal_detail_index.csv` links pages to T# identifiers.
+
+The mileage table separates additional barrier removal, WDFW/CFS tidal
+removal, NWI additions, and final model/SWIFD mileage. Do not add the custom
+watershed to official population totals because their footprints overlap.
+
+Versioned preparers under `scripts/` fetch and validate the barrier
+bundles and tidal sources. Existing source snapshots are reused:
+
+```text
+python scripts/prepare_phase3_woods_barriers.py
+python scripts/prepare_phase3_olney_barriers.py
+python scripts/prepare_french_creek_review.py
+python scripts/prepare_pilchuck_creek_review.py
+python scripts/prepare_lake_cavanaugh_completion.py --build
+python scripts/fetch_phase3_tidal_sources.py
+python scripts/fetch_phase3_nwi_tidal.py
+Rscript scripts/build_phase3_freshwater_tidal.R
+```
+
+The Phase 3 source-policy, partition, Woods, and independent Olney tests are
+under `tests/`. `tests/validate_phase3_tidal_barriers.R` checks the real final
+exports read-only.
 
 ## Phase 2 review
 
